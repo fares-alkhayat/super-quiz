@@ -36,6 +36,22 @@ E | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Le
 F | 30-39 | Poor. Your knowledge is far below than expected of that certain topic. A majority of answers are wrong. |
 G | 0-29 | Very poor. Your knowledge is unbelievably below than expected of that certain topic. A large majority of answers are wrong. |
 
+### Title System
+
+Grade | Points | Japan | Sci-Tech | Star Trek | Pop Culture
+----- | ------ | ----- | -------- | --------- | -----------
+Special | 100 | | Prodigy | Fleet Admiral | |
+1st | 95-99 | | Gifted | Admiral | |
+2nd | 90-94 | | Superior | Captain | |
+3rd | 85-89 | | Doctor | Commander | |
+4th | 80-84 | | Scientist  | Lieutenant Commander | |
+5th | 70-79 | | Technician | Lieutenant | |
+6th | 60-69 | | Smart | Ensign | |
+7th | 50-59 | | Average | Warrant Officer | |
+8th | 40-49 | | Below Average | Chief Crewman | |
+9th | 30-39 | | Simple | Senior Crewman | |
+10th | 0-29 | | Basic | Crewman | |
+
 ## User Stories
 
 1. The game must be presented in English. Adding Japanese is a plus.
