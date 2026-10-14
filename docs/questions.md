@@ -35,9 +35,18 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
 ### Difficulty Level ★★☆☆☆ - Easy
 
-9.
+9. What robot anime in the 70s became massively successful in Japan? (Hint: odd one out!)
+
+    a. Mazinger Z / Great Mazinger
+
+    b. Getter Robot / Getter Robot G
+
+    c. UFO Robot Grendizer
+
+    **d. Mobile Suit Gundam**
+
 10.
-11
+11.
 12.
 13.
 14.
@@ -208,7 +217,16 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. Lieutenant Commander
 
-7.
+7. How do Starfleet officers teleport from the starship to another location?
+    
+    a. Use a teleporter
+
+    b. Use a comm badge
+
+    **c. Use a transporter room in the starship**
+
+    d. None of the above
+
 8.
 
 ### Difficulty Level ★★☆☆☆ - Easy / Ensign Level
@@ -257,7 +275,15 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     b. No.
 
-15.
+15. What is a tricorder?
+
+    a. A multi-function tool that allows personnel to identify the atmosphere of a certain planet after beaming down from a starship.
+
+    **b. A multi-function tool that allows personnel to collect data via sensors, analyse and process them through a computer system, and present it in audible or visual cues.**
+
+    c. A multi-function tool that allows personnel only to identify the current time and stardate.
+
+    d. None of the above.
 16.
 
 ### Difficulty Level ★★★☆☆ - Normal / Lieutenant Level
@@ -344,8 +370,25 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
 ### Difficulty Level ★★☆☆☆ - Easy / Blending In
 
-9.
-10.
+9. What purpose does Chemical X have in the Powerpuff Girls series?
+
+    a. Cause a massive explosion upon usage
+
+    b. A proposal on creating element no. 119 in the Periodic Table
+
+    c. It can be used as 98-octane gasoline or premium diesel
+
+    **d. It can have a person wield superhuman abilities**
+
+10. Who was John Carter's teacher in the early episodes of ER?
+
+    **a. Dr. Peter Benton**
+
+    b. Dr. Mark Greene
+
+    c. Dr. Doug Ross
+
+    d. Dr. Carol Hathaway
 11.
 12.
 13.

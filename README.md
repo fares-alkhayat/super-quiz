@@ -45,7 +45,7 @@ B | 28-29 | 70-74 | Very good. You have a solid base of knowledge of that certai
 C | 24-28 | 60-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
 D | 20-24 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
 E | 16-19 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
-F | 12-13 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
+F | 12-15 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
 G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
 ### Title System
