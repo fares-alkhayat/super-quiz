@@ -19,7 +19,7 @@ You may choose any of the following topics:
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
 2. Science and Technology - Learn more about how things work and where do they go.
 3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
-4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture.
+4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
 
 Each topic has 60 questions, and for each correct answer, you earn a point, which will then be converted to percentage (100 points). Can you get 100 points in all of them?
 
