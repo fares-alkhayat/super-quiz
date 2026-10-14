@@ -1,4 +1,8 @@
-# The Quiz Game of Fares Alkhayat
+# Alkhayat Super Quiz
+
+## Alternative Names
+
+Japanese: もっと知りたい！アルカヤットのスーパークイズ
 
 ## Technologies Used
 
@@ -17,16 +21,19 @@ You may choose any of the following topics:
 3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
 4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture.
 
-Each topic has 30 questions, and for each correct answer, you earn three points. Can you get 100 points in all of them?
+Each topic has 60 questions, and for each correct answer, you earn a point, which will then be converted to percentage (100 points). Can you get 100 points in all of them?
+
+Please note that the questions get harder as you progress. So do your best to take on the challenge!
+
 Also, you will know how much time you take, so either take your time or go for a speedrun!
 
-Furthermore, your score will be evaluated in the end, in which you will earn a rank!
+Furthermore, your score will be evaluated in the end, in which you will earn a rank and a title based on what quiz you have taken. Aim for the highest you can go!
 
 ### Ranking System
 
 Rank | Score | Description |
 ----- | -------- | -------------- |
-PERFECT | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
+S++ | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
 S+ | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
 S | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
 A+ | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
@@ -36,14 +43,14 @@ B | 70-74 | Very good. You have a solid base of knowledge of that certain topic.
 C | 60-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
 D | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
 E | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
-F | 30-39 | Poor. Your knowledge is far below than expected of that certain topic. A majority of answers are wrong. |
-G | 0-29 | Very poor. Your knowledge is unbelievably below than expected of that certain topic. A large majority of answers are wrong. |
+F | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
+G | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
 ### Title System
 
 Grade | Points | Rank Equivalent | Japan | Sci-Tech | Star Trek | Pop Culture |
 ----- | ------ | --------------- | ----- | -------- | --------- | ----------- |
-Special | 100 | PERFECT | | Prodigy | Fleet Admiral | |
+Special | 100 | S++ | | Prodigy | Fleet Admiral | |
 1st | 95-99 | S+ | | Gifted | Admiral | |
 2nd | 90-94 | S | | Superior | Captain | |
 3rd | 85-89 | A+ | | Doctor | Commander | |
@@ -61,16 +68,17 @@ Special | 100 | PERFECT | | Prodigy | Fleet Admiral | |
 1. The game must be presented in English. Adding Japanese is a plus.
 2. The game has to load successfully, with all questions and topics ready for boot.
 3. A title screen must be introduced.
-4. The game must have a score and a time counter.
-5. The game must ask the user one question at a time. Once answered, it cannot be recalled.
-6. After all questions have been answered, the final score, time and rank should be returned by the game, indicating the player's overall performance.
-7. The game must have an overall records screen (with statistics and achievements) and a high score table indicating the cumulative progress of the player.
+4. There must be a profile management system to manage profiles and their records.
+5. The game must have a score and a time counter.
+6. The game must ask the user one question at a time. Once answered, it cannot be recalled.
+7. After all questions have been answered, the final score, time and rank should be returned by the game, indicating the player's overall performance.
+8. The game must have an overall records screen (with statistics and achievements) and a high score table indicating the cumulative progress of the player.
 
 ## Screenshots
 
 ## Future Enhancements
 
-If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 33.
+If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 60.
 
 ## Credits
 
