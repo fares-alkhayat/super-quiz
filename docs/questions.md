@@ -227,7 +227,15 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. None of the above
 
-8.
+8. What does a Starfleet captain say when he wants a starship to launch?
+
+    a. "Blast off!"
+
+    **b. "Engage!"**
+
+    c. "Warp!"
+
+    d. "Ignition!"
 
 ### Difficulty Level ★★☆☆☆ - Easy / Ensign Level
 
@@ -419,15 +427,15 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     **d. Second half of Season 12**
 
-19. What is the famous catchphrase that Dr. Gregory House uses when doubting a certain disease in House M.D.?
+19. How old was Sheldon when he moved to high school?
 
-    a. "It's not cancer."
+    a. 7
 
-    b. "Everybody lies."
+    b. 8
 
-    **c. "It's not lupus."**
+    **c. 9**
 
-    d. "Life is pain!"
+    d. 10
 
 20. What did Principal Skinner offer Superintendent Chalmers in The Simpsons: S7.E21: "22 Short Films About Springfield"?
 

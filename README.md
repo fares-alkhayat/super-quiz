@@ -21,11 +21,9 @@ You may choose any of the following topics:
 3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
 4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
 
-Each topic has 40 questions, and for each correct answer, you earn a point, which will then be converted to percentage (100 points). Can you get 100 points in all of them?
+Each topic has 40 questions, and for each correct answer, you earn a point!
 
 Please note that the questions get harder as you progress. So do your best to take on the challenge!
-
-Also, you will know how much time you take, so either take your time or go for a speedrun!
 
 Furthermore, your score will be evaluated in the end, in which you will earn a rank and a title based on what quiz you have taken.
 
@@ -33,7 +31,9 @@ In all four topics, your scores and grades shall be totalled into overall as wel
 
 ### Ranking System
 
-Rank | Score | Percent | Description |
+A letter grade shall be provided to the player based on the number/percentage of correct answers obtained in the quiz.
+
+Rank | Correct Answers | Percent | Description |
 ----- | -------- | -------- | -------------- |
 S++ | 40 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
 S+ | 38-39 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
@@ -47,23 +47,6 @@ D | 20-24 | 50-59 | Average. You have some knowledge of that certain topic. Arou
 E | 16-19 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
 F | 12-15 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
 G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
-
-### Title System
-
-Grade | Points | Rank Equivalent | Japan | Sci-Tech | Star Trek | Pop Culture |
------ | ------ | --------------- | ----- | -------- | --------- | ----------- |
-Special | 100 | S++ | Adorer | Prodigy | Fleet Admiral | Ultra Fan |
-1st | 95-99 | S+ | Lover | Gifted | Admiral | Super Fan |
-2nd | 90-94 | S | Dreamer | Superior | Captain | Huge Fan |
-3rd | 85-89 | A+ | Specialist | Doctor | Commander | Fanperson |
-4th | 80-84 | A | Conqueror | Scientist | Lieutenant Commander | Hobbyist |
-5th | 75-79 | B+ | Adventurer | Technician | Lieutenant | Entertained |
-6th | 70-74 | B | Explorer | Smart | Ensign | Inspired |
-7th | 60-69 | C | Learner | Above Average | Acting Ensign | Satisfied |
-8th | 50-59 | D | Average | Average | Warrant Officer | Average |
-9th | 40-49 | E | Starter | Below Average | Chief Crewman | Closed |
-10th | 30-39 | F | Novice | Simple | Senior Crewman | Enshelled |
-11th | 0-29 | G | Absolute Beginner | Basic | Crewman | Shadow |
 
 ## User Stories
 
