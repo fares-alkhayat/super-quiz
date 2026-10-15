@@ -27,7 +27,16 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     **d. All of the above**
 
-4.
+4. How is ramen, udon, soba and somen eaten?
+
+    a. Chopsticks only
+
+    b. Spoon only
+
+    **c. Both chopsticks and spoon**
+
+    d. Both fork and spoon
+
 5.
 6.
 7.
@@ -35,7 +44,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
 ### Difficulty Level ★★☆☆☆ - Easy
 
-9. What robot anime in the 70s became massively successful in Japan? (Hint: odd one out!)
+9. Out of the four, which robot anime in the 70s became the most successful in Japan? (Hint: odd one out!)
 
     a. Mazinger Z / Great Mazinger
 
@@ -45,7 +54,12 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     **d. Mobile Suit Gundam**
 
-10.
+10. The bullet train is called a "shinkansen" （新幹線、しんかんせん） in Japanese. Is this true or false?
+
+    **a. True**
+
+    b. False
+
 11.
 12.
 13.
@@ -55,11 +69,52 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
 ### Difficulty Level ★★★☆☆ - Normal
 
-17.
-18.
-19.
-20.
-21.
+17. Who is the Prime Minister of Japan? (as of 2026)
+
+    a. Shinzō Abe
+
+    b. Yoshihide Suga
+
+    c. Shigeru Ishiba
+
+    **d. Sanae Takaichi**
+
+18. What is the telephone calling code of Japan?
+
+    a. 80
+
+    **b. 81**
+
+    c. 82
+
+    d. 83
+
+19. If you enter a house in Japan to visit a friend, should you take off your shoes at the doorstep?
+
+    **a. Yes.**
+
+    b. No.
+
+20. When did Japan become a country?
+
+    a. 700 BCE
+
+    **b. 660 BCE**
+
+    c. 650 BCE
+
+    d. 600 BCE
+
+21. What kind of writing system does Japanese use?
+
+    a. Alphabet
+
+    b. Logographic
+
+    **c. Alphabet and logographic**
+
+    d. Symbolic
+
 22.
 23.
 24.
@@ -76,8 +131,26 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 130-0000
 
-26.
-27.
+26. What party is part of the Japanese Government and has been in control for most of Japan's post-war history?
+
+    a. Constitutional Democratic Party / Centrist Reform Alliance
+    
+    b. Japan Innovation Party
+
+    **c. Liberal Democratic Party**
+
+    d. Japanese Communist Party
+
+27. When did Japan start facing a population decline?
+
+    a. 2007
+
+    **b. 2009**
+    
+    c. 2011
+    
+    d. 2013
+
 28.
 29.
 30.
@@ -86,10 +159,47 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
 ### Difficulty Level ★★★★★ - Very Hard
 
-33.
-34.
-35.
-36.
+33. What are the coordinates of Tokyo, Japan?
+
+    a. 34°N, 138°E
+
+    b. 34°N, 139°E
+
+    c. 35°N, 138°E
+
+    **d. 35°N, 139°E**
+
+34. What is the altitude of Mt. Fuji?
+
+    a. 3770m
+
+    b. 3773m
+
+    **c. 3776m**
+
+    d. 3779m
+
+35. Estimate the GDP of Japan in current prices as of 2023.
+
+    a. 570 trillion yen
+
+    b. 580 trillion yen
+
+    c. **590 trillion yen**
+
+    d. 600 trillion yen
+
+36. What were the dates of the bombing of Hiroshima and Nagasaki?
+
+    a. 1945-06-06, 1945-06-09
+
+    **b. 1945-08-06, 1945-08-09**
+
+    c. 1946-06-06, 1946-06-09
+
+    d. 1946-08-06, 1946-08-09
+
+
 37.
 38.
 39.
@@ -134,7 +244,16 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
 ### Difficulty Level ★★★☆☆ - Normal / Scientist
 
-17.
+17. What is Bitcoin?
+
+    a. An actual currency you can hold with your hands.
+
+    b. A currency that has a technological feeling but has not existed yet.
+
+    **c. A virtual cryptocurrency that you can use in a variety of manners.**
+
+    d. A virtual currency inside a sci-fi game.
+    
 18.
 19.
 20.
@@ -292,11 +411,20 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
     c. A multi-function tool that allows personnel only to identify the current time and stardate.
 
     d. None of the above.
-16.
+
+16. What are the coordinates of Planet Earth according to the Federation?
+
+a. Section 000
+
+**b. Section 001**
+
+c. Section 002
+
+d. Section 003
 
 ### Difficulty Level ★★★☆☆ - Normal / Lieutenant Level
 
-17. What does Jean-Luc Picard say everytime he acknowledges and agrees with a suggestion or action from any of his crew members?
+17. What does Jean-Luc Picard say every time he acknowledges and agrees with a suggestion or action from any of his crew members?
 
     a. "Copy that."
 
@@ -316,7 +444,15 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
 ### Difficulty Level ★★★★☆ - Hard / Commander Level
 
-25.
+25. Using the TNG formula, what is the stardate for the year 2370?
+
+    a. 46000.0
+
+    **b. 47000.0**
+
+    c. 48000.0
+
+    d. 49000.0
 26.
 27.
 28.
@@ -361,7 +497,9 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
 2. Is Big Bang Theory (2008-2019) a show about scientists?
 
-    **True** | False
+    **a. True**
+
+    b. False
 
 3. Where is anime and manga typically created in?
 
@@ -380,7 +518,7 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
 9. What purpose does Chemical X have in the Powerpuff Girls series?
 
-    a. Cause a massive explosion upon usage
+    a. It can be used as a GPU coolant or thermal paste
 
     b. A proposal on creating element no. 119 in the Periodic Table
 
@@ -467,7 +605,16 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. None of the above
 
-23.
+23. How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?
+
+    a. He thought Chalmers would find the dinner completely unacceptable for cooking to take this long which resulted him in purcahsing a burger to speed up the time of preparing a meal.
+
+    b. He thought Chalmers was into burgers rather than roast.
+
+    c. He purchased burgers from Krusty Burger and disguised it as his own personal cooking which is a way for Skinner to accompany with homemade food like roast.
+
+    **d. He purchased burgers from Krusty Burger and disguised it as his own personal cooking in result of burning his roast.**
+
 24.
 
 ### Difficulty Level ★★★★☆ - Hard / Cultured Personality

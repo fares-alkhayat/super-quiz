@@ -10,7 +10,7 @@ const submitButton = document.querySelector("#submit");
 const nameDisplay = document.querySelector('#username')
 
 /* const profile = [
-  playerName. totalPoints, totalGames, totalTime, totalGrade, totalTitle, jpBestScore, scBestScore, stBestScore, enBestScore]
+  playerName. totalPoints, totalHiScore, totalGames, totalTime, totalGrade, totalTitle, jpBestScore, scBestScore, stBestScore, enBestScore]
 */
 
 const questionsJapan = [
@@ -21,9 +21,10 @@ console.log("Title screen loaded successfully.")
 console.log("Welcome to the Alkhayat Super Quiz. Please select a topic.")
 
 function createProfile(){
+
 let playerName = ""; // The name entered shall be used in the profile
 let totalPoints = 0; // The total points earned cumulatively
-let totalHighScore = 0; // The sum of all high scores in four quizzes
+let totalHiScore = 0; // The sum of all high scores in four quizzes
 let totalGames = 0; // The total amount of quizzes taken
 let totalTime = 0; // The total amount of time spent in quizzes
 let totalGrade = ""; // The average rank/grade achieved in all quizzes
@@ -31,7 +32,7 @@ let totalTitle = ""; // The overall title achieved
 let jpBestScore = 0; // Best score achieved in the Japan quiz
 let scBestScore = 0; // Best score achieved in the sci-tech quiz
 let stBestScore = 0; // Best score achieved in the Star Trek quiz
-let enBestScore = 0;} // Best score achieved in the entertainment quiz
+let enBestScore = 0;} // Best score achieved in the entertainment quiz}
 
 function startGame(){
 let score = 0
@@ -44,14 +45,15 @@ let title = ""
 function recordsButton(){
     console.log(playerName)
     console.log(totalPoints)
+    console.log(totalHiScore)
     console.log(totalGames)
     console.log(totalTime)
     console.log(totalGrade)
     console.log(totalTitle)
-    console.log(jpBestScore)
-    console.log(scBestScore)
-    console.log(stBestScore)
-    console.log(enBestScore)
+    console.log(jpHiScore)
+    console.log(scHiScore)
+    console.log(stHiScore)
+    console.log(enHiScore)
 }
 
 // The following function was forked from the Debugging Olympics exercise for reference.
@@ -64,38 +66,39 @@ function checkAnswer() {
   let answer = answerInput.value;
 }
 function gradeSystem(){
-    if (score / currentQuestion == 1) {grade = "S++"}
-    else if (score / currentQuestion >= 0.95) {grade = "S+"}
-    else if (score / currentQuestion >= 0.90) {grade = "S"}
-    else if (score / currentQuestion >= 0.85) {grade = "A+"}
-    else if (score / currentQuestion >= 0.80) {grade = "A"}
-    else if (score / currentQuestion >= 0.75) {grade = "B+"}
-    else if (score / currentQuestion >= 0.70) {grade = "B"}
-    else if (score / currentQuestion >= 0.60) {grade = "C"}
-    else if (score / currentQuestion >= 0.50) {grade = "D"}
-    else if (score / currentQuestion >= 0.40) {grade = "E"}
-    else if (score / currentQuestion >= 0.30) {grade = "F"}
+    if (correctCount / currentQuestion == 1) {grade = "S++"}
+    else if (correctCount / currentQuestion >= 0.95) {grade = "S+"}
+    else if (correctCount / currentQuestion >= 0.90) {grade = "S"}
+    else if (correctCount / currentQuestion >= 0.85) {grade = "A+"}
+    else if (correctCount / currentQuestion >= 0.80) {grade = "A"}
+    else if (correctCount / currentQuestion >= 0.75) {grade = "B+"}
+    else if (correctCount / currentQuestion >= 0.70) {grade = "B"}
+    else if (correctCount / currentQuestion >= 0.60) {grade = "C"}
+    else if (correctCount / currentQuestion >= 0.50) {grade = "D"}
+    else if (correctCount / currentQuestion >= 0.40) {grade = "E"}
+    else if (correctCount / currentQuestion >= 0.30) {grade = "F"}
     else {grade = "G"}
 }
 
 function titleSystem(){
-    if (totalPoints >= 100000) {title = "1st"}
-    else if (totalPoints >= 90000) {title = "2nd"}
-    else if (totalPoints >= 80000) {title = "3rd"}
-    else if (totalPoints >= 70000) {title = "4th"}
-    else if (totalPoints >= 60000) {title = "5th"}
-    else if (totalPoints >= 50000) {title = "6th"}
-    else if (totalPoints >= 40000) {title = "7th"}
-    else if (totalPoints >= 30000) {title = "8th"}
-    else if (totalPoints >= 20000) {title = "9th"}
-    else if (totalPoints >= 10000) {title = "10th"}
-    else {title = "11th"}
+    if (totalHiScore >= 100000) {title = "[1st] Master"}
+    else if (totalHiScore >= 90000) {title = "[2nd] Superior"}
+    else if (totalHiScore >= 80000) {title = "[3rd] Professional"}
+    else if (totalHiScore >= 70000) {title = "[4th] Expert"}
+    else if (totalHiScore >= 60000) {title = "[5th] Upper Intermediate"}
+    else if (totalHiScore >= 50000) {title = "[6th] Intermediate"}
+    else if (totalHiScore >= 40000) {title = "[7th] Pre-Intermediate"}
+    else if (totalHiScore >= 30000) {title = "[8th] Elementary"}
+    else if (totalHiScore >= 20000) {title = "[9th] Starter"}
+    else if (totalHiScore >= 10000) {title = "[10th] Novice"}
+    else {title = "[11th] Beginner"}
 }
 // The following code was forked from the Debugging Olympics exercise for reference.
-/*  if (answer === "") {
+
+
+  if (answer === "") {
     messageDisplay.textContent = "Please select an answer by typing the letter below.";
-    return;
-  } */
+  } 
 
   if (answer = questions[currentQuestion].answer) {
     correctAnswer += 1;

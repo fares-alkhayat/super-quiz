@@ -13,21 +13,44 @@
 <body>
     <h1>The ALKHAYAT SUPER QUIZ</h1>
     <h2>もっと知りたい！アルカヤットのスーパークイズ</h2>
-    <p>Select a topic.</p>
-    <button class="topic" id="japan-quiz">Japan</button>
-    <button class="topic" id="scitech-quiz">Science and Technology</button>
-    <button class="topic"  id="trek-quiz">Star Trek and Science Fiction</button>
-    <button class="topic" id="ent-quiz">Entertainment and Pop Culture</button>
-    <p id="option-header">Options</p>
-    <p id="username-header">Please enter your name.</p>
-    <input type="input" id="username"></input> <button>Apply</button>
+
+    <fieldset>
+  <legend>Select a topic:</legend>
+
+  <div>
+    <input type="radio" id="japan-quiz" name="quiz" value="japan-quiz" checked />
+    <label for="japan-quiz">Japan</label>
+  </div>
+
+  <div>
+    <input type="radio" id="scitech-quiz" name="quiz" value="scitech-quiz" />
+    <label for="japan-quiz">Science and Technology (coming soon)</label>
+  </div>
+
+  <div>
+    <input type="radio" id="trek-quiz" name="quiz" value="trek-quiz" />
+    <label for="trek-quiz">Star Trek and Science Fiction</label>
+  </div>
+
+    <div>
+    <input type="radio" id="ent-quiz" name="quiz" value="ent-quiz" />
+    <label for="ent-quiz">Entertainment and Pop Culture</label>
+  </div>
+</fieldset>
+    <p id="username-header">Please enter your name to create a profile.<br>If cookies are enabled, insert your name (that you have used here before) and instantly log in.</p>
+    <input type="input" id="username"></input> <button>Login</button> <button>Create Profile</button>
+    <br>
+    <br>
+    <button id="start-button">Begin!</button>
+
+    <p id="option-header">Extras</p>
     <button id="records-button">Records</button>
-    <button id="highscore-button">High Score</button>
+    <button id="hiscore-button">High Scores</button>
     <p>To access records and high score tables, please access the console using the "Inspect" tool.</p>
     <p>Language / 言語</p>
     <button>English</button>
     <button>日本語</button>
-    <p>Created and developed by Fares Alkhayat.
+    <p id="copyright">Created and developed by Fares Alkhayat.
 
 Quiz and Website © 2026 Fares Alkhayat. All rights reserved. All copyrighted content (especially whereas written under references.txt, except for the quiz and website itself) are not owned by Fares Alkhayat nor his affiliates, instead, they belong to their respective owners.
 <br>
@@ -37,4 +60,5 @@ NO AI HAS BEEN USED IN ANY WAY IN THE MAKING OF THIS QUIZ. See README.md for mor
 <br>
 This quiz and website shall be protected under international copyright law. It is strictly prohibited for anyone to copy, produce/reproduce, fork, or in any way utilise or modify the source code of this repository or any of its affiliates or resources without the prior permission of Fares Alkhayat. Violators shall be punished to the maximum extent of applicable copyright law which may depend on the region or country where the criminal offense is committed.</p>
 </body>
+<a href="https://github.com/fares-alkhayat/super-quiz">GitHub Repository</link>
 </html>

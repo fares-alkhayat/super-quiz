@@ -17,7 +17,7 @@ Welcome to the show! In this amazing game, you will be met with a variety of top
 You may choose any of the following topics:
 
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
-2. Science and Technology - Learn more about how things work and where do they go.
+2. Science and Technology - Learn more about how things work and where do they go. (coming soon)
 3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
 4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
 
@@ -61,20 +61,20 @@ G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expe
 
 ### Title System
 
-Grade | Points (+ Conditions) | Total High Score in All Quizzes
------ | ------ | ------------------ |
-Special | 25000 + all answers correct in avg. 30sec/question | 100000 + all answers correct in avg. 30sec/question in high scores
-1st | 25000 | 100000 |
-2nd | 22500 | 90000 |
-3rd | 20000 | 80000 |
-4th | 17500 | 70000 |
-5th | 15000 | 60000 |
-6th | 12500 | 50000 |
-7th | 10000 | 40000 |
-8th | 7500 | 30000 |
-9th | 5000 | 20000 |
-10th | 2500 | 10000 |
-11th | 0 | 0 |
+Grade | Title | Points (+ Conditions) | Total High Score in All Quizzes
+----- | ----- | ------- | ------------------ |
+Special | Distinguished | 25000 + all answers correct in avg. 30sec/question | 100000 + all answers correct in avg. 30sec/question in high scores
+1st | Master | 25000 | 100000 |
+2nd | Superior | 22500 | 90000 |
+3rd | Professional | 20000 | 80000 |
+4th | Expert | 17500 | 70000 |
+5th | Upper Intermediate | 15000 | 60000 |
+6th | Intermediate | 12500 | 50000 |
+7th | Pre-Intermediate | 10000 | 40000 |
+8th | Elementary | 7500 | 30000 |
+9th | Starter | 5000 | 20000 |
+10th | Novice | 2500 | 10000 |
+11th | Beginner | 0 | 0 |
 
 ## User Stories
 
@@ -93,30 +93,23 @@ Special | 25000 + all answers correct in avg. 30sec/question | 100000 + all answ
 
 If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 40.
 
-
 ## No-AI Disclaimer
 
-I, Fares Alkhayat, does not use artificial intelligence tools to generate,
-draft, edit, or automate my core work — including designing and coding of this quiz.
+I, Fares Alkhayat, do not use artificial intelligence tools to generate, draft, edit, or automate my work — including designing and coding of this quiz.
 
 What this means:
 
 • Everything that I produce for clients and audiences is created by human professionals. All work sold or shared by me is 100% human-made.
 
-• I do not use AI image generators, AI writing tools, or AI code assistants to create
-  deliverables unless if one were to explicitly request and approve it in writing. Every piece is made by hand — my hand.
+• I do not use AI image generators, AI writing tools, or AI code assistants to create deliverables unless if one were to explicitly request and approve it in writing. Every piece is made by hand — my hand.
 
-• When AI tools assist with administrative tasks (calendar management, scheduling, etc.),
-  it is clearly disclosed.
+• When AI tools assist with administrative tasks (calendar management, scheduling, etc.), it is clearly disclosed.
 
 Why do I have this policy:
 
-I believe in the value of human skill, judgment, and craft. If so, I would be hired for
-perspective and expertise — not for a machine's approximation of it. I also believe that
-widespread AI use harms the livelihoods of working creatives and knowledge workers.
+I believe in the value of human skill, judgment, and craft. If so, I would be hired for perspective and expertise — not for a machine's approximation of it. I also believe that widespread AI use harms the livelihoods of working creatives and knowledge workers.
 
-Therefore, I believe AI art tools are trained on the work of human artists without consent or
-compensation, and I won't participate in that system.
+Therefore, I believe AI tools of all kinds are trained on the work of human workers without consent or compensation, and I won't participate in that system.
 
 If you see my work used to train an AI without my permission, please let me know.
 
