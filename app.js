@@ -47,10 +47,12 @@ function recordsButton(){
     console.log(enBestScore)
 }
 
+// The following function was forked from the Debugging Olympics exercise for reference.
 function showQuestion() {
     questionDisplay.textContent = questions[currentQuestion].question;
 }
 
+// The following code was forked from the Debugging Olympics exercise for reference.
 function checkAnswer() {
   let answer = answerInput.value;
 }
@@ -69,20 +71,34 @@ function gradeSystem(){
     else {grade = "G"}
 }
 
+function titleSystem(){
+    if (totalPoints >= 100000) {title = "1st"}
+    else if (totalPoints >= 90000) {title = "2nd"}
+    else if (totalPoints >= 80000) {title = "3rd"}
+    else if (totalPoints >= 70000) {title = "4th"}
+    else if (totalPoints >= 60000) {title = "5th"}
+    else if (totalPoints >= 50000) {title = "6th"}
+    else if (totalPoints >= 40000) {title = "7th"}
+    else if (totalPoints >= 30000) {title = "8th"}
+    else if (totalPoints >= 20000) {title = "9th"}
+    else if (totalPoints >= 10000) {title = "10th"}
+    else {title = "11th"}
+}
+// The following code was forked from the Debugging Olympics exercise for reference.
   if (answer === "") {
     messageDisplay.textContent = "Please select an answer by typing the letter below.";
     return;
   }
 
   if (answer = questions[currentQuestion].answer) {
-    score =+ 1;
+    score += 1;
     messageDisplay.textContent = "Correct!";
   } else {
     messageDisplay.textContent = "Wrong!";
   }
 
   nameDisplay.textContent = username;
-  scoreDisplay.textcontent = score;
+  scoreDisplay.textContent = score;
   percentDisplay.textContent = (score / question) * 100 + "%"
   startTime = performance.now()
   elapsedTime = performance.now() - startTime

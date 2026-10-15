@@ -29,6 +29,17 @@ Furthermore, your score will be evaluated in the end, in which you will earn a r
 
 In all four topics, your scores and grades shall be totalled into overall as well. Aim for the highest you can go!
 
+
+### Scoring System
+
+Parameter | Value per Unit | Maximum Obtainable Score |
+--------- | -------------- | ------------------------ |
+Base score | 250 per correct answer | 10,000 points |
+Time bonus | 166.67 per second remaining from 60 sec/question average | 10,000 points |
+Combo bonus | 250 per consecutive correct answer | 10,000 points |
+Total score per quiz || 30,000 points
+Maximum high score in all four quizzes || 120,000 points |
+
 ### Ranking System
 
 A letter grade shall be provided to the player based on the number/percentage of correct answers obtained in the quiz.
@@ -48,6 +59,23 @@ E | 16-19 | 40-49 | Bad. Your knowledge is below than expected of that certain t
 F | 12-15 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
 G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
+### Title System
+
+Grade | Points (+ Conditions) | Total High Score in All Quizzes
+----- | ------ | ------------------ |
+Special | 25000 + all answers correct in avg. 30sec/question | 100000 + all answers correct in avg. 30sec/question in high scores
+1st | 25000 | 100000 |
+2nd | 22500 | 90000 |
+3rd | 20000 | 80000 |
+4th | 17500 | 70000 |
+5th | 15000 | 60000 |
+6th | 12500 | 50000 |
+7th | 10000 | 40000 |
+8th | 7500 | 30000 |
+9th | 5000 | 20000 |
+10th | 2500 | 10000 |
+11th | 0 | 0 |
+
 ## User Stories
 
 1. The game must be presented in English. Adding Japanese is a plus.
@@ -64,6 +92,33 @@ G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expe
 ## Future Enhancements
 
 If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 40.
+
+
+## No-AI Disclaimer
+
+I, Fares Alkhayat, does not use artificial intelligence tools to generate,
+draft, edit, or automate my core work — including designing and coding of this quiz.
+
+What this means:
+
+• Everything that I produce for clients and audiences is created by human professionals. All work sold or shared by me is 100% human-made.
+
+• I do not use AI image generators, AI writing tools, or AI code assistants to create
+  deliverables unless if one were to explicitly request and approve it in writing. Every piece is made by hand — my hand.
+
+• When AI tools assist with administrative tasks (calendar management, scheduling, etc.),
+  it is clearly disclosed.
+
+Why do I have this policy:
+
+I believe in the value of human skill, judgment, and craft. Our clients hire us for our
+perspective and expertise — not for a machine's approximation of it. I also believe that
+widespread AI use harms the livelihoods of working creatives and knowledge workers.
+
+Therefore, I believe AI art tools are trained on the work of human artists without consent or
+compensation, and I won't participate in that system.
+
+If you see my work used to train an AI without my permission, please let me know.
 
 ## Credits
 
