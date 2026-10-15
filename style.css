@@ -14,3 +14,8 @@ button {
 #copyright {
   font-size: 66.67%
 }
+
+#question-div {
+  border: 2px solid black;
+  margin: 5px
+}

@@ -1,4 +1,3 @@
-
 BAN THE BOTS, 2026. No AI Policy Template — Free Copy-Paste Download (2026). Ban the Bots. Online. October 2026. Available from: https://www.banthebots.org/no-ai-policy-template/ [Accessed 15 October 2026]. 
 Copy-paste no AI policy template for freelancers, artists, and teachers — no signup required....
 
@@ -58,7 +57,16 @@ The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox 
 The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
 IMDb ID: tt0096697
 
-W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026]. 
+W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 a]. 
+The getElementById() method returns an element with a specified value.
+
+W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 b]. 
+In CSS, the term “box model” is used when talking about web design and layout.
+
+W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 c]. 
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
+
+W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 d]. 
 Cookies let you store user information in web pages.
 
 Young Sheldon, 2017. . Chuck Lorre Productions, Warner Bros. Television, 

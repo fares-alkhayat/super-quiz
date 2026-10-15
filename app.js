@@ -1,25 +1,28 @@
 const questionDisplay = document.querySelector("#question");
-const answerSelect = document.querySelectorAll(".answer");
+const answerInput = document.querySelectorAll(".answer");
 const scoreDisplay = document.querySelector("#score");
 const percentDisplay = document.querySelector("#percent");
-const timeDisplay = document.querySelector("#time")
-const gradeDisplay = document.querySelector("#grade")
-const titleDisplay = document.querySelector("#title")
-const messageDisplay = document.querySelector("#message");
+const timeDisplay = document.querySelector("#time");
+const gradeDisplay = document.querySelector("#grade");
+const titleDisplay = document.querySelector("#title");
 const submitButton = document.querySelector("#submit");
-const nameDisplay = document.querySelector('#username')
+const nameDisplay = document.querySelector('#username');
+const messageDisplay = document.querySelector("#message")
 
 /* const profile = [
   playerName. totalPoints, totalHiScore, totalGames, totalTime, totalGrade, totalTitle, jpBestScore, scBestScore, stBestScore, enBestScore]
 */
 
-const questionsJapan = [
+const questions = [
     {question: "What is the capital prefecture of Japan? a. Kyoto / b. Osaka / c. Tokyo / d. Sapporo", answer: "C"}
 ]
 
 console.log("Title screen loaded successfully.")
 console.log("Welcome to the Alkhayat Super Quiz. Please select a topic.")
 
+// Functions written in comments are coming soon.
+
+/*
 function createProfile(){
 
 let playerName = ""; // The name entered shall be used in the profile
@@ -32,15 +35,32 @@ let totalTitle = ""; // The overall title achieved
 let jpBestScore = 0; // Best score achieved in the Japan quiz
 let scBestScore = 0; // Best score achieved in the sci-tech quiz
 let stBestScore = 0; // Best score achieved in the Star Trek quiz
-let enBestScore = 0;} // Best score achieved in the entertainment quiz}
+let enBestScore = 0;} // Best score achieved in the entertainment quiz
+
+
+*/
+
+// The following function was forked from the Debugging Olympics exercise for reference.
 
 function startGame(){
-let score = 0
-let question = 0
-let time = 0
-let grade = ""
-let title = ""
+answer = answerInput
+currentQuestion = 0
+correctAnswer = 0
+score = 0
+combo = 0
+time = 0
+grade = ""
+title = ""
+percent = 0
 }
+
+function showQuestionJapan(){
+    questionDisplay.textContent = questions[currentQuestion].question;}
+
+
+if ("#japan-quiz".checked = true)
+  {showQuestionJapan}
+
 
 function recordsButton(){
     console.log(playerName)
@@ -57,14 +77,10 @@ function recordsButton(){
 }
 
 // The following function was forked from the Debugging Olympics exercise for reference.
-function showQuestion() {
-    questionDisplay.textContent = questions[currentQuestion].question;
+function checkAnswer() {
+answer = answerInput.value;
 }
 
-// The following function was forked from the Debugging Olympics exercise for reference.
-function checkAnswer() {
-  let answer = answerInput.value;
-}
 function gradeSystem(){
     if (correctCount / currentQuestion == 1) {grade = "S++"}
     else if (correctCount / currentQuestion >= 0.95) {grade = "S+"}
@@ -96,38 +112,50 @@ function titleSystem(){
 // The following code was forked from the Debugging Olympics exercise for reference.
 
 
-  if (answer === "") {
-    messageDisplay.textContent = "Please select an answer by typing the letter below.";
+let answer = ""
+let currentQuestion = 0
+let message = ""
+correctAnswer = 0
+score = 0
+combo = 0
+percent = 0
+time = 0
+grade = ""
+title = ""
+
+if (answer === "") {
+    message.textContent = "Please select an answer by typing the letter below.";
   } 
 
   if (answer = questions[currentQuestion].answer) {
     correctAnswer += 1;
     score += 250;
     combo += 1;
-    messageDisplay.textContent = "Correct!";
   } else {
-    messageDisplay.textContent = "Wrong!";
+    combo.value = 0
   }
 
-  nameDisplay.textContent = username;
-  scoreDisplay.textContent = score;
-  percentDisplay.textContent = (score / question.length) * 100 + "%"
+  let username = ""
+
+  username.textContent = username
+  score.textContent = score;
+  percent.textContent = (score / questions.length) * 100 + "%"
   startTime = performance.now()
   elapsedTime = performance.now() - startTime
-  timeDisplay.textContent = elapsedTime
-  gradeDisplay.textContent = grade
+  time.textContent = elapsedTime
+  grade.textContent = grade
   currentQuestion += 1;
   answerInput.value = "";
 
   if (currentQuestion === questions.length) {
-    questionDisplay.textContent = "Quiz finished!";
-    answerInput.disabled = true;
-    submitButton.disabled = true;
-    scoreDisplay.textContent = score
-    percentDisplay.textContent = percentDisplay
-    timeDisplay.textContent = elapsedTime
-    gradeDisplay.textContent = grade
-    titleDisplay.textContent = title
+    questions.textContent = "Quiz finished!";
+    answer.disabled = true;
+    // submitbutton.disabled = true;
+    score.textContent = score
+    percent.textContent = percentDisplay
+    time.textContent = elapsedTime
+    grade.textContent = grade
+    title.textContent = title
     
   } else {
     showQuestion();
@@ -135,12 +163,18 @@ function titleSystem(){
 
 function startJapanQuiz(){
 
-startGame()
-}
+currentQuestion = 0;
+scoreDisplay = 0;
+answerInput.value = "";
+answerInput.disabled = false;
+submitButton.disabled = false}
+
+
 /* function highScoreButton(){
     console.log()
 } */
 
-submitButton.addEventListener("click", checkAnswer);
+document.getElementById("submit-button").addEventListener("click", checkAnswer);
+document.getElementById("start-button").addEventListener("click", startGame);
 
 showQuestion();
