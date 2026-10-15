@@ -1,12 +1,17 @@
 const questionDisplay = document.querySelector("#question");
-const answerSelect = document.querySelector(".answer");
+const answerSelect = document.querySelectorAll(".answer");
 const scoreDisplay = document.querySelector("#score");
 const percentDisplay = document.querySelector("#percent");
 const timeDisplay = document.querySelector("#time")
 const gradeDisplay = document.querySelector("#grade")
+const titleDisplay = document.querySelector("#title")
 const messageDisplay = document.querySelector("#message");
 const submitButton = document.querySelector("#submit");
 const nameDisplay = document.querySelector('#username')
+
+/* const profile = [
+  playerName. totalPoints, totalGames, totalTime, totalGrade, totalTitle, jpBestScore, scBestScore, stBestScore, enBestScore]
+*/
 
 const questionsJapan = [
     {question: "What is the capital prefecture of Japan? a. Kyoto / b. Osaka / c. Tokyo / d. Sapporo", answer: "C"}
@@ -18,9 +23,11 @@ console.log("Welcome to the Alkhayat Super Quiz. Please select a topic.")
 function createProfile(){
 let playerName = ""; // The name entered shall be used in the profile
 let totalPoints = 0; // The total points earned cumulatively
+let totalHighScore = 0; // The sum of all high scores in four quizzes
 let totalGames = 0; // The total amount of quizzes taken
 let totalTime = 0; // The total amount of time spent in quizzes
 let totalGrade = ""; // The average rank/grade achieved in all quizzes
+let totalTitle = ""; // The overall title achieved
 let jpBestScore = 0; // Best score achieved in the Japan quiz
 let scBestScore = 0; // Best score achieved in the sci-tech quiz
 let stBestScore = 0; // Best score achieved in the Star Trek quiz
@@ -52,7 +59,7 @@ function showQuestion() {
     questionDisplay.textContent = questions[currentQuestion].question;
 }
 
-// The following code was forked from the Debugging Olympics exercise for reference.
+// The following function was forked from the Debugging Olympics exercise for reference.
 function checkAnswer() {
   let answer = answerInput.value;
 }
@@ -85,13 +92,15 @@ function titleSystem(){
     else {title = "11th"}
 }
 // The following code was forked from the Debugging Olympics exercise for reference.
-  if (answer === "") {
+/*  if (answer === "") {
     messageDisplay.textContent = "Please select an answer by typing the letter below.";
     return;
-  }
+  } */
 
   if (answer = questions[currentQuestion].answer) {
-    score += 1;
+    correctAnswer += 1;
+    score += 250;
+    combo += 1;
     messageDisplay.textContent = "Correct!";
   } else {
     messageDisplay.textContent = "Wrong!";
@@ -99,7 +108,7 @@ function titleSystem(){
 
   nameDisplay.textContent = username;
   scoreDisplay.textContent = score;
-  percentDisplay.textContent = (score / question) * 100 + "%"
+  percentDisplay.textContent = (score / question.length) * 100 + "%"
   startTime = performance.now()
   elapsedTime = performance.now() - startTime
   timeDisplay.textContent = elapsedTime
@@ -112,6 +121,10 @@ function titleSystem(){
     answerInput.disabled = true;
     submitButton.disabled = true;
     scoreDisplay.textContent = score
+    percentDisplay.textContent = percentDisplay
+    timeDisplay.textContent = elapsedTime
+    gradeDisplay.textContent = grade
+    titleDisplay.textContent = title
     
   } else {
     showQuestion();

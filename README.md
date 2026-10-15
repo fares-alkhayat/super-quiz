@@ -111,7 +111,7 @@ What this means:
 
 Why do I have this policy:
 
-I believe in the value of human skill, judgment, and craft. Our clients hire us for our
+I believe in the value of human skill, judgment, and craft. If so, I would be hired for
 perspective and expertise — not for a machine's approximation of it. I also believe that
 widespread AI use harms the livelihoods of working creatives and knowledge workers.
 
