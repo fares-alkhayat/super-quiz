@@ -1,24 +1,66 @@
-1.  Young Sheldon. . Chuck Lorre Productions, Warner Bros. Television, 25 September 2017. Meet a child genius named Sheldon Cooper (already seen as an adult in The Big Bang Theory (2007)) and his family. Some unique challenges face Sheldon, who is socially impaired.IMDb ID: tt6226232
-2.  22 Short Films About Springfield. The Simpsons. Disney/20th Century Studios, 14 April 1996. A series of vignettes showcasing a day in the life of various Springfield residents.Distributor: Gracie Films, 20th Century Fox Television, 20th Century Fox Television
+
+BAN THE BOTS, 2026. No AI Policy Template — Free Copy-Paste Download (2026). Ban the Bots. Online. October 2026. Available from: https://www.banthebots.org/no-ai-policy-template/ [Accessed 15 October 2026]. 
+Copy-paste no AI policy template for freelancers, artists, and teachers — no signup required....
+
+ER, 1994. . Constant c Productions, John Wells Productions, Amblin Entertainment, 
+The doctors who work in the ER at the County General Hospital in Chicago grapple with ups and downs in their personal and professional lives while trying to give apt medical care to their patients.
+IMDb ID: tt0108757
+
+GEO-INFORMATION PORTAL HUB, 2021. 位置座標読取り・確認・移動ウェブサイト. Geo-Information Portal Hub. Online. 2021. Available from: https://www.web-gis.jp/MapsInfo/latlon_v7.html [Accessed 15 October 2026]. 
+
+GEOW, 2019. Answer to “Find elapsed time in javascript.” Stack Overflow. Online. 15 April 2019. Available from: https://stackoverflow.com/a/55690814 [Accessed 14 October 2026]. 
+
+JAPAN NATIONAL TOURISM ORGANIZATION, [no date]. What’s Mt.Fuji | Mt. Fuji Guide | Travel Japan（Japan National Tourism Organization）. Travel Japan. Online. Available from: https://www.japan.travel/en/fuji-guide/mt-fuji-more-than-a-mountain/ [Accessed 15 October 2026]. 
+Standing at 3,776 meters, Mt. Fuji is the tallest peak in Japan, the result of volcanic activity that began approximately 100,000 years ago. Today, Mt. Fuji and the surrounding area are a popular recreational destination for hiking, camping and relaxation.
+
+KENNEDY, Graham and KENNEDY, Ian, [no date]. Tricorders - Notes. DITL. Online. Available from: https://www.ditl.org/scitech-page.php?ScitechID=15 [Accessed 14 October 2026]. 
+
+KENNEDY, Graham and KENNEDY, Ian, 2025. Kathryn Janeway - Notes. DITL. Online. 28 October 2025. Available from: https://www.ditl.org/personnel-page.php?PersonID=26&ListID=People [Accessed 13 October 2026]. 
+
+MAHAWAR, Gaurav, 2015. Find elapsed time in javascript. Stack Overflow. Online. 14 July 2015. Available from: https://stackoverflow.com/q/31405996 [Accessed 14 October 2026]. 
+
+MDN CONTRIBUTORS, 2025a. Web APIs / Window.localStorage — DevDocs. DevDocs. Online. 2025. Available from: https://devdocs.io/dom/window/localstorage [Accessed 15 October 2026]. 
+
+MDN CONTRIBUTORS, 2025b. HTML / input type="radio". DevDocs. Online. 2025. Available from: https://devdocs.io/html/reference/elements/input/radio [Accessed 15 October 2026]. 
+Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.
+
+MEMORY ALPHA CONTRIBUTORS, 2026a. Earth. Memory Alpha. Online. 15 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Earth [Accessed 15 October 2026]. 
+Earth, also known as Sol III or Terra, was the third planet in the Sol system. This inhabited Class M planet was located within Sector 001 of the Alpha Quadrant. The planet had one natural satellite, named Luna, and many artificial satellites. In 2150, with the last nation-states joining, the planet was unified under the United Earth government. The planet was a founding member of the Coalition of Planets in 2155, and of the United Federation of Planets in 2161. From this date to 3089, Earth...
+
+MEMORY ALPHA CONTRIBUTORS, 2026b. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
+OMARAKAMAL, 2026. debugging-olympics-1 [software]. Online. Version commit no. 4. 12 October 2026. Manama: General Assembly. Available from: https://github.com/SEB-16-Bahrain/debugging-olympics-1. [Accessed 14 October 2026]. 
+
+REARDON, Jim (dir.), 1996. 22 Short Films About Springfield. , The Simpsons. Disney/20th Century Studios, 14 April 1996. 
+A series of vignettes showcasing a day in the life of various Springfield residents.
+Distributor: Gracie Films, 20th Century Fox Television, 20th Century Fox Television
 IMDb ID: tt0701186
 event-place: United States
-3.  Sesame Street. . Children’s Television Workshop (CTW), Curious Pictures, Sesame Workshop, 21 July 1969. On a special inner city street, the inhabitants, human and muppet, teach preschool subjects with comedy, cartoons, games, and songs.IMDb ID: tt0063951
-4.  The Simpsons. . Gracie Films, 20th Television Animation, 20th Century Fox Television, 17 December 1989. The satiric half-hour adventures of a working-class family in the misfit city of Springfield.IMDb ID: tt0096697
-5.  Star Trek: The Next Generation. . Paramount Television, 28 September 1987. Set almost 100 years after Captain Kirk&apos;s five-year mission, a new generation of Starfleet officers sets off in the U.S.S. Enterprise-D on its own mission to go where no one has gone before.IMDb ID: tt0092455
-6.  ER. . Constant c Productions, John Wells Productions, Amblin Entertainment, 19 September 1994. The doctors who work in the ER at the County General Hospital in Chicago grapple with ups and downs in their personal and professional lives while trying to give apt medical care to their patients.IMDb ID: tt0108757
-7.  The Powerpuff Girls. . Cartoon Network, Cartoon Network Studios, Craig McCracken Productions, Hanna-Barbera Cartoons, 18 November 1998. Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.IMDb ID: tt0175058
-8.  The Big Bang Theory. . Chuck Lorre Productions, Warner Bros. Television, 24 September 2007. The lives of four socially awkward scientists take a wild turn when a beautiful and free-spirited girl moves in next door.IMDb ID: tt0898266
-9.  MDN CONTRIBUTORS. Web APIs / Window.localStorage — DevDocs. DevDocs. Online. 2025. [Accessed 15 October 2026]. Available from: https://devdocs.io/dom/window/localstorage
-10.  W3SCHOOLS. JavaScript Cookies. W3Schools. Online. [Accessed 15 October 2026]. Available from: https://www.w3schools.com/js/js_cookies.aspCookies let you store user information in web pages.
-11.  MDN CONTRIBUTORS. HTML / input type="radio". DevDocs. Online. 2025. [Accessed 15 October 2026]. Available from: https://devdocs.io/html/reference/elements/input/radioFast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.
-12.  MEMORY ALPHA CONTRIBUTORS. Earth. Memory Alpha. Online. 15 October 2026. [Accessed 15 October 2026]. Available from: https://memory-alpha.fandom.com/wiki/EarthEarth, also known as Sol III or Terra, was the third planet in the Sol system. This inhabited Class M planet was located within Sector 001 of the Alpha Quadrant. The planet had one natural satellite, named Luna, and many artificial satellites. In 2150, with the last nation-states joining, the planet was unified under the United Earth government. The planet was a founding member of the Coalition of Planets in 2155, and of the United Federation of Planets in 2161. From this date to 3089, Earth...
-13.  JAPAN NATIONAL TOURISM ORGANIZATION. What’s Mt.Fuji | Mt. Fuji Guide | Travel Japan（Japan National Tourism Organization）. Travel Japan. Online. [Accessed 15 October 2026]. Available from: https://www.japan.travel/en/fuji-guide/mt-fuji-more-than-a-mountain/Standing at 3,776 meters, Mt. Fuji is the tallest peak in Japan, the result of volcanic activity that began approximately 100,000 years ago. Today, Mt. Fuji and the surrounding area are a popular recreational destination for hiking, camping and relaxation.
-14.  GEO-INFORMATION PORTAL HUB,. 位置座標読取り・確認・移動ウェブサイト. Geo-Information Portal Hub. Online. 2021. [Accessed 15 October 2026]. Available from: https://www.web-gis.jp/MapsInfo/latlon_v7.html
-15.  BAN THE BOTS. No AI Policy Template — Free Copy-Paste Download (2026). Ban the Bots. Online. October 2026. [Accessed 15 October 2026]. Available from: https://www.banthebots.org/no-ai-policy-template/Copy-paste no AI policy template for freelancers, artists, and teachers — no signup required....
-16.  MAHAWAR, Gaurav. Find elapsed time in javascript. Stack Overflow. Online. 14 July 2015. [Accessed 14 October 2026]. Available from: https://stackoverflow.com/q/31405996
-17.  GEOW. Answer to “Find elapsed time in javascript.” Stack Overflow. Online. 15 April 2019. [Accessed 14 October 2026]. Available from: https://stackoverflow.com/a/55690814
-18.  OMARAKAMAL. debugging-olympics-1. Online. commit no. 4. [Windows]. JavaScript, HTML, CSS. 12 October 2026. Manama : General Assembly. [Accessed 14 October 2026]. SEB-16-Bahrain. Available from: https://github.com/SEB-16-Bahrain/debugging-olympics-1
-19.  KENNEDY, Graham and KENNEDY, Ian. Tricorders - Notes. DITL. Online. [Accessed 14 October 2026]. Available from: https://www.ditl.org/scitech-page.php?ScitechID=15
-20.  KENNEDY, Graham and KENNEDY, Ian. Kathryn Janeway - Notes. DITL. Online. 28 October 2025. [Accessed 13 October 2026]. Available from: https://www.ditl.org/personnel-page.php?PersonID=26&ListID=People
-21.  MEMORY ALPHA CONTRIBUTORS. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. [Accessed 13 October 2026]. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager
-22.  STATISTICS BUREAU, MINISTRY OF INTERNAL AFFAIRS AND COMMUNICATIONS. Japan Statistical Yearbook 2026. . 75. Tokyo, Japan : Statistics Bureau, 2025. Japan Statistical Yearbook.
+
+Sesame Street, 1969. . Children’s Television Workshop (CTW), Curious Pictures, Sesame Workshop, 
+On a special inner city street, the inhabitants, human and muppet, teach preschool subjects with comedy, cartoons, games, and songs.
+IMDb ID: tt0063951
+
+Star Trek: The Next Generation, 1987. . Paramount Television, 
+Set almost 100 years after Captain Kirk&apos;s five-year mission, a new generation of Starfleet officers sets off in the U.S.S. Enterprise-D on its own mission to go where no one has gone before.
+IMDb ID: tt0092455
+
+STATISTICS BUREAU, MINISTRY OF INTERNAL AFFAIRS AND COMMUNICATIONS, 2025. Japan Statistical Yearbook 2026. 75. Tokyo, Japan: Statistics Bureau. Japan Statistical Yearbook. 
+
+The Big Bang Theory, 2007. . Chuck Lorre Productions, Warner Bros. Television, 
+The lives of four socially awkward scientists take a wild turn when a beautiful and free-spirited girl moves in next door.
+IMDb ID: tt0898266
+
+The Powerpuff Girls, 1998. . Cartoon Network, Cartoon Network Studios, Craig McCracken Productions, Hanna-Barbera Cartoons, 
+Three super-powered little girls constantly save the world (or at least the city of Townsville) from monsters, would-be conquerers and a few other gross things.
+IMDb ID: tt0175058
+
+The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox Television, 
+The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
+IMDb ID: tt0096697
+
+W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026]. 
+Cookies let you store user information in web pages.
+
+Young Sheldon, 2017. . Chuck Lorre Productions, Warner Bros. Television, 
+Meet a child genius named Sheldon Cooper (already seen as an adult in The Big Bang Theory (2007)) and his family. Some unique challenges face Sheldon, who is socially impaired.
+IMDb ID: tt6226232
