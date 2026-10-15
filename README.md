@@ -29,7 +29,6 @@ Furthermore, your score will be evaluated in the end, in which you will earn a r
 
 In all four topics, your scores and grades shall be totalled into overall as well. Aim for the highest you can go!
 
-
 ### Scoring System
 
 Parameter | Value per Unit | Maximum Obtainable Score |
@@ -37,8 +36,8 @@ Parameter | Value per Unit | Maximum Obtainable Score |
 Base score | 250 per correct answer | 10,000 points |
 Time bonus | 166.67 per second remaining from 60 sec/question average | 10,000 points |
 Combo bonus | 250 per consecutive correct answer | 10,000 points |
-Total score per quiz || 30,000 points
-Maximum high score in all four quizzes || 120,000 points |
+Total score per quiz | | 30,000 points |
+Maximum high score in all four quizzes | | 120,000 points |
 
 ### Ranking System
 
@@ -61,9 +60,9 @@ G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expe
 
 ### Title System
 
-Grade | Title | Points (+ Conditions) | Total High Score in All Quizzes
+Grade | Title | Points (+ Conditions) | Total High Score in All Quizzes |
 ----- | ----- | ------- | ------------------ |
-Special | Distinguished | 25000 + all answers correct in avg. 30sec/question | 100000 + all answers correct in avg. 30sec/question in high scores
+Special | Distinguished | 25000 + all answers correct in avg. 30sec/question | 100000 + all answers correct in avg. 30sec/question in high scores |
 1st | Master | 25000 | 100000 |
 2nd | Superior | 22500 | 90000 |
 3rd | Professional | 20000 | 80000 |
