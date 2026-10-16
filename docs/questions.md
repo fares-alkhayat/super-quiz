@@ -41,10 +41,12 @@ For each section, a difficulty level shall be assigned and shall increase as the
 6.
 7.
 8.
+9.
+10.
 
 ### Difficulty Level ★★☆☆☆ - Easy
 
-9. Out of the four, which robot anime in the 70s became the most successful in Japan? (Hint: odd one out!)
+11. Out of the four, which robot anime in the 70s became the most successful in Japan? (Hint: odd one out!)
 
     a. Mazinger Z / Great Mazinger
 
@@ -54,22 +56,24 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     **d. Mobile Suit Gundam**
 
-10. The bullet train is called a "shinkansen" （新幹線、しんかんせん） in Japanese. Is this true or false?
+12. The bullet train is called a "shinkansen" （新幹線、しんかんせん） in Japanese. Is this true or false?
 
     **a. True**
 
     b. False
-
-11.
-12.
+.
 13.
 14.
 15.
 16.
+17.
+18.
+19.
+20.
 
 ### Difficulty Level ★★★☆☆ - Normal
 
-17. Who is the Prime Minister of Japan? (as of 2026)
+21. Who is the Prime Minister of Japan? (as of 2026)
 
     a. Shinzō Abe
 
@@ -79,7 +83,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     **d. Sanae Takaichi**
 
-18. What is the telephone calling code of Japan?
+22. What is the telephone calling code of Japan?
 
     a. 80
 
@@ -89,13 +93,13 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 83
 
-19. If you enter a house in Japan to visit a friend, should you take off your shoes at the doorstep?
+23. If you enter a house in Japan to visit a friend, should you take off your shoes at the doorstep?
 
     **a. Yes.**
 
     b. No.
 
-20. When did Japan become a country?
+24. When did Japan become a country?
 
     a. 700 BCE
 
@@ -105,7 +109,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 600 BCE
 
-21. What kind of writing system does Japanese use?
+25. What kind of writing system does Japanese use?
 
     a. Alphabet
 
@@ -115,13 +119,15 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. Symbolic
 
-22.
-23.
-24.
+26.
+27.
+28.
+29.
+30.
 
 ### Difficulty Level ★★★★☆ - Hard
 
-25. What is the postal code of Chiyoda Ward, Tokyo Prefecture?
+31. What is the postal code of Chiyoda Ward, Tokyo Prefecture?
 
     **a. 100-0000**
 
@@ -131,7 +137,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 130-0000
 
-26. What party is part of the Japanese Government and has been in control for most of Japan's post-war history?
+32. What party is part of the Japanese Government and has been in control for most of Japan's post-war history?
 
     a. Constitutional Democratic Party / Centrist Reform Alliance
     
@@ -141,7 +147,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. Japanese Communist Party
 
-27. When did Japan start facing a population decline?
+33. When did Japan start facing a population decline?
 
     a. 2007
 
@@ -151,15 +157,17 @@ For each section, a difficulty level shall be assigned and shall increase as the
     
     d. 2013
 
-28.
-29.
-30.
-31.
-32.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
 
 ### Difficulty Level ★★★★★ - Very Hard
 
-33. What are the coordinates of Tokyo, Japan?
+41. What are the coordinates of Tokyo, Japan?
 
     a. 34°N, 138°E
 
@@ -169,7 +177,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     **d. 35°N, 139°E**
 
-34. What is the altitude of Mt. Fuji?
+42. What is the altitude of Mt. Fuji?
 
     a. 3770m
 
@@ -179,7 +187,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 3779m
 
-35. Estimate the GDP of Japan in current prices as of 2023.
+43. Estimate the GDP of Japan in current prices as of 2023.
 
     a. 570 trillion yen
 
@@ -189,7 +197,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 600 trillion yen
 
-36. What were the dates of the bombing of Hiroshima and Nagasaki?
+44. What were the dates of the bombing of Hiroshima and Nagasaki?
 
     a. 1945-06-06, 1945-06-09
 
@@ -200,10 +208,12 @@ For each section, a difficulty level shall be assigned and shall increase as the
     d. 1946-08-06, 1946-08-09
 
 
-37.
-38.
-39.
-40.
+45.
+46.
+47.
+48.
+49.
+50.
 
 ## Science and Technology
 
@@ -356,17 +366,20 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. "Ignition!"
 
+9.
+10.
+
 ### Difficulty Level ★★☆☆☆ - Easy / Ensign Level
 
-9. What is the registry number of the USS Enterprise (regardless of the model)?
+11. What is the registry number of the USS Enterprise (regardless of the model)?
 
     NCC-1700 | **NCC-1701** | NCC-7101 | NCC-7701
 
-10. What century did The Next Generation take place in?
+12. What century did The Next Generation take place in?
 
     22nd century | **23rd century** | 24th century | 32nd century
 
-11. Who was the captain of the USS Voyager (Intrepid Class, NCC-74656)?
+13. Who was the captain of the USS Voyager (Intrepid Class, NCC-74656)?
 
     a. Captain Jean-Luc Picard
 
@@ -376,7 +389,7 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     **d. Captain Kathryn Janeway**
 
-12. Did the Klingon Empire make peace with the Federation in TNG?
+14. Did the Klingon Empire make peace with the Federation in TNG?
 
     **a. Yes, via a peace/alliance treaty.**
 
@@ -386,7 +399,7 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. No.
 
-13. What was the stardate of the 1st season of TNG? Select an answer expressing the first two digits.
+15. What was the stardate of the 1st season of TNG? Select an answer expressing the first two digits.
 
     a. 40xxx.
 
@@ -396,13 +409,13 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. 43xxx.
 
-14. Is Lieutenant Commander Data an android or not?
+16. Is Lieutenant Commander Data an android or not?
 
     **a. Yes.**
 
     b. No.
 
-15. What is a tricorder?
+17. What is a tricorder?
 
     a. A multi-function tool that allows personnel to identify the atmosphere of a certain planet after beaming down from a starship.
 
@@ -412,7 +425,7 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. None of the above.
 
-16. What are the coordinates of Planet Earth according to the Federation?
+18. What are the coordinates of Planet Earth according to the Federation?
 
 a. Section 000
 
@@ -422,9 +435,12 @@ c. Section 002
 
 d. Section 003
 
+19.
+20.
+
 ### Difficulty Level ★★★☆☆ - Normal / Lieutenant Level
 
-17. What does Jean-Luc Picard say every time he acknowledges and agrees with a suggestion or action from any of his crew members?
+21. What does Jean-Luc Picard say every time he acknowledges and agrees with a suggestion or action from any of his crew members?
 
     a. "Copy that."
 
@@ -434,17 +450,19 @@ d. Section 003
 
     d. "Good."
 
-18.
-19.
-20.
-21.
 22.
 23.
 24.
+25.
+26.
+27.
+28.
+29.
+30.
 
 ### Difficulty Level ★★★★☆ - Hard / Commander Level
 
-25. Using the TNG formula, what is the stardate for the year 2370?
+31. Using the TNG formula, what is the stardate for the year 2370?
 
     a. 46000.0
 
@@ -453,16 +471,8 @@ d. Section 003
     c. 48000.0
 
     d. 49000.0
-26.
-27.
-28.
-29.
-30.
-31.
+
 32.
-
-### Difficulty Level ★★★★★ - Very Hard / Captain Level
-
 33.
 34.
 35.
@@ -472,11 +482,24 @@ d. Section 003
 39.
 40.
 
+### Difficulty Level ★★★★★ - Very Hard / Captain Level
+
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+
 ## Entertainment and Pop Culture
 
 ### Difficulty Level ★☆☆☆☆ - Very Easy / New to Trends
 
-1.
+1. -
     If:
 
     $$
@@ -513,10 +536,12 @@ d. Section 003
 6.
 7.
 8.
+9.
+10.
 
 ### Difficulty Level ★★☆☆☆ - Easy / Blending In
 
-9. What purpose does Chemical X have in the Powerpuff Girls series?
+11. What purpose does Chemical X have in the Powerpuff Girls series?
 
     a. It can be used as a GPU coolant or thermal paste
 
@@ -526,7 +551,7 @@ d. Section 003
 
     **d. It can have a person wield superhuman abilities**
 
-10. Who was John Carter's teacher in the early episodes of ER?
+12. Who was John Carter's teacher in the early episodes of ER?
 
     **a. Dr. Peter Benton**
 
@@ -535,17 +560,17 @@ d. Section 003
     c. Dr. Doug Ross
 
     d. Dr. Carol Hathaway
-11.
-12.
 13.
 14.
 15.
 16.
+17.
+18.
 
 
 ### Difficulty Level ★★★☆☆ - Normal / Part of the Crowd
 
-17. What year did the Powerpuff Girls aired with their final episode? (based on original dating regardless of airing location)
+19. What year did the Powerpuff Girls aired with their final episode? (based on original dating regardless of airing location)
 
     a. 2003
 
@@ -555,7 +580,7 @@ d. Section 003
 
     d. 2006
 
-18. Which season did Sheldon and Amy Cooper obtain the Nobel Prize?
+20. Which season did Sheldon and Amy Cooper obtain the Nobel Prize?
 
     a. First half of Season 11
 
@@ -565,7 +590,7 @@ d. Section 003
 
     **d. Second half of Season 12**
 
-19. How old was Sheldon when he moved to high school?
+21. How old was Sheldon when he moved to high school?
 
     a. 7
 
@@ -575,7 +600,7 @@ d. Section 003
 
     d. 10
 
-20. What did Principal Skinner offer Superintendent Chalmers in The Simpsons: S7.E21: "22 Short Films About Springfield"?
+22. What did Principal Skinner offer Superintendent Chalmers in The Simpsons: S7.E21: "22 Short Films About Springfield"?
 
     a. Steamed clams
 
@@ -585,7 +610,7 @@ d. Section 003
 
     **d. Steamed hams**
 
-21. As of October 2026, how many seasons does Sesame Street have?
+23. As of October 2026, how many seasons does Sesame Street have?
 
     a. 55
 
@@ -595,7 +620,7 @@ d. Section 003
 
     d. 58
 
-22. In Sesame Street, who is implied as Elmo's worst enemy?
+24. In Sesame Street, who is implied as Elmo's worst enemy?
 
     a. Zoe
 
@@ -605,7 +630,7 @@ d. Section 003
 
     d. None of the above
 
-23. How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?
+25. How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?
 
     a. He thought Chalmers would find the dinner completely unacceptable for cooking to take this long which resulted him in purcahsing a burger to speed up the time of preparing a meal.
 
@@ -615,21 +640,16 @@ d. Section 003
 
     **d. He purchased burgers from Krusty Burger and disguised it as his own personal cooking in result of burning his roast.**
 
-24.
-
-### Difficulty Level ★★★★☆ - Hard / Cultured Personality
-
-25.
 26.
 27.
 28.
 29.
 30.
+
+### Difficulty Level ★★★★☆ - Hard / Cultured Personality
+
 31.
 32.
-
-### Difficulty Level ★★★★★ - Very Hard / Collectively Influenced
-
 33.
 34.
 35.
@@ -638,3 +658,16 @@ d. Section 003
 38.
 39.
 40.
+
+### Difficulty Level ★★★★★ - Very Hard / Collectively Influenced
+
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.

@@ -8,6 +8,7 @@ const titleDisplay = document.querySelector("#title");
 const submitButton = document.querySelector("#submit");
 const nameDisplay = document.querySelector('#username');
 const messageDisplay = document.querySelector("#message")
+const printButton = document.querySelector("#print")
 
 /* const profile = [
   playerName. totalPoints, totalHiScore, totalGames, totalTime, totalGrade, totalTitle, jpBestScore, scBestScore, stBestScore, enBestScore]
@@ -109,6 +110,10 @@ function titleSystem(){
     else if (totalHiScore >= 10000) {title = "[10th] Novice"}
     else {title = "[11th] Beginner"}
 }
+
+function printResult(){
+  window.print()
+}
 // The following code was forked from the Debugging Olympics exercise for reference.
 
 
@@ -176,5 +181,7 @@ submitButton.disabled = false}
 
 document.getElementById("submit-button").addEventListener("click", checkAnswer);
 document.getElementById("start-button").addEventListener("click", startGame);
+
+printButton.addEventListener("click", printResult)
 
 showQuestion();

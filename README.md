@@ -21,21 +21,19 @@ You may choose any of the following topics:
 3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
 4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
 
-Each topic has 40 questions, and for each correct answer, you earn a point!
+Each topic has 50 questions, and for each correct answer, you earn a point!
 
 Please note that the questions get harder as you progress. So do your best to take on the challenge!
 
 Furthermore, your score will be evaluated in the end, in which you will earn a rank and a title based on what quiz you have taken.
 
-In all four topics, your scores and grades shall be totalled into overall as well. Aim for the highest you can go!
-
 ### Scoring System
 
 Parameter | Value per Unit | Maximum Obtainable Score |
 --------- | -------------- | ------------------------ |
-Base score | 250 per correct answer | 10,000 points |
+Base score | 200 per correct answer | 10,000 points |
 Time bonus | 166.67 per second remaining from 60 sec/question average | 10,000 points |
-Combo bonus | 250 per consecutive correct answer | 10,000 points |
+Combo bonus | 200 per consecutive correct answer at end of quiz | 10,000 points |
 Total score per quiz | | 30,000 points |
 Maximum high score in all four quizzes | | 120,000 points |
 
@@ -80,17 +78,18 @@ Special | Distinguished | 25000 + all answers correct in avg. 30sec/question | 1
 1. The game must be presented in English. Adding Japanese is a plus.
 2. The game has to load successfully, with all questions and topics ready for boot.
 3. A title screen must be introduced.
-4. There must be a profile management system to manage profiles and their records.
-5. The game must have a score and a time counter.
-6. The game must ask the user one question at a time. Once answered, it cannot be recalled.
-7. After all questions have been answered, the final score, time and rank should be returned by the game, indicating the player's overall performance.
-8. The game must have an overall records screen (with statistics and achievements) and a high score table indicating the cumulative progress of the player.
+4. The game must have information related to the test and the player during and after the duration of the quiz's session.
+5. The game must ask the user one question at a time. Once answered, it cannot be recalled.
+6. After all questions have been answered, the final score, time and rank should be returned by the game, indicating the player's overall performance.
+7. The site should allow the player to save and/or print the screen displaying the result at the end of the quiz.
 
 ## Screenshots
 
 ## Future Enhancements
 
-If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 40.
+1. If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 40.
+2. There must be a profile management system to manage profiles and their records.
+3. The game must have an overall records screen (with statistics and achievements) and a high score table indicating the cumulative progress of the player.
 
 ## No-AI Disclaimer
 

@@ -9,6 +9,7 @@ button {
   font-family: "Murecho", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  margin: 5px;
 }
 
 #copyright {
@@ -17,5 +18,5 @@ button {
 
 #question-div {
   border: 2px solid black;
-  margin: 5px
+  margin: 10px
 }
