@@ -25,7 +25,7 @@ Each topic has 50 questions, and for each correct answer, you earn a point!
 
 Please note that the questions get harder as you progress. So do your best to take on the challenge!
 
-Furthermore, your score will be evaluated in the end, in which you will earn a rank and a title based on what quiz you have taken.
+Furthermore, your score will be evaluated in the end, in which you will earn a rank and a title based on what quiz you have taken. You can print the screen of the webpage as a method to save your result.
 
 ### Scoring System
 
@@ -43,18 +43,18 @@ A letter grade shall be provided to the player based on the number/percentage of
 
 Rank | Correct Answers | Percent | Description |
 ----- | -------- | -------- | -------------- |
-S++ | 40 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
-S+ | 38-39 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
-S | 36-37 | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
-A+ | 34-35 | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
-A | 32-33 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
-B+ | 30-31 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-B | 28-29 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-C | 24-28 | 60-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
-D | 20-24 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
-E | 16-19 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
-F | 12-15 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
-G | 0-11 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
+S++ | 50 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
+S+ | 48-49 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
+S | 45-47 | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
+A+ | 43-44 | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
+A | 40-42 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
+B+ | 38-39 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
+B | 35-37 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
+C | 30-34 | 60-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+D | 25-29 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
+E | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
+F | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
+G | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
 ### Title System
 
@@ -87,7 +87,7 @@ Special | Distinguished | 25000 + all answers correct in avg. 30sec/question | 1
 
 ## Future Enhancements
 
-1. If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 40.
+1. If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 50.
 2. There must be a profile management system to manage profiles and their records.
 3. The game must have an overall records screen (with statistics and achievements) and a high score table indicating the cumulative progress of the player.
 
@@ -115,6 +115,6 @@ If you see my work used to train an AI without my permission, please let me know
 
 Created and developed by Fares Alkhayat.
 
-Quiz and Website © 2026 Fares Alkhayat. All rights reserved. All copyrighted content (especially whereas written under references.txt, except for the quiz and website itself) are not owned by Fares Alkhayat nor his affiliates, instead, they belong to their respective owners.
+Quiz and Website © 2026 Fares Alkhayat. All rights reserved. All copyrighted content (especially whereas written under references.txt or the copyright/references page, except for the quiz and website itself) are not owned by Fares Alkhayat nor his affiliates, instead, they belong to their respective owners.
 
 This quiz and website shall be protected under international copyright law. It is strictly prohibited for anyone to copy, produce/reproduce, fork, or in any way utilise or modify the source code of this repository or any of its affiliates or resources without the prior  permission of Fares Alkhayat. Violators shall be punished to the maximum extent of applicable copyright law which may depend on the region or country where the criminal offense is committed.
