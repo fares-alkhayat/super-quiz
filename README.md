@@ -101,7 +101,6 @@ E | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain t
 F | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
 G | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
-
 Condition | Grades | Percent | Description |
 --------- | ------ | ------- | ----------- |
 Pass | S, A, B, C | 60-100 | Quiz passed. You have won the quiz. |
@@ -112,9 +111,9 @@ Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
 
 Grade | Title | Points (+ Conditions) | Super Marathon 150 | Super Marathon 200 |
 ----- | ----- | ------- | ------------------ | ------------------ |
-SUPER Special+ | Distinguished | 90000 + all answers correct in avg. 12sec/question | 270000 + all answers correct in avg. 30sec/question | 360000 + all answers correct in avg. 30sec/question
-Special+ | Ultimate Master | 82500 + all answers correct in avg. 21sec/question | 247500 + all answers correct in avg. 30sec/question | 330000 + all answers correct in avg. 30sec/question
-Special | Grand Master | 75000 + all answers correct in avg. 30sec/question | 225000 + all answers correct in avg. 30sec/question | 300000 + all answers correct in avg. 30sec/question
+SUPER Special+ | Distinguished | 90000 + all answers correct in avg. 12sec/question | 270000 + all answers correct in avg. 30sec/question | 360000 + all answers correct in avg. 30sec/question |
+Special+ | Ultimate Master | 82500 + all answers correct in avg. 21sec/question | 247500 + all answers correct in avg. 30sec/question | 330000 + all answers correct in avg. 30sec/question |
+Special | Grand Master | 75000 + all answers correct in avg. 30sec/question | 225000 + all answers correct in avg. 30sec/question | 300000 + all answers correct in avg. 30sec/question |
 1st | Master | 75000 | 225000 | 300000 |
 2nd | Superior | 67500 | 202500 | 270000 |
 3rd | Professional | 60000 | 180000 | 240000 |
