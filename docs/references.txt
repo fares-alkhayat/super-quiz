@@ -9,6 +9,8 @@ ER, 1994. . Constant c Productions, John Wells Productions, Amblin Entertainment
 The doctors who work in the ER at the County General Hospital in Chicago grapple with ups and downs in their personal and professional lives while trying to give apt medical care to their patients.
 IMDb ID: tt0108757
 
+FABRICEPMW, 2017. Center-align a HTML table. Stack Overflow. Online. 31 July 2017. Available from: https://stackoverflow.com/q/14073188 [Accessed 16 October 2026]. 
+
 GEO-INFORMATION PORTAL HUB, 2021. 位置座標読取り・確認・移動ウェブサイト. Geo-Information Portal Hub. Online. 2021. Available from: https://www.web-gis.jp/MapsInfo/latlon_v7.html [Accessed 15 October 2026]. 
 
 GEOW, 2019. Answer to “Find elapsed time in javascript.” Stack Overflow. Online. 15 April 2019. Available from: https://stackoverflow.com/a/55690814 [Accessed 14 October 2026]. 
@@ -28,6 +30,8 @@ KONAMI, [no date]. Yu-Gi-Oh! TRADING CARD GAME | Official Website. Yu-Gi-Oh! TRA
 Yu-Gi-Oh! TRADING CARD GAMEOfficial Website
 
 KONAMI CROSS MEDIA NY, INC., 2026. Official Yu-Gi-Oh! Site : Watch full length Yu-Gi-Oh! episodes online. Official Yu-Gi-Oh! Site. Online. 2026. Available from: https://www.yugioh.com/ [Accessed 16 October 2026]. 
+LIOSK, 2026. LiosK/uuidv7 [software]. Online. 14 October 2026. Available from: https://github.com/LiosK/uuidv7. [Accessed 16 October 2026]. 
+A JavaScript implementation of UUID version 7
 
 MAHAWAR, Gaurav, 2015. Find elapsed time in javascript. Stack Overflow. Online. 14 July 2015. Available from: https://stackoverflow.com/q/31405996 [Accessed 14 October 2026]. 
 
@@ -41,6 +45,8 @@ Earth, also known as Sol III or Terra, was the third planet in the Sol system. T
 
 MEMORY ALPHA CONTRIBUTORS, 2026b. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
 OMARAKAMAL, 2026. debugging-olympics-1 [software]. Online. Version commit no. 4. 12 October 2026. Manama: General Assembly. Available from: https://github.com/SEB-16-Bahrain/debugging-olympics-1. [Accessed 14 October 2026]. 
+
+PORTER, Wesley, 2012. Answer to “Center-align a HTML table.” Stack Overflow. Online. 28 December 2012. Available from: https://stackoverflow.com/a/14073610 [Accessed 16 October 2026]. 
 
 REARDON, Jim (dir.), 1996. 22 Short Films About Springfield. , The Simpsons. Disney/20th Century Studios, 14 April 1996. 
 A series of vignettes showcasing a day in the life of various Springfield residents.
@@ -84,16 +90,31 @@ The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox 
 The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
 IMDb ID: tt0096697
 
-W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 a]. 
-The getElementById() method returns an element with a specified value.
+W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 a]. 
+HTML tables can be greatly improved with CSS.
 
-W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 b]. 
-In CSS, the term “box model” is used when talking about web design and layout.
+W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 b]. 
+The CSS text-align property is used to set the horizontal alignment of the content in <th> or <td>.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 c]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 c]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 d]. 
+W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 d]. 
+HTML tables allow web developers to arrange data into rows and columns.
+
+W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 e]. 
+With CSS, different HTML buttons can be styled in many ways.
+
+W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 f]. 
+The getElementById() method returns an element with a specified value.
+
+W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 g]. 
+In CSS, the term “box model” is used when talking about web design and layout.
+
+W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 h]. 
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
+
+W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 i]. 
 Cookies let you store user information in web pages.
 
 Young Sheldon, 2017. . Chuck Lorre Productions, Warner Bros. Television, 
