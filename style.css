@@ -20,3 +20,30 @@ button {
   border: 2px solid black;
   margin: 10px
 }
+
+#button-a {
+  background-color: red;
+  color: white
+}
+
+#button-b {
+  background-color: yellow;
+}
+
+#button-c {
+  background-color: green;
+  color: white;
+}
+
+#button-d {
+  background-color: blue;
+  color: white;
+}
+
+#stats {
+  width:auto;
+  text-align: left;
+  padding: 20px;
+  border-collapse: separate;
+  border-spacing: 150px 0px;
+}

@@ -499,16 +499,7 @@ d. Section 003
 
 ### Difficulty Level ★☆☆☆☆ - Very Easy / New to Trends
 
-1. -
-    If:
-
-    $$
-    Girls = Sugar + Spice + Everything(nice)
-    $$
-    To solve the following equation, what is *x*?
-    $$
-    Powerpuff Girls = Sugar + Spice + Everything(nice) + x
-    $$
+1. If ordinary girls = [sugar + spice + everything nice], and since the Powerpuff Girls = [sugar + spice + everything nice + x], what is x?
 
     a. N₂O (Nitrous oxide)
 

@@ -12,14 +12,18 @@ The game has been created using HTML, CSS and JavaScript.
 
 Welcome to the show! In this amazing game, you will be met with a variety of topics where you can learn more about Fares' interests just by answering them!
 
-### Topics
+## How to Play
+
+### 1. Topics
 
 You may choose any of the following topics:
 
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
-2. Science and Technology - Learn more about how things work and where do they go. (coming soon)
+2. Science and Technology (coming soon) - Learn more about how things work and where do they go. (coming soon)
 3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
 4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
+5. Super Marathon 150 - Answer all 150 questions from the all topics (except for Science and Technology, whereas not available yet)
+6. Super Marathon 200 (coming soon) - Answer all 200 questions from all topics (coming soon)
 
 Each topic has 50 questions, and for each correct answer, you earn a point!
 
@@ -27,15 +31,55 @@ Please note that the questions get harder as you progress. So do your best to ta
 
 Furthermore, your score will be evaluated in the end, in which you will earn a rank and a title based on what quiz you have taken. You can print the screen of the webpage as a method to save your result.
 
+### 2. Name Entry
+
+To make sure that your name shall appear when you save/print your result, you will need to enter your name. Do not worry about privacy, for your name will not be stored in any server or platform. Your name is stored locally only throughout the duration of the session where the tab for the quiz is active.
+
+As soon as you type your name in the box, press "Apply" to let the site know and acknowledge your name. After that, you may begin the quiz by pressing the "Begin!" button.
+
+### 3. Controls
+
+Since this is a quiz game, you have one form of controls: you have four buttons that indicate the letters of each choice when answering a question: "A", "B", "C" and "D". You shall answer questions by selecting a correct answer simply by pressing the letter that corresponds to the choice you want to make.
+
+You also have a "Pass" button, which in case if you do not know the answer, you may choose to pass the question. NOTE: The pass button is the same as getting an answer wrong, so your combo shall be reset anyways.
+
+### 4. On-Screen Information
+
+Below the question and controls: you have two areas of information. Those are
+
+1. Player Information
+
+    a. Player Name: The name given by the player.
+
+    b. Quiz Start: The date and time where the quiz has started.
+
+    c. Quiz End: The date and time where the quiz has ended.
+
+    d. Quiz ID: A unique hexadecimal number provided to the quiz the player is taking. It uses UUIDv7, and is used for debugging and/or reference purposes only.
+
+2. Quiz Information
+
+    a. Score: The number of points the player has obtained.
+
+    b. Correct Answers: The number of correct answers (out of total) the player has given.
+
+    c. Percentage: The percentage of correct answers (out of total) the player been given.
+
+    d. Time: The total elapsed time the player has spent in the quiz.
+
+    e. Rank: The letter grade the player has progressively awarded.
+
+    f. Title: The numerical and phrase title the player has progressively awarded.
+
 ### Scoring System
 
 Parameter | Value per Unit | Maximum Obtainable Score |
 --------- | -------------- | ------------------------ |
-Base score | 200 per correct answer | 10,000 points |
-Time bonus | 166.67 per second remaining from 60 sec/question average | 10,000 points |
-Combo bonus | 200 per consecutive correct answer at end of quiz | 10,000 points |
-Total score per quiz | | 30,000 points |
-Maximum high score in all four quizzes | | 120,000 points |
+Base score | 1000 per correct answer | 50,000 points |
+Time bonus | 1000 per second remaining from 60 sec/question average * the ratio of correct answers given | 50,000 points |
+Total score per quiz | | 100,000 points |
+Super Marathon 150 (or total for three quizzes) | | 300,000 points |
+Super Marathon 200 (or total for four quizzes) | | 400,000 points |
 
 ### Ranking System
 
@@ -66,20 +110,22 @@ Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
 
 ### Title System
 
-Grade | Title | Points (+ Conditions) | Total High Score in All Quizzes |
------ | ----- | ------- | ------------------ |
-Special | Distinguished | 25000 + all answers correct in avg. 30sec/question | 100000 + all answers correct in avg. 30sec/question in high scores |
-1st | Master | 25000 | 100000 |
-2nd | Superior | 22500 | 90000 |
-3rd | Professional | 20000 | 80000 |
-4th | Expert | 17500 | 70000 |
-5th | Upper Intermediate | 15000 | 60000 |
-6th | Intermediate | 12500 | 50000 |
-7th | Pre-Intermediate | 10000 | 40000 |
-8th | Elementary | 7500 | 30000 |
-9th | Starter | 5000 | 20000 |
-10th | Novice | 2500 | 10000 |
-11th | Beginner | 0 | 0 |
+Grade | Title | Points (+ Conditions) | Super Marathon 150 | Super Marathon 200 |
+----- | ----- | ------- | ------------------ | ------------------ |
+SUPER Special+ | Distinguished | 90000 + all answers correct in avg. 12sec/question | 270000 + all answers correct in avg. 30sec/question | 360000 + all answers correct in avg. 30sec/question
+Special+ | Ultimate Master | 82500 + all answers correct in avg. 21sec/question | 247500 + all answers correct in avg. 30sec/question | 330000 + all answers correct in avg. 30sec/question
+Special | Grand Master | 75000 + all answers correct in avg. 30sec/question | 225000 + all answers correct in avg. 30sec/question | 300000 + all answers correct in avg. 30sec/question
+1st | Master | 75000 | 225000 | 300000 |
+2nd | Superior | 67500 | 202500 | 270000 |
+3rd | Professional | 60000 | 180000 | 240000 |
+4th | Expert | 52500 | 157500 | 210000 |
+5th | Upper Intermediate | 45000 | 135000 | 180000 |
+6th | Intermediate | 37500 | 112500 | 150000 |
+7th | Pre-Intermediate | 30000 | 90000 | 120000 |
+8th | Elementary | 22500 | 67500 | 90000 |
+9th | Starter | 15000 | 45000 | 60000 |
+10th | Novice | 7500 | 22500 | 30000 |
+11th | Beginner | 0 | 0 | 0 |
 
 ## User Stories
 

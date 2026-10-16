@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap" rel="stylesheet">
@@ -36,6 +36,16 @@
     <input type="radio" id="ent-quiz" name="quiz" value="ent-quiz" />
     <label for="ent-quiz">Entertainment and Pop Culture</label>
   </div>
+
+     <div>
+    <input type="radio" id="marathon-150" name="quiz" value="ent-quiz" />
+    <label for="ent-quiz">Super Marathon 150</label>
+  </div>
+
+     <div>
+    <input type="radio" id="marathon-200" name="quiz" value="ent-quiz" />
+    <label for="ent-quiz">Super Marathon 200 (coming soon)</label>
+  </div>
 </fieldset>
     <p id="username-header">Please enter your name and apply before starting. Press "Begin!" to start the quiz.</p>
     <input type="input" id="username"></input> <button>Apply Name</button>
@@ -45,13 +55,35 @@
     <div id="question-div">
     <p id="question">Question:</p>
 
-    <input id="answer" type="text" aria-label="Your answer"></input>
-    <button id="submit" type="button">Submit</button>
 <br>  
     <p id="message"></p>
-    <p>Score: <span id="score"></span> | Time: <span id="time"></span>
-    <br>Grade: <span id="grade"> | Title: <span id="title">
-    <br>Question: <span id="question-number"></span> / 50 | Correct Answers: <span id="correct-answers"> / </span></p>
+    <button id="button-a">A</button>
+    <button id="button-b">B</button>
+    <button id="button-c">C</button>
+    <button id="button-d">D</button>
+    <button id="button-pass">Pass</button>
+    <table align="center" id="stats">
+      <th>Quiz Information</th><th>Player Information</th>
+        <tr>
+          <td id="username">Player Name:</td><td id="score">Score:</td>
+        </tr>
+        <tr>
+          <td id="start-time">Quiz Start:</td><td id="correct">Correct: </td>
+        </tr>
+        <tr>
+          <td id="end-time">Quiz End:</td><td id="percent">Percentage: </td>
+        </tr>
+          <tr>
+          <td id="quizId">Quiz ID:</td><td id="time">Time: </td>
+        </tr>
+        <tr>
+          <td></td><td id="grade">Rank:</td>
+        </tr>
+        <tr>
+          <td></td><td id="title">Title:</td>
+        </tr>
+      
+    </table>
  
 
     </div>
