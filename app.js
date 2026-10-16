@@ -90,6 +90,7 @@ function gradeSystem(){
     else if (correctCount / currentQuestion >= 0.80) {grade = "A"}
     else if (correctCount / currentQuestion >= 0.75) {grade = "B+"}
     else if (correctCount / currentQuestion >= 0.70) {grade = "B"}
+    else if (correctCount / currentQuestion >= 0.65) {grade = "C+"}
     else if (correctCount / currentQuestion >= 0.60) {grade = "C"}
     else if (correctCount / currentQuestion >= 0.50) {grade = "D"}
     else if (correctCount / currentQuestion >= 0.40) {grade = "E"}

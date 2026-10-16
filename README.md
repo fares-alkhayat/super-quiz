@@ -50,11 +50,19 @@ A+ | 43-44 | 85-89 | Excellent! You have superior knowledge of that certain topi
 A | 40-42 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
 B+ | 38-39 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
 B | 35-37 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-C | 30-34 | 60-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+C+ | 33-34 | 65-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+C | 30-32 | 60-64 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
 D | 25-29 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
 E | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
 F | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
 G | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
+
+
+Condition | Grades | Percent | Description |
+--------- | ------ | ------- | ----------- |
+Pass | S, A, B, C | 60-100 | Quiz passed. You have won the quiz. |
+Margin | D | 50-59 | You are within the border between passing and failing the quiz. The quiz can be treated as a pass, but it is strongly recommended to attempt the quiz again for a definite pass. |
+Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
 
 ### Title System
 
