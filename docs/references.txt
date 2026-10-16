@@ -1,3 +1,6 @@
+100 JS PROJECTS TEAM, [no date]. Simple Stopwatch JavaScript Project Tutorial. . Online. Available from: https://www.100jsprojects.com/project/stopwatch [Accessed 16 October 2026]. 
+Build a simple stopwatch with HTML, CSS, and JavaScript. Practice setInterval and click events with the live demo and complete source code.
+
 BAN THE BOTS, 2026. No AI Policy Template — Free Copy-Paste Download (2026). Ban the Bots. Online. October 2026. Available from: https://www.banthebots.org/no-ai-policy-template/ [Accessed 15 October 2026]. 
 Copy-paste no AI policy template for freelancers, artists, and teachers — no signup required....
 

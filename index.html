@@ -18,7 +18,7 @@
   <legend>Select a topic:</legend>
 
   <div>
-    <input type="radio" id="japan-quiz" name="quiz" value="japan-quiz" checked />
+    <input type="radio" id="japan-quiz" name="quiz" value="japan-quiz" checked/>
     <label for="japan-quiz">Japan</label>
   </div>
 
@@ -65,22 +65,25 @@
     <table align="center" id="stats">
       <th>Quiz Information</th><th>Player Information</th>
         <tr>
-          <td id="username">Player Name:</td><td id="score">Score:</td>
+          <td>Player Name:<span id="username"></span></td><td>Score: <span id="score"></span></td>
         </tr>
         <tr>
-          <td id="start-time">Quiz Start:</td><td id="correct">Correct: </td>
+          <td>Quiz Start:<span id="start-time"></span></td><td>Correct: <span id="correct"></span></td>
         </tr>
         <tr>
-          <td id="end-time">Quiz End:</td><td id="percent">Percentage: </td>
+          <td>Quiz End:<span id="end-time"></span></td><td>Wrong: <span id="wrong"></span></td>
         </tr>
           <tr>
-          <td id="quizId">Quiz ID:</td><td id="time">Time: </td>
+          <td>Quiz ID:<br><span id="quizId"></span></td><td>Accuracy: <span id="percent"></span></td>
         </tr>
         <tr>
-          <td></td><td id="grade">Rank:</td>
+          <td></td><td>Combo: <span id="combo"></span></td>
         </tr>
         <tr>
-          <td></td><td id="title">Title:</td>
+          <td></td><td>Time: <span id="time"></span></td>
+        </tr>
+        <tr>
+          <td></td><td>Grade: <span id="grade"></span></td>
         </tr>
       
     </table>

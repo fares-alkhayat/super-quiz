@@ -73,58 +73,37 @@ Below the question and controls: you have two areas of information. Those are
 
 ### Scoring System
 
-Parameter | Value per Unit | Maximum Obtainable Score |
---------- | -------------- | ------------------------ |
-Base score | 1000 per correct answer | 50,000 points |
-Time bonus | 1000 per second remaining from 60 sec/question average * the ratio of correct answers given | 50,000 points |
-Total score per quiz | | 100,000 points |
-Super Marathon 150 (or total for three quizzes) | | 300,000 points |
-Super Marathon 200 (or total for four quizzes) | | 400,000 points |
+Parameter | Value per Unit | Points Awarded at |
+--------- | -------------- | ----------------- |
+Base score | 500 per correct answer | After each correct answer |
+Time bonus | (500 per second remaining from 60 sec/question average times number of correct answers) * ratio of correct answers | At the end of quiz |
+Combo bonus | +2.5% points for each consecutive correct answer given after each response | After each correct answer |
 
 ### Ranking System
 
 A letter grade shall be provided to the player based on the number/percentage of correct answers obtained in the quiz.
 
-Rank | Correct Answers | Percent | Description |
------ | -------- | -------- | -------------- |
-S++ | 50 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
-S+ | 48-49 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
-S | 45-47 | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
-A+ | 43-44 | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
-A | 40-42 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
-B+ | 38-39 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-B | 35-37 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-C+ | 33-34 | 65-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
-C | 30-32 | 60-64 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
-D | 25-29 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
-E | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
-F | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
-G | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
+Letter Grade | Numerical Grade | Correct Answers | Percent | Description |
+----------- | ------------- | -------- | -------- | -------------- |
+S++ | Upper 1st | 50 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
+S+ | Middle 1st | 48-49 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
+S | Lower 1st | 45-47 | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
+A+ | Upper 2nd | 43-44 | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
+A | Lower 2nd | 40-42 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
+B+ | 3rd | 38-39 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
+B | 4th | 35-37 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
+C+ | 5th | 33-34 | 65-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+C | 6th | 30-32 | 60-64 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+D | 7th | 25-29 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
+E | 8th | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
+F | 9th | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
+G | 10th | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
 Condition | Grades | Percent | Description |
 --------- | ------ | ------- | ----------- |
 Pass | S, A, B, C | 60-100 | Quiz passed. You have won the quiz. |
 Margin | D | 50-59 | You are within the border between passing and failing the quiz. The quiz can be treated as a pass, but it is strongly recommended to attempt the quiz again for a definite pass. |
 Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
-
-### Title System
-
-Grade | Title | Points (+ Conditions) | Super Marathon 150 | Super Marathon 200 |
------ | ----- | ------- | ------------------ | ------------------ |
-SUPER Special+ | Distinguished | 90000 + all answers correct in avg. 12sec/question | 270000 + all answers correct in avg. 30sec/question | 360000 + all answers correct in avg. 30sec/question |
-Special+ | Ultimate Master | 82500 + all answers correct in avg. 21sec/question | 247500 + all answers correct in avg. 30sec/question | 330000 + all answers correct in avg. 30sec/question |
-Special | Grand Master | 75000 + all answers correct in avg. 30sec/question | 225000 + all answers correct in avg. 30sec/question | 300000 + all answers correct in avg. 30sec/question |
-1st | Master | 75000 | 225000 | 300000 |
-2nd | Superior | 67500 | 202500 | 270000 |
-3rd | Professional | 60000 | 180000 | 240000 |
-4th | Expert | 52500 | 157500 | 210000 |
-5th | Upper Intermediate | 45000 | 135000 | 180000 |
-6th | Intermediate | 37500 | 112500 | 150000 |
-7th | Pre-Intermediate | 30000 | 90000 | 120000 |
-8th | Elementary | 22500 | 67500 | 90000 |
-9th | Starter | 15000 | 45000 | 60000 |
-10th | Novice | 7500 | 22500 | 30000 |
-11th | Beginner | 0 | 0 | 0 |
 
 ## User Stories
 
