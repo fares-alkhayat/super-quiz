@@ -18,6 +18,7 @@ const startTimeDisplay = document.querySelector("#start-time")
 const endTimeDisplay = document.querySelector("#end-time")
 const ratingDisplay = document.querySelector("#rating")
 const titleDisplay = document.querySelector("#title")
+const conditionDisplay = document.querySelector("#condition")
 const buttonA = document.querySelector("#button-a")
 const buttonB = document.querySelector("#button-b")
 const buttonC = document.querySelector("#button-c")
@@ -75,6 +76,16 @@ const questions = {
     {questionNo: 6, difficulty: 1, question: "What rank is typically the commanding officer of a starship?", choiceA: "Admiral", choiceB: "Captain", choiceC: "Commander", choiceD: "Lieutenant Commander", answer: "B"},
     {questionNo: 7, difficulty: 1, question: "How do Starfleet officers teleport from the starship to another location?", choiceA: "Use a teleporter", choiceB: "Use a comm badge", choiceC: "Use a transporter room in the starship", choiceD: "None of the above", answer: "C"},
     {questionNo: 8, difficulty: 1, question: "What does a Starfleet captain say when he wants a starship to launch?", choiceA: "Blast off!", choiceB: "Engage!", choiceC: "Warp!", choiceD: "Ignition!", answer: "B"},
+    {questionNo: 11, difficulty: 2, question: "What is the registry number of the USS Enterprise? (regardless of the model or generation)", choiceA: "NCC-1700", choiceB: "NCC-1701", choiceC: "NCC-7101", choiceD: "NCC-7701", answer: "B"},
+    {questionNo: 12, difficulty: 2, question: "What century did the Next Generation take place in?", choiceA: "22nd century", choiceB: "23rd century", choiceC: "24th century", choiceD: "32nd century", answer: "B"},
+    {questionNo: 13, difficulty: 2, question: "Who was the captain of the USS Voyager (Intrepid Class, NCC-74656)?", choiceA: "Captain Jean-Luc Picard", choiceB: "Captain James T. Kirk", choiceC: "Captain Benjamin Sisko", choiceD: "Captain Kathryn Janeway", answer: "D"},
+    {questionNo: 14, difficulty: 2, question: "Did the Klingon Empire make peace with the Federation in TNG?", choiceA: "Yes, via a peace/alliance treaty.", choiceB: "Yes, via a simple ceasefire.", choiceC: "No, but there is a ceasefire", choiceD: "No.", answer: "A"},
+    {questionNo: 15, difficulty: 2, question: "What was the stardate of the 1st season of TNG? Express with the first two digits.", choiceA: "40xxx", choiceB: "41xxx", choiceC: "42xxx", choiceD: "43xxx", answer: "B"},
+    {questionNo: 16, difficulty: 2, question: "Is Lieutenant Commander Data an android or not?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
+    {questionNo: 17, difficulty: 2, question: "What is a tricorder?", choiceA: "A multi-function tool that allows personnel to identify the atmosphere of a certain planet after beaming down from a starship.", choiceB: "A multi-function tool that allows personnel to collect data via sensors, analyse and process them through a computer system, and present it in audible or visual cues.", choiceC: "A multi-function tool that allows personnel only to identify the current time and stardate.", choiceD: "None of the above.", answer: "B"},
+    {questionNo: 18, difficulty: 2, question: "What are the coordinates of Planet Earth according to the Federation?", choiceA: "Section 000", choiceB: "Section 001", choiceC: "Section 002", choiceD: "Section 003", answer: "B"},
+    {questionNo: 21, difficulty: 3, question: "What does Jean-Luc Picard say every time he acknowledges and agrees with a suggestion or action from any of his crew members?", choiceA: "Copy that.", choiceB: "On it.", choiceC: "Make it so.", choiceD: "Good.", answer: "C"},
+    {questionNo: 31, difficulty: 4, question: "Using the TNG formula, what is the stardate for the year 2370?", choiceA: "46000.0", choiceB: "47000.0", choiceC: "48000.0", choiceD: "49000.0", answer: "B"},
 ],
 
   entQuestions: [
@@ -85,6 +96,18 @@ const questions = {
     {questionNo: 4, difficulty: 1, question: "Which city in the US is famous for producing movies?", choiceA: "Hollywood", choiceB: "San Fransisco", choiceC: "Washington", choiceD: "Detroit", answer: "A"},
     {questionNo: 11, difficulty: 2, question: "What purpose does Chemical X have in the Powerpuff Girls series?", choiceA: "It can be used as a GPU coolant or thermal paste", choiceB: "A proposal on creating element no. 119 in the Periodic Table", choiceC: "It can be used as 98-octane gasoline or premium diesel", choiceD: "It can have a person wield superhuman abilities", answer: "D"},
     {questionNo: 12, difficulty: 2, question: "Who was John Carter's teacher in the early episodes of ER?", choiceA: "Dr. Peter Benton", choiceB: "Dr. Mark Greene", choiceC: "Dr. Doug Ross", choiceD: "Dr. Carol Hathaway", answer: "A"},
+    {questionNo: 13, difficulty: 2, question: "What is the name of the hospital in ER?", choiceA: "Federal General Hospital", choiceB: "State General Hospital", choiceC: "County General Hospital", choiceD: "City General Hospital", answer: "C"},
+    {questionNo: 14, difficulty: 2, question: "What is Homer's most famous catchphrase?", choiceA: "D'oh!", choiceB: "Mmm, donuts...", choiceC: "64 slices of American cheese...", choiceD: "(shriek!)", answer: "A"},
+    {questionNo: 21, difficulty: 3, question: "What year did the Powerpuff Girls aired with their final episode? (regardless of location)", choiceA: "2003", choiceB: "2004", choiceC: "2005", choiceD: "2006", answer: "B"},
+    {questionNo: 22, difficulty: 3, question: "Which season did Sheldon and Amy Cooper obtain the Nobel Prize?", choiceA: "First half of Season 11", choiceB: "Second half of Season 11", choiceC: "First half of Season 12", choiceD: "Second half of Season 12", answer: "D"},
+    {questionNo: 23, difficulty: 3, question: "How old was Sheldon when he moved to high school?", choiceA: "7", choiceB: "8", choiceC: "9", choiceD: "10", answer: "C"},
+    {questionNo: 24, difficulty: 3, question: "What did Principal Skinner offer Superintendent Chalmers in The Simpsons: S7.E21: 22 Short Films About Springfield?", choiceA: "Steamed clams", choiceB: "Steamed yams", choiceC: "Steamed jams", choiceD: "Steamed hams", answer: "D"},
+    {questionNo: 25, difficulty: 3, question: "As of October 2026, how many seasons does Sesame Street have?", choiceA: "55", choiceB: "56", choiceC: "57", choiceD: "58", answer: "B"},
+    {questionNo: 26, difficulty: 3, question: "In Seseame Street, who is implied as Elmo's worst enemy?", choiceA: "Zoe", choiceB: "Oscar", choiceC: "Rocco", choiceD: "None of the above", answer: "C"},
+    {questionNo: 27, difficulty: 3, question: "How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?", choiceA: "He thought Chalmers would find the dinner completely unacceptable for cooking to take this long which resulted him in purcahsing a burger to speed up the time of preparing a meal.", choiceB: "He thought Chalmers was into burgers rather than roast.", choiceC: "He purchased burgers from Krusty Burger and disguised it as his own personal cooking which is a way for Skinner to accompany with homemade food like roast.", choiceD: "He purchased burgers from Krusty Burger and disguised it as his own personal cooking in result of burning his roast.", answer: "D"},
+    {questionNo: 28, difficulty: 3, question: "Identify the three correct adjectives for each character.", choiceA: "Blossom: cute, Bubbles: tough, Buttercup: smart.", choiceB: "Blossom: cute, Bubbles: smart, Buttercup: tough.", choiceC: "Blossom: smart, Bubbles: tough, Buttercup: cute.", choiceD: "Blossom: smart, Bubbles: cute, Buttercup: tough.", answer: "D"},
+    {questionNo: 29, difficulty: 3, question: "What would be the Cartesian mapping coordinates of Sheldon's spot when he sits on it?", choiceA: "(0, 0, 0, 0)", choiceB: "(1, 0, 1, 0)", choiceC: "(0, 0, 0)", choiceD: "(1, 1, 1, 1)", answer: "A"},
+    {questionNo: 31, difficulty: 4, question: "What are the attack and defense values of the Blue-Eyes White Dragon?", choiceA: "ATK 2500 / DEF 3000", choiceB: "ATK 3000 / DEF 2500", choiceC: "ATK 3500 / DEF 2000", choiceD: "ATK 2000 / DEF 3500", answer: "B"},
 ],
 
   questions150: [
@@ -179,6 +202,7 @@ let time = 0
 let rating = (((correctCount / question.length) * 500) + ((percent) * 500) + ((maxCombo / question.length) * 500))
 let grade = ""
 let title = ""
+let condition = "Pending"
 
 function answerA() {
   answerInput = "A";
@@ -210,7 +234,6 @@ function checkAnswer() {
 answer = answerInput;
 }
 
-function gradeSystem(){
     if (correctCount / currentQuestion == 1) {grade = "S++"}
     else if (correctCount / currentQuestion >= 0.95) {grade = "S+"}
     else if (correctCount / currentQuestion >= 0.90) {grade = "S"}
@@ -223,8 +246,8 @@ function gradeSystem(){
     else if (correctCount / currentQuestion >= 0.50) {grade = "D"}
     else if (correctCount / currentQuestion >= 0.40) {grade = "E"}
     else if (correctCount / currentQuestion >= 0.30) {grade = "F"}
-    else {grade = "G"}
-}
+    else {grade = "G"};
+
 
     if (rating >= 1400 && (correctCount / currentQuestion == 1) && time <= 600000){title = "[SUPER Special+] Distinguished"} 
     else if (rating >= 1325 && (correctCount / currentQuestion == 1) && time <= 1050000){title = "[Special+] Ultimate Master"}  
@@ -239,7 +262,12 @@ function gradeSystem(){
     else if (rating >= 375) {title = "[8th] Elementary"}
     else if (rating >= 250) {title = "[9th] Starter"}
     else if (rating >= 125) {title = "[10th] Novice"}
-    else {title = "[11th] Beginner"}
+    else {title = "[11th] Beginner"};
+
+    if (percent >= 60) {condition = "Pass - Congratulations! You have passed the quiz!"}
+    else if (percent >= 50) {condition = "Margin - You have marginally passed the quiz."}
+    else if (percent <= 49) {condition = "Fail - You have failed the quiz. Better luck next time."}
+    else {let condition = "Pending"}
 
 function printResult(){
   window.print()
@@ -296,7 +324,8 @@ wrongDisplay.textContent = wrongCount
 percentDisplay.textContent = percent
 comboDisplay.textContent = combo
 maxComboDisplay.textContent = maxCombo
-timerEl.textContent = elapsedTime
+conditionDisplay.textContent = condition
+timerEl.textContent = time
 gradeDisplay.textContent = grade
 ratingDisplay.textContent = rating.toFixed(2)
 titleDisplay.textContent = title

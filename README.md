@@ -20,7 +20,7 @@ You may choose any of the following topics:
 
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
 2. Science and Technology (coming soon) - Learn more about how things work and where do they go. (coming soon)
-3. Star Trek and Sci-Fi - What do you know about the fascinating franchise of Star Trek and science fiction? Test yourself here!
+3. Science Fiction (Star Trek and Gundam) - What do you know about the world of sci-fi franchises such as Star Trek and Mobile Suit Gundam? Test yourself here!
 4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
 5. Super Marathon 150 - Answer all 150 questions from the all topics (except for Science and Technology, whereas not available yet)
 6. Super Marathon 200 (coming soon) - Answer all 200 questions from all topics (coming soon)

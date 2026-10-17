@@ -37,7 +37,16 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. Both fork and spoon
 
-5.
+5. Where is Japan located?
+
+    a. North Asia / Siberia
+
+    b. South Asia / Indian Subcontinent
+
+    c. West Asia
+
+    **d. East Asia and the Pacific**
+
 6.
 7.
 8.
@@ -61,7 +70,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
     **a. True**
 
     b. False
-.
+
 13.
 14.
 15.
@@ -119,7 +128,12 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. Symbolic
 
-26.
+26. Hayao Miyazaki, the owner of Ghibli Studio, is known famous for his anime movie masterpieces. Is this true or false?
+
+    **a. True**
+
+    b. False
+    
 27.
 28.
 29.
@@ -208,7 +222,16 @@ For each section, a difficulty level shall be assigned and shall increase as the
     d. 1946-08-06, 1946-08-09
 
 
-45.
+45. Who was the founder of Sony Group Corporation, one of Japan's leaders in business and electronics?
+
+    a. Shigeru Miyamoto
+
+    **b. Akio Morita and Masaru Ibuka**
+
+    c. Ken Kutaragi
+
+    d. None of the above
+
 46.
 47.
 48.
@@ -366,7 +389,16 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
     d. "Ignition!"
 
-9.
+9. What is Deep Space 9?
+
+    a. A starship.
+
+    b. A space base built by the Federation.
+
+    **c. A space base built by the Bajorans for the Cardassians.**
+
+    d. A club for Federation members.
+
 10.
 
 ### Difficulty Level ★★☆☆☆ - Easy / Ensign Level
@@ -435,7 +467,16 @@ c. Section 002
 
 d. Section 003
 
-19.
+19. How did the United Federation of Planets found?
+
+    a. Humans and Romulans cooperated with each other in diplomacy, cooperation, exploration, peace and other beneficial aspects.
+    
+    b. Klingons waged war against humans on Planet Earth.
+
+    c. Humans have continuously evolved based on space travel and exploration.
+
+    **d. Humans and Vulcans cooperated with each other in diplomacy, cooperation, exploration, peace and other beneficial aspects.**
+
 20.
 
 ### Difficulty Level ★★★☆☆ - Normal / Lieutenant Level
@@ -476,7 +517,17 @@ d. Section 003
 33.
 34.
 35.
-36.
+
+36. What was the stardate of the first aired Star Trek TOS episode?
+
+    a. 1213.4
+
+    b. 1223.4
+
+    **c. 1312.4**
+
+    d. 1322.4
+
 37.
 38.
 39.
@@ -523,8 +574,26 @@ d. Section 003
 
     **Hollywood** | San Fransisco | Washington | Detroit
 
-5.
-6.
+5. What is the standard amount of Life Points you may start with in a Yu-Gi-Oh! game?
+
+    a. 4000
+
+    b. 6000
+
+    **c. 8000**
+
+    d. 10000
+
+6. Which one of these TBBT characters do NOT have a Master's degree or higher?
+
+    a. Leonard
+
+    b. Sheldon
+
+    **c. Penny**
+
+    d. Howard
+
 7.
 8.
 9.
@@ -551,17 +620,37 @@ d. Section 003
     c. Dr. Doug Ross
 
     d. Dr. Carol Hathaway
-13.
-14.
+
+13. What is the name of the hospital in ER?
+
+    a. Federal General Hospital
+
+    b. State General Hospital
+
+    **c. County General Hospital**
+
+    d. City General Hospital
+
+14. What is Homer Simpson's most famous catchphrase?
+
+    **a. "D'oh!"**
+
+    b. "Mmm, donuts..."
+
+    c. "64 slices of American cheese..."
+
+    d. (shriek!)
+
 15.
 16.
 17.
 18.
-
+19.
+20.
 
 ### Difficulty Level ★★★☆☆ - Normal / Part of the Crowd
 
-19. What year did the Powerpuff Girls aired with their final episode? (based on original dating regardless of airing location)
+21. What year did the Powerpuff Girls aired with their final episode? (based on original dating regardless of airing location)
 
     a. 2003
 
@@ -571,7 +660,7 @@ d. Section 003
 
     d. 2006
 
-20. Which season did Sheldon and Amy Cooper obtain the Nobel Prize?
+22. Which season did Sheldon and Amy Cooper obtain the Nobel Prize?
 
     a. First half of Season 11
 
@@ -581,7 +670,7 @@ d. Section 003
 
     **d. Second half of Season 12**
 
-21. How old was Sheldon when he moved to high school?
+23. How old was Sheldon when he moved to high school?
 
     a. 7
 
@@ -591,7 +680,7 @@ d. Section 003
 
     d. 10
 
-22. What did Principal Skinner offer Superintendent Chalmers in The Simpsons: S7.E21: "22 Short Films About Springfield"?
+24. What did Principal Skinner offer Superintendent Chalmers in The Simpsons: S7.E21: "22 Short Films About Springfield"?
 
     a. Steamed clams
 
@@ -601,7 +690,7 @@ d. Section 003
 
     **d. Steamed hams**
 
-23. As of October 2026, how many seasons does Sesame Street have?
+25. As of October 2026, how many seasons does Sesame Street have?
 
     a. 55
 
@@ -611,7 +700,7 @@ d. Section 003
 
     d. 58
 
-24. In Sesame Street, who is implied as Elmo's worst enemy?
+26. In Sesame Street, who is implied as Elmo's worst enemy?
 
     a. Zoe
 
@@ -621,7 +710,7 @@ d. Section 003
 
     d. None of the above
 
-25. How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?
+27. How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?
 
     a. He thought Chalmers would find the dinner completely unacceptable for cooking to take this long which resulted him in purcahsing a burger to speed up the time of preparing a meal.
 
@@ -631,15 +720,40 @@ d. Section 003
 
     **d. He purchased burgers from Krusty Burger and disguised it as his own personal cooking in result of burning his roast.**
 
-26.
-27.
-28.
-29.
+28. Identify the three correct adjectives for each character.
+
+    a. Blossom: cute, Bubbles: tough, Buttercup: smart.
+
+    b. Blossom: cute, Bubbles: smart, Buttercup: tough.
+
+    c. Blossom: smart, Bubbles: tough, Buttercup: cute.
+
+    **d. Blossom: smart, Bubbles: cute, Buttercup: tough.**
+
+29. What would be the Cartesian mapping coordinates of Sheldon's spot when he sits on it?
+
+    **a. (0, 0, 0, 0)**
+
+    b. (1, 0, 1, 0)
+
+    c. (0, 0, 0)
+
+    d. (1, 1, 1, 1)
+
 30.
 
 ### Difficulty Level ★★★★☆ - Hard / Cultured Personality
 
-31.
+31. What are the attack and defense values of the Blue-Eyes White Dragon?
+
+    a. ATK 2500 / DEF 3000
+
+    **b. ATK 3000 / DEF 2500**
+
+    c. ATK 3500 / DEF 2000
+
+    d. ATK 2000 / DEF 3500
+
 32.
 33.
 34.

@@ -21,10 +21,15 @@ GEO-INFORMATION PORTAL HUB, 2021. 位置座標読取り・確認・移動ウェ�
 
 GEOW, 2019. Answer to “Find elapsed time in javascript.” Stack Overflow. Online. 15 April 2019. Available from: https://stackoverflow.com/a/55690814 [Accessed 14 October 2026]. 
 
+IMDB and IMDB CONTRIBUTORS, [no date]. The Big Bang Theory (TV Series 2007–2019) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0898266/trivia/ [Accessed 17 October 2026]. 
+The Big Bang Theory (TV Series 2007–2019) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
+
 JAPAN NATIONAL TOURISM ORGANIZATION, [no date]. What’s Mt.Fuji | Mt. Fuji Guide | Travel Japan（Japan National Tourism Organization）. Travel Japan. Online. Available from: https://www.japan.travel/en/fuji-guide/mt-fuji-more-than-a-mountain/ [Accessed 15 October 2026]. 
 Standing at 3,776 meters, Mt. Fuji is the tallest peak in Japan, the result of volcanic activity that began approximately 100,000 years ago. Today, Mt. Fuji and the surrounding area are a popular recreational destination for hiking, camping and relaxation.
 
 KENNEDY, Graham and KENNEDY, Ian, [no date]. Tricorders - Notes. DITL. Online. Available from: https://www.ditl.org/scitech-page.php?ScitechID=15 [Accessed 14 October 2026]. 
+
+KENNEDY, Graham and KENNEDY, Ian, 2020. TOS Episode - Where No Man Has Gone Before - Review. DITL. Online. 2 April 2020. Available from: https://www.ditl.org/episode-page.php?Series=TOS&Episode=2 [Accessed 17 October 2026]. 
 
 KENNEDY, Graham and KENNEDY, Ian, 2025. Kathryn Janeway - Notes. DITL. Online. 28 October 2025. Available from: https://www.ditl.org/personnel-page.php?PersonID=26&ListID=People [Accessed 13 October 2026]. 
 
@@ -34,6 +39,9 @@ IMDb ID: tt0159172
 
 KONAMI, [no date]. Yu-Gi-Oh! TRADING CARD GAME | Official Website. Yu-Gi-Oh! TRADING CARD GAME | Official Website. Online. Available from: https://www.yugioh-card.com/en [Accessed 16 October 2026]. 
 Yu-Gi-Oh! TRADING CARD GAMEOfficial Website
+
+KONAMI, 2026. Blue-Eyes White Dragon | Card Details.. Online. Trading Card Entry. 3 September 2026. Yu-Gi-Oh! Neurons. 4007. Available from: https://www.db.yugioh-card.com/yugiohdb/card_search.action?cid=4007&ope=2&request_locale=en [Accessed 17 October 2026]. 
+Blue-Eyes White Dragon: This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced
 
 KONAMI CROSS MEDIA NY, INC., 2026. Official Yu-Gi-Oh! Site : Watch full length Yu-Gi-Oh! episodes online. Official Yu-Gi-Oh! Site. Online. 2026. Available from: https://www.yugioh.com/ [Accessed 16 October 2026]. 
 LIOSK, 2026. LiosK/uuidv7 [software]. Online. 14 October 2026. Available from: https://github.com/LiosK/uuidv7. [Accessed 16 October 2026]. 
@@ -46,10 +54,16 @@ MDN CONTRIBUTORS, 2025a. Web APIs / Window.localStorage — DevDocs. DevDocs. On
 MDN CONTRIBUTORS, 2025b. HTML / input type="radio". DevDocs. Online. 2025. Available from: https://devdocs.io/html/reference/elements/input/radio [Accessed 15 October 2026]. 
 Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.
 
-MEMORY ALPHA CONTRIBUTORS, 2026a. Earth. Memory Alpha. Online. 15 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Earth [Accessed 15 October 2026]. 
+MEMORY ALPHA CONTRIBUTORS, 2026a. Where No Man Has Gone Before (episode). Memory Alpha. Online. 17 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Where_No_Man_Has_Gone_Before_(episode) [Accessed 17 October 2026]. 
+While exploring the energy barrier at galaxy’s edge that crippled an earlier ship, Kirk’s long-time friend and crewmate Gary Mitchell begins mutating into a god-like entity disdainful of the “mortals” around him. (Second pilot) "Captain’s log, stardate 1312.4. The impossible has happened. From directly ahead, we’re picking up a recorded distress signal, the call letters of a vessel which has been missing for over two centuries. Did another Earth ship probe out of the galaxy as we intend to...
+
+MEMORY ALPHA CONTRIBUTORS, 2026b. Deep Space 9. Memory Alpha. Online. 17 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Deep_Space_9 [Accessed 17 October 2026]. 
+Deep Space 9, abbreviated as DS9, and originally known as Terok Nor, was one of the most historically, politically, and strategically important space stations in the Alpha Quadrant during the latter half of the 24th century. The space station was constructed by Bajoran slave labor overseen by the Cardassians in orbit of Bajor during their occupation of the planet. Under Federation administration following the Cardassian withdrawal, the station was relocated into the Bajoran system’s Denorios...
+
+MEMORY ALPHA CONTRIBUTORS, 2026c. Earth. Memory Alpha. Online. 15 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Earth [Accessed 15 October 2026]. 
 Earth, also known as Sol III or Terra, was the third planet in the Sol system. This inhabited Class M planet was located within Sector 001 of the Alpha Quadrant. The planet had one natural satellite, named Luna, and many artificial satellites. In 2150, with the last nation-states joining, the planet was unified under the United Earth government. The planet was a founding member of the Coalition of Planets in 2155, and of the United Federation of Planets in 2161. From this date to 3089, Earth...
 
-MEMORY ALPHA CONTRIBUTORS, 2026b. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
+MEMORY ALPHA CONTRIBUTORS, 2026d. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
 OMARAKAMAL, 2026. debugging-olympics-1 [software]. Online. Version commit no. 4. 12 October 2026. Manama: General Assembly. Available from: https://github.com/SEB-16-Bahrain/debugging-olympics-1. [Accessed 14 October 2026]. 
 
 PORTER, Wesley, 2012. Answer to “Center-align a HTML table.” Stack Overflow. Online. 28 December 2012. Available from: https://stackoverflow.com/a/14073610 [Accessed 16 October 2026]. 
@@ -96,40 +110,43 @@ The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox 
 The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
 IMDb ID: tt0096697
 
-W3SCHOOLS, [no date]. onclick Event. W3Schools. Online. Available from: https://www.w3schools.com/jsref/event_onclick.asp [Accessed 17 October 2026 a]. 
+W3SCHOOLS, [no date]. HTML Text Formatting. W3Schools. Online. Available from: https://www.w3schools.com/html/html_formatting.asp [Accessed 17 October 2026 a]. 
+HTML contains several elements for defining text with a special meaning.
+
+W3SCHOOLS, [no date]. onclick Event. W3Schools. Online. Available from: https://www.w3schools.com/jsref/event_onclick.asp [Accessed 17 October 2026 b]. 
 Call a function when a button is clicked.
 
-W3SCHOOLS, [no date]. JavaScript toFixed() Method. W3Schools. Online. Available from: https://www.w3schools.com/JSREF/jsref_tofixed.asp [Accessed 17 October 2026 b]. 
+W3SCHOOLS, [no date]. JavaScript toFixed() Method. W3Schools. Online. Available from: https://www.w3schools.com/JSREF/jsref_tofixed.asp [Accessed 17 October 2026 c]. 
 The toFixed() method converts a number to a string.
 
-W3SCHOOLS, [no date]. JavaScript Math max() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsref/jsref_max.asp [Accessed 17 October 2026 c]. 
+W3SCHOOLS, [no date]. JavaScript Math max() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsref/jsref_max.asp [Accessed 17 October 2026 d]. 
 The Math.max() method returns the number with the highest value.
 
-W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 d]. 
+W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 e]. 
 HTML tables can be greatly improved with CSS.
 
-W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 e]. 
+W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 f]. 
 The CSS text-align property is used to set the horizontal alignment of the content in <th> or <td>.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 f]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 g]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 g]. 
+W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 h]. 
 HTML tables allow web developers to arrange data into rows and columns.
 
-W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 h]. 
+W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 i]. 
 With CSS, different HTML buttons can be styled in many ways.
 
-W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 i]. 
+W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 j]. 
 The getElementById() method returns an element with a specified value.
 
-W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 j]. 
+W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 k]. 
 In CSS, the term “box model” is used when talking about web design and layout.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 k]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 l]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 l]. 
+W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 m]. 
 Cookies let you store user information in web pages.
 
 Young Sheldon, 2017. . Chuck Lorre Productions, Warner Bros. Television, 
