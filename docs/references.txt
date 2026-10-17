@@ -4,6 +4,9 @@ Build a simple stopwatch with HTML, CSS, and JavaScript. Practice setInterval an
 BAN THE BOTS, 2026. No AI Policy Template — Free Copy-Paste Download (2026). Ban the Bots. Online. October 2026. Available from: https://www.banthebots.org/no-ai-policy-template/ [Accessed 15 October 2026]. 
 Copy-paste no AI policy template for freelancers, artists, and teachers — no signup required....
 
+DAVIS, K., PEABODY, B. and LEACH, P., 2024. RFC 9562: Universally Unique IDentifiers (UUIDs). Online. Request for Comments. Internet Engineering Task Force. [Accessed 17 October 2026]. 
+This specification defines UUIDs (Universally Unique IDentifiers) – also known as GUIDs (Globally Unique IDentifiers) – and a Uniform Resource Name namespace for UUIDs. A UUID is 128 bits long and is intended to guarantee uniqueness across space and time. UUIDs were originally used in the Apollo Network Computing System (NCS), later in the Open Software Foundation’s (OSF’s) Distributed Computing Environment (DCE), and then in Microsoft Windows platforms. This specification is derived from the OSF DCE specification with the kind permission of the OSF (now known as “The Open Group”). Information from earlier versions of the OSF DCE specification have been incorporated into this document. This document obsoletes RFC 4122.
+
 Enterprise, 2001. . Braga Productions, Paramount Network Television, Paramount Television, 
 A century before Captain Kirk&apos;s five-year mission, Jonathan Archer captains the United Earth ship Enterprise during the early years of Starfleet, leading up to the Earth-Romulan War and the formation of the Federation.
 IMDb ID: tt0244365
