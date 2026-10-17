@@ -93,31 +93,40 @@ The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox 
 The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
 IMDb ID: tt0096697
 
-W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 a]. 
+W3SCHOOLS, [no date]. onclick Event. W3Schools. Online. Available from: https://www.w3schools.com/jsref/event_onclick.asp [Accessed 17 October 2026 a]. 
+Call a function when a button is clicked.
+
+W3SCHOOLS, [no date]. JavaScript toFixed() Method. W3Schools. Online. Available from: https://www.w3schools.com/JSREF/jsref_tofixed.asp [Accessed 17 October 2026 b]. 
+The toFixed() method converts a number to a string.
+
+W3SCHOOLS, [no date]. JavaScript Math max() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsref/jsref_max.asp [Accessed 17 October 2026 c]. 
+The Math.max() method returns the number with the highest value.
+
+W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 d]. 
 HTML tables can be greatly improved with CSS.
 
-W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 b]. 
+W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 e]. 
 The CSS text-align property is used to set the horizontal alignment of the content in <th> or <td>.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 c]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 f]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 d]. 
+W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 g]. 
 HTML tables allow web developers to arrange data into rows and columns.
 
-W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 e]. 
+W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 h]. 
 With CSS, different HTML buttons can be styled in many ways.
 
-W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 f]. 
+W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 i]. 
 The getElementById() method returns an element with a specified value.
 
-W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 g]. 
+W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 j]. 
 In CSS, the term “box model” is used when talking about web design and layout.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 h]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 k]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 i]. 
+W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 l]. 
 Cookies let you store user information in web pages.
 
 Young Sheldon, 2017. . Chuck Lorre Productions, Warner Bros. Television, 

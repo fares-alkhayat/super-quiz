@@ -61,15 +61,19 @@ Below the question and controls: you have two areas of information. Those are
 
     a. Score: The number of points the player has obtained.
 
-    b. Correct Answers: The number of correct answers (out of total) the player has given.
+    b. Correct: The number of correct answers (out of total) the player has given.
 
-    c. Percentage: The percentage of correct answers (out of total) the player been given.
+    c. Wrong: The number of wrong answers the player has given
 
-    d. Time: The total elapsed time the player has spent in the quiz.
+    d. Accuracy: The percentage of correct answers the player has given.
 
-    e. Rank: The letter grade the player has progressively awarded.
+    e. Time: The total elapsed time the player has spent in the quiz.
 
-    f. Title: The numerical and phrase title the player has progressively awarded.
+    f. Rank: The letter grade the player has progressively awarded.
+
+    g. Rating: An overall rating given to the player based on the performance in the quiz.
+
+    h. Title: The numerical and phrase title the player has awarded based on the rating he/she obtained.
 
 ### Scoring System
 
@@ -79,31 +83,59 @@ Base score | 500 per correct answer | After each correct answer |
 Time bonus | (500 per second remaining from 60 sec/question average times number of correct answers) * ratio of correct answers | At the end of quiz |
 Combo bonus | +2.5% points for each consecutive correct answer given after each response | After each correct answer |
 
+### Rating System
+
+Parameter | Value |
+--------- | -------------- |
+Accuracy | 500 rating points based on percentage of correct answers |
+Time bonus | 500 rating points based on seconds remaining from 60 sec/question average times number of correct answers * ratio of correct answers |
+Maximum combo bonus | 500 rating points based on the ratio of a player's longst combo to the number of questions in a quiz |
+Maximum calculatable range of rating points | 1500 rating points |
+
 ### Ranking System
 
 A letter grade shall be provided to the player based on the number/percentage of correct answers obtained in the quiz.
 
-Letter Grade | Numerical Grade | Correct Answers | Percent | Description |
------------ | ------------- | -------- | -------- | -------------- |
-S++ | Upper 1st | 50 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
-S+ | Middle 1st | 48-49 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
-S | Lower 1st | 45-47 | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
-A+ | Upper 2nd | 43-44 | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
-A | Lower 2nd | 40-42 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
-B+ | 3rd | 38-39 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-B | 4th | 35-37 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
-C+ | 5th | 33-34 | 65-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
-C | 6th | 30-32 | 60-64 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
-D | 7th | 25-29 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
-E | 8th | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
-F | 9th | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
-G | 10th | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
+Letter Grade | Correct Answers | Percent | Description |
+----------- | -------- | -------- | -------------- |
+S++ | 50 | 100 | FLAWLESS! You have answered all questions correctly, you are one quiz champion! |
+S+ | 48-49 | 95-99 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
+S | 45-47 | 90-94 | Outstanding! You have exemplary knowledge of that certain topic. Almost all answers are correct. |
+A+ | 43-44 | 85-89 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
+A | 40-42 | 80-84 | Excellent! You have superior knowledge of that certain topic. A strong majority of all answers are correct. |
+B+ | 38-39 | 75-79 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
+B | 35-37 | 70-74 | Very good. You have a solid base of knowledge of that certain topic. A good majority of all answers are correct. |
+C+ | 33-34 | 65-69 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+C | 30-32 | 60-64 | Good. You have a satisfactory base of knowledge of that certain topic. A slight majority of all answers are correct. |
+D | 25-29 | 50-59 | Average. You have some knowledge of that certain topic. Around half of all answers are correct. |
+E | 20-24 | 40-49 | Bad. Your knowledge is below than expected of that certain topic. Less than half of all answers are correct. |
+F | 15-19 | 30-39 | Poor. Your knowledge is insufficient of that certain topic. A majority of answers are wrong. |
+G | 0-14 | 0-29 | Very poor. Your knowledge is very insufficient below than expected of that certain topic. A large majority of answers are wrong. |
 
 Condition | Grades | Percent | Description |
 --------- | ------ | ------- | ----------- |
 Pass | S, A, B, C | 60-100 | Quiz passed. You have won the quiz. |
 Margin | D | 50-59 | You are within the border between passing and failing the quiz. The quiz can be treated as a pass, but it is strongly recommended to attempt the quiz again for a definite pass. |
 Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
+
+### Title System
+
+Grade | Title | Rating (+ Conditions) |
+----- | ----- | --------------------- |
+SUPER Special+ | Distinguished | 1400 + all answers correct in avg. 12sec/question |
+Special+ | Ultimate Master | 1325 + all answers correct in avg. 21sec/question |
+Special | Grand Master | 1250 + all answers correct in avg. 30sec/question |
+1st | Master | 1250 |
+2nd | Superior | 1125 |
+3rd | Professional | 1000 |
+4th | Expert | 875 |
+5th | Upper Intermediate | 750 |
+6th | Intermediate | 625 |
+7th | Pre-Intermediate | 500 |
+8th | Elementary | 375 |
+9th | Starter | 250 |
+10th | Novice | 125 |
+11th | Beginner | 0 |
 
 ## User Stories
 

@@ -6,7 +6,6 @@ const scoreDisplay = document.querySelector("#score");
 const percentDisplay = document.querySelector("#percent");
 const timerEl = document.querySelector("#time");
 const gradeDisplay = document.querySelector("#grade");
-const submitButton = document.querySelector("#submit");
 const nameDisplay = document.querySelector('#username');
 const messageDisplay = document.querySelector("#message");
 const quizIdDisplay = document.querySelector('#quizId')
@@ -14,8 +13,17 @@ const printButton = document.querySelector("#print");
 const correctDisplay = document.querySelector("#correct")
 const wrongDisplay = document.querySelector("#wrong")
 const comboDisplay = document.querySelector("#combo")
+const maxComboDisplay = document.querySelector("#max-combo")
 const startTimeDisplay = document.querySelector("#start-time")
 const endTimeDisplay = document.querySelector("#end-time")
+const ratingDisplay = document.querySelector("#rating")
+const titleDisplay = document.querySelector("#title")
+const buttonA = document.querySelector("#button-a")
+const buttonB = document.querySelector("#button-b")
+const buttonC = document.querySelector("#button-c")
+const buttonD = document.querySelector("#button-d")
+const buttonPass = document.querySelector("#button-pass")
+
 const quizId = uuidv7();
 
 
@@ -69,7 +77,6 @@ let enBestScore = 0;} // Best score achieved in the entertainment quiz
 // The following function was forked from the Debugging Olympics exercise for reference.
 
 function startGame(){
-answer = answerInput
 currentQuestion = 0
 correctCount = 0
 score = 0
@@ -106,32 +113,6 @@ function showQuestion150(){
 } */
 
 // The following function was forked from the Debugging Olympics exercise for reference.
-function checkAnswer() {
-answer = answerInput.value;
-}
-
-function gradeSystem(){
-    if (correctCount / currentQuestion == 1) {grade = "S++ [Upper 1st]"}
-    else if (correctCount / currentQuestion >= 0.95) {grade = "S+ [Middle 1st]"}
-    else if (correctCount / currentQuestion >= 0.90) {grade = "S [Lower 1st]"}
-    else if (correctCount / currentQuestion >= 0.85) {grade = "A+ [Upper 2nd]"}
-    else if (correctCount / currentQuestion >= 0.80) {grade = "A [Lower 2nd]"}
-    else if (correctCount / currentQuestion >= 0.75) {grade = "B+ [3rd]"}
-    else if (correctCount / currentQuestion >= 0.70) {grade = "B [4th]"}
-    else if (correctCount / currentQuestion >= 0.65) {grade = "C+ [5th]"}
-    else if (correctCount / currentQuestion >= 0.60) {grade = "C [6th]"}
-    else if (correctCount / currentQuestion >= 0.50) {grade = "D [7th]"}
-    else if (correctCount / currentQuestion >= 0.40) {grade = "E [8th]"}
-    else if (correctCount / currentQuestion >= 0.30) {grade = "F [9th]"}
-    else {grade = "G [10th]"}
-}
-
-
-function printResult(){
-  window.print()
-}
-// The following code was forked from the Debugging Olympics exercise for reference.
-
 let username = ""
 let answer = ""
 let currentQuestion = 0
@@ -140,10 +121,79 @@ let correctCount = 0
 let wrongCount = 0
 let score = 0
 let combo = 0
-let percent = 0
+let maxCombo = Math.max(combo)
+let percent = (correctCount / question.length) * 100
 let time = 0
+let rating = (((correctCount / question.length) * 500) + ((percent) * 500) + ((maxCombo / question.length) * 500))
 let grade = ""
 let title = ""
+
+function answerA() {
+  answerInput = "A";
+  submitAnswer()
+}
+
+function answerB() {
+  answerInput = "B";
+  submitAnswer()
+}
+function answerC() {
+  answerInput = "C";
+  submitAnswer()
+}
+function answerD() {
+  answerInput = "D";
+  submitAnswer()
+}
+function answerPass() {
+  answerInput = "Pass";
+  submitAnswer()
+}
+
+function submitAnswer(){
+  checkAnswer()
+}
+
+function checkAnswer() {
+answer = answerInput;
+}
+
+function gradeSystem(){
+    if (correctCount / currentQuestion == 1) {grade = "S++"}
+    else if (correctCount / currentQuestion >= 0.95) {grade = "S+"}
+    else if (correctCount / currentQuestion >= 0.90) {grade = "S"}
+    else if (correctCount / currentQuestion >= 0.85) {grade = "A+"}
+    else if (correctCount / currentQuestion >= 0.80) {grade = "A"}
+    else if (correctCount / currentQuestion >= 0.75) {grade = "B+"}
+    else if (correctCount / currentQuestion >= 0.70) {grade = "B"}
+    else if (correctCount / currentQuestion >= 0.65) {grade = "C+"}
+    else if (correctCount / currentQuestion >= 0.60) {grade = "C"}
+    else if (correctCount / currentQuestion >= 0.50) {grade = "D"}
+    else if (correctCount / currentQuestion >= 0.40) {grade = "E"}
+    else if (correctCount / currentQuestion >= 0.30) {grade = "F"}
+    else {grade = "G"}
+}
+
+    if (rating >= 1400 && (correctCount / currentQuestion == 1) && time <= 600000){title = "[SUPER Special+] Distinguished"} 
+    else if (rating >= 1325 && (correctCount / currentQuestion == 1) && time <= 1050000){title = "[Special+] Ultimate Master"}  
+    else if (rating >= 1250 && (correctCount / currentQuestion == 1) && time <= 1500000){title = "[Special] Grand Master"}
+    else if (rating >= 1250) {title = "[1st] Master"}
+    else if (rating >= 1125) {title = "[2nd] Superior"}
+    else if (rating >= 1000) {title = "[3rd] Professional"}
+    else if (rating >= 875) {title = "[4th] Expert"}
+    else if (rating >= 750) {title = "[5th] Upper Intermediate"}
+    else if (rating >= 625) {title = "[6th] Intermediate"}
+    else if (rating >= 500) {title = "[7th] Pre-Intermediate"}
+    else if (rating >= 375) {title = "[8th] Elementary"}
+    else if (rating >= 250) {title = "[9th] Starter"}
+    else if (rating >= 125) {title = "[10th] Novice"}
+    else {title = "[11th] Beginner"}
+
+function printResult(){
+  window.print()
+}
+// The following code was forked from the Debugging Olympics exercise for reference.
+
 
 let startTime = 0;
 let elapsedTime = 0;
@@ -193,8 +243,11 @@ correctDisplay.textContent = correctCount
 wrongDisplay.textContent = wrongCount
 percentDisplay.textContent = percent
 comboDisplay.textContent = combo
+maxComboDisplay.textContent = maxCombo
 timerEl.textContent = elapsedTime
 gradeDisplay.textContent = grade
+ratingDisplay.textContent = rating.toFixed(2)
+titleDisplay.textContent = title
 
 if (answer === "") {
     message.textContent == "Please select an answer by typing the letter below.";
@@ -276,6 +329,12 @@ if (answer === "") {
 } */
 
 document.getElementById("start-button").addEventListener("click", startGame,startTimer);
+
+buttonA.addEventListener('click',answerA);
+buttonB.addEventListener('click',answerB);
+buttonC.addEventListener('click',answerC);
+buttonD.addEventListener('click',answerD);
+buttonPass.addEventListener('click',answerPass);
 
 printButton.addEventListener("click", printResult)
 
