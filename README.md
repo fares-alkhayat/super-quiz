@@ -98,7 +98,7 @@ Combo bonus | +10% points for each consecutive correct answer given after each r
 Parameter | Value |
 --------- | -------------- |
 Accuracy | 750 rating points based on percentage of correct answers |
-Time bonus | 750 rating points based on seconds remaining from 60 sec/question average times number of correct answers * ratio of correct answers |
+Time bonus | 750 rating points based on seconds remaining from 60 sec/question average * ratio of correct answers |
 Maximum calculatable range of rating points | 1500 rating points |
 
 ### 7. Ranking System
