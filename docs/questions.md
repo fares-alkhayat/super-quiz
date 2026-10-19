@@ -154,7 +154,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
 32. What party is part of the Japanese Government and has been in control for most of Japan's post-war history?
 
     a. Constitutional Democratic Party / Centrist Reform Alliance
-    
+
     b. Japan Innovation Party
 
     **c. Liberal Democratic Party**
@@ -166,9 +166,9 @@ For each section, a difficulty level shall be assigned and shall increase as the
     a. 2007
 
     **b. 2009**
-    
+
     c. 2011
-    
+
     d. 2013
 
 34.
@@ -221,7 +221,6 @@ For each section, a difficulty level shall be assigned and shall increase as the
 
     d. 1946-08-06, 1946-08-09
 
-
 45. Who was the founder of Sony Group Corporation, one of Japan's leaders in business and electronics?
 
     a. Shigeru Miyamoto
@@ -263,7 +262,6 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 7.
 8.
 
-
 ### Difficulty Level ★★☆☆☆ - Easy / Alumni
 
 9.
@@ -286,7 +284,7 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
     **c. A virtual cryptocurrency that you can use in a variety of manners.**
 
     d. A virtual currency inside a sci-fi game.
-    
+
 18.
 19.
 20.
@@ -370,7 +368,7 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
     d. Lieutenant Commander
 
 7. How do Starfleet officers teleport from the starship to another location?
-    
+
     a. Use a teleporter
 
     b. Use a comm badge
@@ -459,18 +457,18 @@ HO₂ | **H₂O** | H₂O₂ | H₂O₃
 
 18. What are the coordinates of Planet Earth according to the Federation?
 
-a. Section 000
+    a. Section 000
 
-**b. Section 001**
+    **b. Section 001**
 
-c. Section 002
+    c. Section 002
 
-d. Section 003
+    d. Section 003
 
 19. How did the United Federation of Planets found?
 
     a. Humans and Romulans cooperated with each other in diplomacy, cooperation, exploration, peace and other beneficial aspects.
-    
+
     b. Klingons waged war against humans on Planet Earth.
 
     c. Humans have continuously evolved based on space travel and exploration.
@@ -565,7 +563,7 @@ d. Section 003
 
     a. 01010110
 
-    b. 10010110 
+    b. 10010110
 
     c. 10101001
 

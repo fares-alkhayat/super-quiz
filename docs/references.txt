@@ -81,9 +81,14 @@ Earth, also known as Sol III or Terra, was the third planet in the Sol system. T
 
 MEMORY ALPHA CONTRIBUTORS, 2026d. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
 
+MYERS, Patrick, 2026. Time Per Test Question Calculator (Exam Pacing). Calculator Academy. Online. 10 July 2026. Available from: https://calculator.academy/time-per-test-question-calculator/ [Accessed 19 October 2026]. 
+Calculate average time per test question, total test time, or number of questions from any two values in seconds, minutes, or hours.
+
 OLAWANLETJOEL, 2022. JavaScript Get Current Date – Today’s Date in JS. freeCodeCamp.org. Online. 17 June 2022. Available from: https://www.freecodecamp.org/news/javascript-get-current-date-todays-date-in-js/ [Accessed 18 October 2026]. 
 When you’re developing web applications, you might need to include the current date on which a particular operation is performed. For example, when submitting data via a form, you may want to include the date that data was created or when the form wa...
 OMARAKAMAL, 2026. debugging-olympics-1 [software]. Online. Version commit no. 4. 12 October 2026. Manama: General Assembly. Available from: https://github.com/SEB-16-Bahrain/debugging-olympics-1. [Accessed 14 October 2026]. 
+
+OTOLOGIC, 2025. フリー効果音：クイズ｜OtoLogic. OtoLogic. Online. 27 April 2025. Available from: https://otologic.jp/free/se/quiz01.html [Accessed 19 October 2026]. 
 
 PORTER, Wesley, 2012. Answer to “Center-align a HTML table.” Stack Overflow. Online. 28 December 2012. Available from: https://stackoverflow.com/a/14073610 [Accessed 16 October 2026]. 
 

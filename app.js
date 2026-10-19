@@ -7,17 +7,15 @@ const percentDisplay = document.querySelector("#percent");
 const timerEl = document.querySelector("#time");
 const gradeDisplay = document.querySelector("#grade");
 const usernameInput = document.querySelector('#username-input');
-const messageDisplay = document.querySelector("#message");
+const message1Display = document.querySelector("#message1");
+const message2Display = document.querySelector("#message2");
 const quizIdDisplay = document.querySelector('#quizId')
 const printButton = document.querySelector("#print");
 const correctDisplay = document.querySelector("#correct")
 const wrongDisplay = document.querySelector("#wrong")
 const comboDisplay = document.querySelector("#combo")
-const maxComboDisplay = document.querySelector("#max-combo")
 const loginTimeDisplay = document.querySelector("#login-time")
 const utcTimeDisplay = document.querySelector("#utc-time")
-const ratingDisplay = document.querySelector("#rating")
-const titleDisplay = document.querySelector("#title")
 const conditionDisplay = document.querySelector("#condition")
 const buttonA = document.querySelector("#button-a")
 const buttonB = document.querySelector("#button-b")
@@ -37,6 +35,8 @@ const japanQuiz = document.querySelector('#japan-quiz')
 const trekQuiz = document.querySelector('#trek-quiz')
 const entQuiz = document.querySelector('#ent-quiz')
 const quizId = uuidv7();
+const ratingDisplay = document.querySelector('#rating')
+const titleDisplay = document.querySelector('#title')
 
 let chosenQuiz = null
 /* const profile = [
@@ -86,9 +86,9 @@ const questions = {
     {questionNo: 41, difficulty: "5. Very Hard", question: "What are the coordinates of Tokyo?", choiceA: "34°N, 138°E", choiceB: "34°N, 139°E", choiceC: "35°N, 138°E", choiceD: "35°N, 139°E", answer: "D"},
     {questionNo: 42, difficulty: "5. Very Hard", question: "What is the altitude of Mt. Fuji?", choiceA: "3770m", choiceB: "3773m", choiceC: "3776m", choiceD: "3779m", answer: "C"},
     {questionNo: 43, difficulty: "5. Very Hard", question: "Estimate the GDP of Japan in current prices as of 2023.", choiceA: "570 trillion yen", choiceB: "580 trillion yen", choiceC: "590 trillion yen", choiceD: "600 trillion yen", answer: "C"},
-    {questionNo: 44, difficulty: "5. Very Hard", question: "What were the dates of the bombing of Hiroshima and Nagasaki?", choiceA: "1945-06-06, 1945-06-09", choiceB: "1945-08-06, 1945-08-09", choiceC: "1946-06-06, 1946-06-09", choiceD: "1946-08-06, 1946-08-09", answer: "C"},
-    {questionNo: 51, difficulty: "", question: "End of Quiz", choiceA: "", choiceB: "", choiceC: "", choiceD: "", answer: ""}
+    {questionNo: 44, difficulty: "5. Very Hard", question: "What were the dates of the bombing of Hiroshima and Nagasaki?", choiceA: "1945-06-06, 1945-06-09", choiceB: "1945-08-06, 1945-08-09", choiceC: "1946-06-06, 1946-06-09", choiceD: "1946-08-06, 1946-08-09", answer: "B"},
 ],
+
   trekQuestions:[
     
     {questionNo: 1, difficulty: "1. Very Easy", question: "What starship series did Kirk and Picard became captain of (excluding sequential models)?", choiceA: "Enterprise", choiceB: "Voyager", choiceC: "Yamato", choiceD: "Mazinger", answer: "A"},
@@ -192,7 +192,6 @@ function pickQuiz(){
     chosenQuiz = 'questions150'
   }
   console.log(chosenQuiz)
-  console.log(maxQuestions)
 
 }
 function showQuestions(){
@@ -204,17 +203,6 @@ function showQuestions(){
     selectionC.textContent = questions[chosenQuiz][currentQuestion].choiceC;
     selectionD.textContent = questions[chosenQuiz][currentQuestion].choiceD;
   }
-
-// Source - https://stackoverflow.com/a/39887884
-// Posted by user663031, modified by community. See post 'Timeline' for change history
-// Retrieved 2026-10-19, License - CC BY-SA 3.0
-
-let maxQuestions = 0
-
-if (chosenQuiz === 'japanQuestions' || 'trekQuestions' || 'entQuestions')
-{maxQuestions = 50}
-
-else if (chosenQuiz == 'questions150'){maxQuestions = 150}
 
 /* function recordsButton(){
     console.log(playerName)
@@ -233,38 +221,97 @@ else if (chosenQuiz == 'questions150'){maxQuestions = 150}
 // The following function was forked from the Debugging Olympics exercise for reference.
 let answer = ""
 let currentQuestion = 0
-let message = ""
+let message1 = ""
+let message2 = ""
 let correctCount = 0
 let wrongCount = 0
 let score = 0
 let combo = 0
-let maxCombo = Math.max(combo)
-let percent = (correctCount / maxQuestions) * 100 || 0
+let percent = 0
 let time = 0
-let rating = (((correctCount / maxQuestions) * 500) + ((percent) * 500) + ((maxCombo / maxQuestions) * 500)) || 0
 let grade = ""
+let condition = "Pending"
+let rating = ""
 let title = ""
 
-let condition = "Pending"
-
-    if (percent = 100) {grade = "S++"}
-    else if (percent >= 95) {grade = "S+"}
-    else if (percent >= 90) {grade = "S"}
-    else if (percent >= 85) {grade = "A+"}
-    else if (percent >= 80) {grade = "A"}
-    else if (percent >= 75) {grade = "B+"}
-    else if (percent >= 70) {grade = "B"}
-    else if (percent >= 65) {grade = "C+"}
-    else if (percent >= 60) {grade = "C"}
-    else if (percent >= 50) {grade = "D"}
-    else if (percent >= 40) {grade = "E"}
-    else if (percent >= 30) {grade = "F"}
-    else {grade = "G"};
 
 
-    if (rating >= 1400 && (correctCount / maxQuestions == 1) && time <= 600000){title = "[SUPER Special+] Distinguished"} 
-    else if (rating >= 1325 && (correctCount / maxQuestions == 1) && time <= 1050000){title = "[Special+] Ultimate Master"}  
-    else if (rating >= 1250 && (correctCount / maxQuestions == 1) && time <= 1500000){title = "[Special] Grand Master"}
+    if (percent >= 60) {condition = "Pass - Congratulations! You have passed the quiz!"}
+    else if (percent >= 50) {condition = "Margin - You have marginally passed the quiz."}
+    else if (percent <= 49) {condition = "Fail - You have failed the quiz. Better luck next time."}
+    else {let condition = "Pending"}
+
+    var correctAudio = new Audio("correct.mp3");
+    var wrongAudio = new Audio("incorrect.mp3")
+function checkAnswer(event) {
+  console.log(event.target)
+
+  if(event.target.textContent === questions[chosenQuiz][currentQuestion].answer){
+    correctCount++;
+    correctAudio.play();
+    message1 = "Correct! The answer was " + questions[chosenQuiz][currentQuestion].answer + "!"
+
+    combo ++;
+    score += 500 + ((1.1 * combo) - 0.1);
+    percent = (correctCount / questions[chosenQuiz].length) * 100
+    console.log('Correct');
+  }
+  else {
+    message1 = "Incorrect! The answer was " + questions[chosenQuiz][currentQuestion].answer + "!"
+    wrongAudio.play();
+    wrongCount++;
+    combo = 0;
+    console.log('Incorrect');
+  }
+
+
+  // console.log(stats)
+    console.log(score)
+    message1Display.textContent = message1
+    message2Display.textContent = message2
+
+    if (correctCount >= 1)
+    {percentDisplay.textContent = percent.toFixed(1)}
+
+  currentQuestion++
+
+usernameDisplay.textContent = username
+quizIdDisplay.textContent = quizId
+scoreDisplay.textContent = score
+correctDisplay.textContent = correctCount
+wrongDisplay.textContent = wrongCount
+comboDisplay.textContent = combo
+conditionDisplay.textContent = condition
+percentDisplay.textContent = percent.toFixed(1)
+
+  const stats = [score, correctCount, wrongCount, percent, combo, time, grade]
+console.log(stats)
+
+checkEnd()
+
+  showQuestions()
+
+}
+function gradeEvaluation(){
+    if ((correctCount / questions[chosenQuiz].length) === 1) {return grade = "S++"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.95) {return grade = "S+"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.90) {return grade = "S"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.85) {return grade = "A+"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.80) {return grade = "A"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.75) {return grade = "B+"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.70) {return grade = "B"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.65) {return grade = "C+"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.60) {return grade = "C"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.50) {return grade = "D"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.40) {return grade = "E"}
+    else if ((correctCount / questions[chosenQuiz].length) >= 0.30) {return grade = "F"}
+    else {return grade = "G"};
+}
+function titleEvaluation(){
+ rating = ((correctCount / questions[chosenQuiz].length) * 750) + ((((((60000 - elapsedTime / questions[chosenQuiz].length) / 60000) * 750) || 0) * (correctCount / questions[chosenQuiz].length)))
+ if (rating >= 1400 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 12000){title = "[SUPER Special+] Distinguished"} 
+    else if (rating >= 1325 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 21000){title = "[Special+] Ultimate Master"}  
+    else if (rating >= 1250 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 30000){title = "[Special] Grand Master"}
     else if (rating >= 1250) {title = "[1st] Master"}
     else if (rating >= 1125) {title = "[2nd] Superior"}
     else if (rating >= 1000) {title = "[3rd] Professional"}
@@ -276,64 +323,30 @@ let condition = "Pending"
     else if (rating >= 250) {title = "[9th] Starter"}
     else if (rating >= 125) {title = "[10th] Novice"}
     else {title = "[11th] Beginner"};
-
-    if (percent >= 60) {condition = "Pass - Congratulations! You have passed the quiz!"}
-    else if (percent >= 50) {condition = "Margin - You have marginally passed the quiz."}
-    else if (percent <= 49) {condition = "Fail - You have failed the quiz. Better luck next time."}
-    else {let condition = "Pending"}
-
-function checkAnswer(event) {
-  console.log(event.target)
-
-  if(event.target.textContent === questions[chosenQuiz][currentQuestion].answer){
-    correctCount++;
-    combo += 1;
-    score += 500 + ((1.025 * combo) - 0.025);
-    percent = (correctCount / maxQuestions) * 100 || 0;
-    rating = (((correctCount / maxQuestions) * 500) + ((percent / 100) * 500) + ((maxCombo / maxQuestions) * 500)) || 0
-
-    
-    
-    console.log('Yay you answered correctly');
-  }
-  else {
-    wrongCount++;
-    combo = 0;
-    console.log('Incorrect');
-  }
-  // console.log(stats)
-    console.log(score)
-    scoreDisplay.textContent = score.toFixed(0)
-    correctDisplay.textContent = correctCount
-    wrongDisplay.textContent = wrongCount
-    percentDisplay.textContent = percent.toFixed(0)
-    comboDisplay.textContent = combo
-    maxComboDisplay.textContent = maxCombo
+}
+function checkEnd(){
+if (questions[chosenQuiz].length  == currentQuestion)  {
+  console.log('QUIZ OVER')
+    message2 = "Quiz finished!"
+    alert("You have finished the quiz!")
+    gradeEvaluation()
     gradeDisplay.textContent = grade
-    ratingDisplay.textContent = rating
+    titleEvaluation()
+    ratingDisplay.textContent = rating.toFixed(2)
     titleDisplay.textContent = title
+    conditionDisplay.textContent = condition
+stopTimer()
+} else
+  {
+  
+  }
+    showQuestions()
 
-    if (correctCount >= 1)
-    {percentDisplay.textContent = percent}
-
-  currentQuestion++
-
-  const stats = [score, correctCount, wrongCount, percent, combo, maxCombo, time, grade, rating, title]
-console.log(stats)
-
-  showQuestions()
 }
 
-/*
-function checkEnd(){
-if (questions[chosenQuiz].length == questions[chosenQuiz].length - 1) {
-  showQuestions()
-} else
-  {questionDisplay = "Quiz finished!"}
-*/
 
 
-const stats = [score, correctCount, wrongCount, percent, combo, maxCombo, time, grade, rating, title]
+const stats = [score, correctCount, wrongCount, percent, combo, time, grade]
 console.log(stats)
 
 // answer = answerInput;
@@ -391,6 +404,7 @@ let startTime = 0;
 let elapsedTime = 0;
 let timerInterval;
 
+
 function startTimer() {
   startTime = Date.now() - elapsedTime;
 
@@ -415,7 +429,7 @@ function formatTime(elapsedTime) {
 }
 
  elapsedTime = 0;
-  timerEl.textContent = "00:00:00";
+  timerEl.textContent = "0.00";
   
 function stopTimer() {
   clearInterval(timerInterval);
@@ -434,33 +448,20 @@ startTimer()
 pickQuiz()
 
 showQuestions()
+gradeEvaluation()
+titleEvaluation()
+checkEnd()
+stopGame()
 }
 
 function stopGame(){
-  stopTimer()
+  
+  if (questions.japanQuestions.questionNo === 51 || questions.trekQuestions.questionNo === 51 || questions.entQuestions.questionNo === 51 || questions.questions150.questionNo === 151)
+    
+    { stopTimer()
+      message1 = "Quiz finished!"
 }
-
-if (questions.japanQuestions.questionNo === 51 || questions.trekQuestions.questionNo === 51 || questions.entQuestions.questionNo === 51) {
-  stopGame()
 }
-
-if (questions.questions150.questionNo === 151){
-  stopGame()
-}
-
-usernameDisplay.textContent = username
-quizIdDisplay.textContent = quizId
-scoreDisplay.textContent = score
-correctDisplay.textContent = correctCount
-wrongDisplay.textContent = wrongCount
-// percentDisplay.textContent = percent
-comboDisplay.textContent = combo
-maxComboDisplay.textContent = maxCombo
-conditionDisplay.textContent = condition
-timerEl.textContent = timerEl
-// gradeDisplay.textContent = grade
-// ratingDisplay.textContent = rating.toFixed(2)
-titleDisplay.textContent = title
 
 // if (answerInput === "") {
 //     message.textContent == "Please select an answer by typing the letter below.";
