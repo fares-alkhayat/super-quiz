@@ -42,14 +42,11 @@ let chosenQuiz = null
 /* const profile = [
   playerName. totalPoints, totalHiScore, totalGames, totalTime, totalGrade, totalTitle, jpBestScore, scBestScore, stBestScore, enBestScore]
 */
-
 /* Template for creating a question into JS:
 const questions = {
   category: [
   {questionNo: , difficulty: , question: "", choiceA: "", choiceB: "", choiceC: "", choiceD: "", answer: ""}, ] }
 */
-
-
 
 function saveName(){
   // usernameInput.value = username
@@ -73,20 +70,28 @@ const questions = {
     {questionNo: 2, difficulty: "1. Very Easy", question: "Which one of these is considered to be a national dish of Japan?", choiceA: "Hamburger", choiceB: "Sushi", choiceC: " Fish and chips", choiceD: "Baguette", answer: "B"},
     {questionNo: 3, difficulty: "1. Very Easy", question: "What is Japan famous for? (apart from stereotypically speaking anime and manga?", choiceA: "Cameras", choiceB: "Electronics", choiceC: "Vehicles", choiceD: "All of the above", answer: "D"},
     {questionNo: 4, difficulty: "1. Very Easy", question: "How is ramen, udon, soba and somen eaten?", choiceA: "Chopsticks only", choiceB: "Spoon only", choiceC: "Both chopsticks and spoon", choiceD: "Both fork and spoon", answer: "C"},
+    {questionNo: 5, difficulty: "1. Very Easy", question: "Where is Japan located?", choiceA: "North Asia / Siberia", choiceB: "South Asia / Indian Subcontinent", choiceC: "West Asia", choiceD: "East Asia and the Pacific", answer: "D"},
     {questionNo: 11, difficulty: "2. Easy", question: "Out of the four, which robot anime in the 70s became the most successful in Japan? (Hint: odd one out!)", choiceA: "Mazinger Z / Great Mazinger", choiceB: "Getter Robot / Getter Robot G", choiceC: "UFO Robot Grendizer", choiceD: "Mobile Suit Gundam", answer: "D"},
     {questionNo: 12, difficulty: "2. Easy", question: "The bullet train is called a shinkansen （新幹線、しんかんせん） in Japanese. Is this true or false?", choiceA: "True", choiceB: "False", choiceC: "", choiceD: "", answer: "A"},
+    {questionNo: 13, difficulty: "2. Easy", question: "What vehicle is the most famous about Japanese transportation?", choiceA: "Cars", choiceB: "Trains", choiceC: "Bikes", choiceD: "Planes", answer: "B"},
     {questionNo: 21, difficulty: "3. Normal", question: "Who is the Prime Minister of Japan?", choiceA: "Shinzō Abe", choiceB: "Yoshihide Suga", choiceC: "Shigeru Ishiba", choiceD: "Sanae Takaichi", answer: "D"},
     {questionNo: 22, difficulty: "3. Normal", question: "What is the telephone calling code of Japan?", choiceA: "80", choiceB: "81", choiceC: "82", choiceD: "83", answer: "B"},
     {questionNo: 23, difficulty: "3. Normal", question: "If you enter a house in Japan to visit a friend, should you take off your shoes at the doorstep?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 24, difficulty: "3. Normal", question: "When did Japan become a country?", choiceA: "700 BCE", choiceB: "660 BCE", choiceC: "650 BCE", choiceD: "600 BCE", answer: "B"},
     {questionNo: 25, difficulty: "3. Normal", question: "What kind of writing system does Japanese use?", choiceA: "Alphabet", choiceB: "Logographic", choiceC: "Alphabet and logographic", choiceD: "Symbolic", answer: "C"},
+    {questionNo: 26, difficulty: "3. Normal", question: "How many prefectures does Japan consist of?", choiceA: "40", choiceB: "44", choiceC: "47", choiceD: "50", answer: "C"},
+    {questionNo: 27, difficulty: "3. Normal", question: "Which kind of noodles are thick, chewy and soft to eat?", choiceA: "Ramen", choiceB: "Somen", choiceC: "Soba", choiceD: "Udon", answer: "D"},
     {questionNo: 31, difficulty: "4. Hard", question: "What is the postal code of Chiyoda Ward, Tokyo Prefecture?", choiceA: "100-0000", choiceB: "110-0000", choiceC: "120-0000", choiceD: "130-0000", answer: "A"},
     {questionNo: 32, difficulty: "4. Hard", question: "What party is part of the Japanese Government and has been in control for most of Japan's post-war history?", choiceA: "Constitutional Democratic Party / Centrist Reform Alliance", choiceB: "Japan Innovation Party", choiceC: "Liberal Democratic Party", choiceD: "Japanese Communist Party", answer: "C"},
     {questionNo: 33, difficulty: "4. Hard", question: "When did Japan start facing a population decline?", choiceA: "2007", choiceB: "2009", choiceC: "2011", choiceD: "2013", answer: "B"},
+    {questionNo: 34, difficulty: "4. Hard", question: "Which electronics store is the largest (in surface area) in Akihabara, Tokyo?", choiceA: "Yodobashi Camera", choiceB: "Bic Camera", choiceC: "Edion", choiceD: "Yamada Denki", answer: "A"},
+    {questionNo: 35, difficulty: "4. Hard", question: "Which electronics store is the largest (in assets and business size) in Akihabara, Tokyo?", choiceA: "Yodobashi Camera", choiceB: "Bic Camera", choiceC: "Edion", choiceD: "Yamada Denki", answer: "D"},
     {questionNo: 41, difficulty: "5. Very Hard", question: "What are the coordinates of Tokyo?", choiceA: "34°N, 138°E", choiceB: "34°N, 139°E", choiceC: "35°N, 138°E", choiceD: "35°N, 139°E", answer: "D"},
     {questionNo: 42, difficulty: "5. Very Hard", question: "What is the altitude of Mt. Fuji?", choiceA: "3770m", choiceB: "3773m", choiceC: "3776m", choiceD: "3779m", answer: "C"},
     {questionNo: 43, difficulty: "5. Very Hard", question: "Estimate the GDP of Japan in current prices as of 2023.", choiceA: "570 trillion yen", choiceB: "580 trillion yen", choiceC: "590 trillion yen", choiceD: "600 trillion yen", answer: "C"},
     {questionNo: 44, difficulty: "5. Very Hard", question: "What were the dates of the bombing of Hiroshima and Nagasaki?", choiceA: "1945-06-06, 1945-06-09", choiceB: "1945-08-06, 1945-08-09", choiceC: "1946-06-06, 1946-06-09", choiceD: "1946-08-06, 1946-08-09", answer: "B"},
+    {questionNo: 45, difficulty: "5. Very Hard", question: "Who was the founder of Sony Group Corporation, one of Japan's leaders in electronics?", choiceA: "Shigeru Miyamoto", choiceB: "Akio Morita and Masaru Ibuka", choiceC: "Ken Kutaragi", choiceD: "None of the above", answer: "B"},
+    {questionNo: 46, difficulty: "5. Very Hard", question: "What are the exact starting and ending years of the Meiji Era?", choiceA: "1867-1911", choiceB: "1868-1911", choiceC: "1867-1912", choiceD: "1868-1912", answer: "D"},
 ],
 
   trekQuestions:[
@@ -99,6 +104,8 @@ const questions = {
     {questionNo: 6, difficulty: "1. Very Easy", question: "What rank is typically the commanding officer of a starship?", choiceA: "Admiral", choiceB: "Captain", choiceC: "Commander", choiceD: "Lieutenant Commander", answer: "B"},
     {questionNo: 7, difficulty: "1. Very Easy", question: "How do Starfleet officers teleport from the starship to another location?", choiceA: "Use a teleporter", choiceB: "Use a comm badge", choiceC: "Use a transporter room in the starship", choiceD: "None of the above", answer: "C"},
     {questionNo: 8, difficulty: "1. Very Easy", question: "What does a Starfleet captain say when he wants a starship to launch?", choiceA: "Blast off!", choiceB: "Engage!", choiceC: "Warp!", choiceD: "Ignition!", answer: "B"},
+    {questionNo: 9, difficulty: "1. Very Easy", question: "What is Deep Space 9?", choiceA: "A starship", choiceB: "A space built by the Federation", choiceC: "A space base built by the Bajorans for the Cardassians", choiceD: "A club for Federation members", answer: "C"},
+    {questionNo: 10, difficulty: "1. Very Easy", question: "Which one of these entities are considered to be the worst enemy of the Federation", choiceA: "The Romulan Free State", choiceB: "The Dominion", choiceC: "The Borg", choiceD: "None of the above", answer: "C"},
     {questionNo: 11, difficulty: "2. Easy", question: "What is the registry number of the USS Enterprise? (regardless of the model or generation)", choiceA: "NCC-1700", choiceB: "NCC-1701", choiceC: "NCC-7101", choiceD: "NCC-7701", answer: "B"},
     {questionNo: 12, difficulty: "2. Easy", question: "What century did the Next Generation take place in?", choiceA: "22nd century", choiceB: "23rd century", choiceC: "24th century", choiceD: "32nd century", answer: "B"},
     {questionNo: 13, difficulty: "2. Easy", question: "Who was the captain of the USS Voyager (Intrepid Class, NCC-74656)?", choiceA: "Captain Jean-Luc Picard", choiceB: "Captain James T. Kirk", choiceC: "Captain Benjamin Sisko", choiceD: "Captain Kathryn Janeway", answer: "D"},
@@ -107,8 +114,19 @@ const questions = {
     {questionNo: 16, difficulty: "2. Easy", question: "Is Lieutenant Commander Data an android or not?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 17, difficulty: "2. Easy", question: "What is a tricorder?", choiceA: "A multi-function tool that allows personnel to identify the atmosphere of a certain planet after beaming down from a starship.", choiceB: "A multi-function tool that allows personnel to collect data via sensors, analyse and process them through a computer system, and present it in audible or visual cues.", choiceC: "A multi-function tool that allows personnel only to identify the current time and stardate.", choiceD: "None of the above.", answer: "B"},
     {questionNo: 18, difficulty: "2. Easy", question: "What are the coordinates of Planet Earth according to the Federation?", choiceA: "Section 000", choiceB: "Section 001", choiceC: "Section 002", choiceD: "Section 003", answer: "B"},
+    {questionNo: 19, difficulty: "2. Easy", question: "How did the United Federation of Planets found?", choiceA: "Humans and Romulans cooperated with each other in diplomacy, cooperation, exploration, peace and other beneficial aspects.", choiceB: "Klingons waged war against humans on Planet Earth.", choiceC: "Humans have continuously evolved based on space travel and exploration.", choiceD: "Humans and Vulcans cooperated with each other in diplomacy, cooperation, exploration, peace and other beneficial aspects.", answer: "D"},
+    {questionNo: 20, difficulty: "2. Easy", question: "Is Commander Troi an empath, as in able to detect feelings and thoughts of others around her?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 21, difficulty: "3. Normal", question: "What does Jean-Luc Picard say every time he acknowledges and agrees with a suggestion or action from any of his crew members?", choiceA: "Copy that.", choiceB: "On it.", choiceC: "Make it so.", choiceD: "Good.", answer: "C"},
+    {questionNo: 22, difficulty: "3. Normal", question: "How long does it take for the Voyager to travel back to Federation space from the Delta Quadrant", choiceA: "25 years", choiceB: "50 years", choiceC: "75 years", choiceD: "100 years", answer: "C"},
+    {questionNo: 23, difficulty: "3. Normal", question: "What is the starship class of the original Enterprise?", choiceA: "Constitution", choiceB: "Galaxy", choiceC: "Intrepid", choiceD: "Constitution Ⅲ", answer: "A"},
+    {questionNo: 24, difficulty: "3. Normal", question: "What is the starship class of the Enterprise-D?", choiceA: "Constitution", choiceB: "Galaxy", choiceC: "Intrepid", choiceD: "Constitution Ⅲ", answer: "B"},
     {questionNo: 31, difficulty: "4. Hard", question: "Using the TNG formula, what is the stardate for the year 2370?", choiceA: "46000.0", choiceB: "47000.0", choiceC: "48000.0", choiceD: "49000.0", answer: "B"},
+    {questionNo: 36, difficulty: "4. Hard", question: "What was the stardate of the first aired Star Trek episode?", choiceA: "1213.4", choiceB: "1223.4", choiceC: "1312.4", choiceD: "1322.4", answer: "C"},
+    {questionNo: 37, difficulty: "4. Hard", question: "What is Picard's favourite drink?", choiceA: "Prune juice", choiceB: "Darjeeling tea", choiceC: "Hot chocolate", choiceD: "Earl Grey tea", answer: "D"},
+    {questionNo: 38, difficulty: "4. Hard", question: "What is Worf's favourite drink?", choiceA: "Prune juice", choiceB: "Darjeeling tea", choiceC: "Hot chocolate", choiceD: "Earl Grey tea", answer: "A"},
+    {questionNo: 40, difficulty: "4. Hard", question: "What kind of brain does Data have?", choiceA: "Human brain", choiceB: "Positronic brain", choiceC: "A brain powered by an AI agent", choiceD: "A remote control", answer: "B"},
+    {questionNo: 41, difficulty: "5. Very Hard", question: "What are the binary digits to the title of the 14th episode of TNG?", choiceA: "01010110", choiceB: "10010110", choiceC: "10101001", choiceD: "11001001", answer: "D"},
+
 ],
 
   entQuestions: [
@@ -116,11 +134,17 @@ const questions = {
     {questionNo: 1, difficulty: "1. Very Easy", question: "If ordinary girls = [sugar + spice + everything nice], and since the Powerpuff Girls = [sugar + spice + everything nice + x], what is x?", choiceA: "N2O (Nitrous oxide)", choiceB: "Rocket fuel", choiceC: "Chemical X", choiceD: "98-octane gasoline", answer: "C"},
     {questionNo: 2, difficulty: "1. Very Easy", question: "Is the Big Bang Theory (2008-2019) a show about scientists?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 3, difficulty: "1. Very Easy", question: "Where is anime and manga typically created in?", choiceA: "China", choiceB: "Korea", choiceC: "Japan", choiceD: "Taiwan", answer: "C"},
-    {questionNo: 4, difficulty: "1. Very Easy", question: "Which city in the US is famous for producing movies?", choiceA: "Hollywood", choiceB: "San Fransisco", choiceC: "Washington", choiceD: "Detroit", answer: "A"},
+    {questionNo: 4, difficulty: "1. Very Easy", question: "What was Sheldon's catchphrase, especially when people fall into his classic pranks?", choiceA: "Bazinga!", choiceB: "Psych!", choiceC: "Whoo!", choiceD: "Gotcha!", answer: "A"},
+    {questionNo: 5, difficulty: "1. Very Easy", question: "What is the standard amount of Life Points you may start within a Yu-Gi-Oh! game?", choiceA: "4000", choiceB: "6000", choiceC: "8000", choiceD: "10000", answer: "C"},
+    {questionNo: 6, difficulty: "1. Very Easy", question: "Which one of these TBBT characters do NOT have a Master's degree or higher?", choiceA: "Leonard", choiceB: "Sheldon", choiceC: "Penny", choiceD: "Howard", answer: "C"},
     {questionNo: 11, difficulty: "2. Easy", question: "What purpose does Chemical X have in the Powerpuff Girls series?", choiceA: "It can be used as a GPU coolant or thermal paste", choiceB: "A proposal on creating element no. 119 in the Periodic Table", choiceC: "It can be used as 98-octane gasoline or premium diesel", choiceD: "It can have a person wield superhuman abilities", answer: "D"},
     {questionNo: 12, difficulty: "2. Easy", question: "Who was John Carter's teacher in the early episodes of ER?", choiceA: "Dr. Peter Benton", choiceB: "Dr. Mark Greene", choiceC: "Dr. Doug Ross", choiceD: "Dr. Carol Hathaway", answer: "A"},
     {questionNo: 13, difficulty: "2. Easy", question: "What is the name of the hospital in ER?", choiceA: "Federal General Hospital", choiceB: "State General Hospital", choiceC: "County General Hospital", choiceD: "City General Hospital", answer: "C"},
     {questionNo: 14, difficulty: "2. Easy", question: "What is Homer's most famous catchphrase?", choiceA: "D'oh!", choiceB: "Mmm, donuts...", choiceC: "64 slices of American cheese...", choiceD: "(shriek!)", answer: "A"},
+    {questionNo: 15, difficulty: "2. Easy", question: "What happens if a player has all the five cards of Exodia in his/her hand?", choiceA: "The player takes half of the remaining Life Points of his/her opponent.", choiceB: "The player can Special Summon any card of his/her choice.", choiceC: "The player instantly loses the duel.", choiceD: "The player instantly wins the duel.", answer: "D"},
+    {questionNo: 16, difficulty: "2. Easy", question: "Which timeline is the main universe of the Gundam series?", choiceA: "Future Century", choiceB: "Cosmic Era", choiceC: "Universe Century", choiceD: "After Colony", answer: "C"},
+    {questionNo: 17, difficulty: "2. Easy", question: "Grover Monster has so many jobs, but which one of them seems the most popular amongst them all?", choiceA: "Plumber", choiceB: "Salesman", choiceC: "Musician", choiceD: "Waiter", answer: "D"},
+    {questionNo: 18, difficulty: "2. Easy", question: "Who was the pilot of the original Gundam robot?", choiceA: "Amuro Ray", choiceB: "Bright Noa", choiceC: "Sayla Mass", choiceD: "Lalah Sune", answer: "A"},
     {questionNo: 21, difficulty: "3. Normal", question: "What year did the Powerpuff Girls aired with their final episode? (regardless of location)", choiceA: "2003", choiceB: "2004", choiceC: "2005", choiceD: "2006", answer: "B"},
     {questionNo: 22, difficulty: "3. Normal", question: "Which season did Sheldon and Amy Cooper obtain the Nobel Prize?", choiceA: "First half of Season 11", choiceB: "Second half of Season 11", choiceC: "First half of Season 12", choiceD: "Second half of Season 12", answer: "D"},
     {questionNo: 23, difficulty: "3. Normal", question: "How old was Sheldon when he moved to high school?", choiceA: "7", choiceB: "8", choiceC: "9", choiceD: "10", answer: "C"},
@@ -130,7 +154,9 @@ const questions = {
     {questionNo: 27, difficulty: "3. Normal", question: "How did Principal Skinner plan to make steamed hams (that's what he calls hamburgers) for Superintendent Chalmers, and why?", choiceA: "He thought Chalmers would find the dinner completely unacceptable for cooking to take this long which resulted him in purcahsing a burger to speed up the time of preparing a meal.", choiceB: "He thought Chalmers was into burgers rather than roast.", choiceC: "He purchased burgers from Krusty Burger and disguised it as his own personal cooking which is a way for Skinner to accompany with homemade food like roast.", choiceD: "He purchased burgers from Krusty Burger and disguised it as his own personal cooking in result of burning his roast.", answer: "D"},
     {questionNo: 28, difficulty: "3. Normal", question: "Identify the three correct adjectives for each character.", choiceA: "Blossom: cute, Bubbles: tough, Buttercup: smart.", choiceB: "Blossom: cute, Bubbles: smart, Buttercup: tough.", choiceC: "Blossom: smart, Bubbles: tough, Buttercup: cute.", choiceD: "Blossom: smart, Bubbles: cute, Buttercup: tough.", answer: "D"},
     {questionNo: 29, difficulty: "3. Normal", question: "What would be the Cartesian mapping coordinates of Sheldon's spot when he sits on it?", choiceA: "(0, 0, 0, 0)", choiceB: "(1, 0, 1, 0)", choiceC: "(0, 0, 0)", choiceD: "(1, 1, 1, 1)", answer: "A"},
+    {questionNo: 30, difficulty: "3. Normal", question: "What is the registry number of the original Gundam", choiceA: "RX-78-1", choiceB: "RX-78-2", choiceC: "RX-79-1", choiceD: "RX-79-2", answer: "B"},
     {questionNo: 31, difficulty: "4. Hard", question: "What are the attack and defense values of the Blue-Eyes White Dragon?", choiceA: "ATK 2500 / DEF 3000", choiceB: "ATK 3000 / DEF 2500", choiceC: "ATK 3500 / DEF 2000", choiceD: "ATK 2000 / DEF 3500", answer: "B"},
+    {questionNo: 32, difficulty: "4. Hard", question: "", choiceA: "", choiceB: "", choiceC: "", choiceD: "", answer: ""},
 ],
 
   questions150: [
@@ -142,6 +168,8 @@ const questions = {
 console.log("Title screen loaded successfully.")
 console.log("Welcome to the Alkhayat Super Quiz. Please select a topic.")
 console.log(quizId);
+
+quizIdDisplay.textContent = quizId
 
 
 
@@ -276,15 +304,13 @@ function checkAnswer(event) {
   currentQuestion++
 
 usernameDisplay.textContent = username
-quizIdDisplay.textContent = quizId
-scoreDisplay.textContent = score
+scoreDisplay.textContent = score.toFixed(0)
 correctDisplay.textContent = correctCount
 wrongDisplay.textContent = wrongCount
 comboDisplay.textContent = combo
-conditionDisplay.textContent = condition
 percentDisplay.textContent = percent.toFixed(1)
 
-  const stats = [score, correctCount, wrongCount, percent, combo, time, grade]
+  const stats = [score, correctCount, wrongCount, percent, combo, time, grade, rating, title]
 console.log(stats)
 
 checkEnd()

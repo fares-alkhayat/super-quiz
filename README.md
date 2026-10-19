@@ -4,9 +4,19 @@
 
 Japanese: もっと知りたい！アルカヤットのスーパークイズ
 
-## Technologies Used
+## Specifications
 
-The game has been created using HTML, CSS and JavaScript.
+Technologies used: HTML5, CSS3 and JavaScript
+
+Platform: Web-based
+
+Genre: Quiz, Trivia
+
+Player(s): 1
+
+Version: 1.0.0-alpha
+
+Release date: Wednesday 2026-10-20
 
 ## Description
 
@@ -19,11 +29,9 @@ Welcome to the show! In this amazing game, you will be met with a variety of top
 You may choose any of the following topics:
 
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
-2. Science and Technology (coming soon) - Learn more about how things work and where do they go. (coming soon)
-3. Science Fiction (Star Trek and Gundam) - What do you know about the world of sci-fi franchises such as Star Trek and Mobile Suit Gundam? Test yourself here!
-4. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
-5. Super Marathon 150 - Answer all 150 questions from the all topics (except for Science and Technology, whereas not available yet)
-6. Super Marathon 200 (coming soon) - Answer all 200 questions from all topics (coming soon)
+2. Science Fiction (Star Trek and Gundam) - What do you know about the world of sci-fi franchises such as Star Trek and Mobile Suit Gundam? Test yourself here!
+3. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
+4. Super Marathon 150 - Answer all 150 questions from the all topics (except for Science and Technology, whereas not available yet)
 
 Each topic has 50 questions, and for each correct answer, you earn a point!
 
@@ -47,7 +55,7 @@ You also have a "Pass" button, which in case if you do not know the answer, you 
 
 Below the question and controls: you have two areas of information. Those are
 
-1. Player Information
+1. Quiz Information
 
     a. Player Name: The name given by the player.
 
@@ -57,7 +65,7 @@ Below the question and controls: you have two areas of information. Those are
 
     d. Quiz ID: A unique hexadecimal number provided to the quiz the player is taking. It uses UUIDv7, and is used for debugging and/or reference purposes only.
 
-2. Quiz Information
+2. Player Information
 
     a. Score: The number of points the player has obtained.
 
@@ -67,32 +75,33 @@ Below the question and controls: you have two areas of information. Those are
 
     d. Accuracy: The percentage of correct answers the player has given.
 
-    e. Time: The total elapsed time the player has spent in the quiz.
+    e. Combo: The number of correct answers given in a row.
 
-    f. Rank: The letter grade the player has progressively awarded.
+    f. Time: The total elapsed time (written in seconds) the player has spent in the quiz.
 
-    g. Rating: An overall rating given to the player based on the performance in the quiz.
+    g. Grade: The letter grade the player has progressively awarded.
 
-    h. Title: The numerical and phrase title the player has awarded based on the rating he/she obtained.
+    h. Rating: An overall rating given to the player based on the performance in the quiz based on time spent and correct answers.
 
-### Scoring System
+    i. Title: The numerical and phrase title the player has awarded based on the rating he/she obtained.
+
+### 5. Scoring System
 
 Parameter | Value per Unit | Points Awarded at |
 --------- | -------------- | ----------------- |
 Base score | 500 per correct answer | After each correct answer |
 Time bonus | (500 per second remaining from 60 sec/question average times number of correct answers) * ratio of correct answers | At the end of quiz |
-Combo bonus | +2.5% points for each consecutive correct answer given after each response | After each correct answer |
+Combo bonus | +10% points for each consecutive correct answer given after each response | After each correct answer |
 
-### Rating System
+### 6. Rating System
 
 Parameter | Value |
 --------- | -------------- |
-Accuracy | 500 rating points based on percentage of correct answers |
-Time bonus | 500 rating points based on seconds remaining from 60 sec/question average times number of correct answers * ratio of correct answers |
-Maximum combo bonus | 500 rating points based on the ratio of a player's longst combo to the number of questions in a quiz |
+Accuracy | 750 rating points based on percentage of correct answers |
+Time bonus | 750 rating points based on seconds remaining from 60 sec/question average times number of correct answers * ratio of correct answers |
 Maximum calculatable range of rating points | 1500 rating points |
 
-### Ranking System
+### 7. Ranking System
 
 A letter grade shall be provided to the player based on the number/percentage of correct answers obtained in the quiz.
 
@@ -118,7 +127,7 @@ Pass | S, A, B, C | 60-100 | Quiz passed. You have won the quiz. |
 Margin | D | 50-59 | You are within the border between passing and failing the quiz. The quiz can be treated as a pass, but it is strongly recommended to attempt the quiz again for a definite pass. |
 Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
 
-### Title System
+### 8. Title System
 
 Grade | Title | Rating (+ Conditions) |
 ----- | ----- | --------------------- |
@@ -154,6 +163,11 @@ Special | Grand Master | 1250 + all answers correct in avg. 30sec/question |
 1. If this were to be a live release copy of the quiz game, each topic would have 100 questions, instead of 50.
 2. There must be a profile management system to manage profiles and their records.
 3. The game must have an overall records screen (with statistics and achievements) and a high score table indicating the cumulative progress of the player.
+4. Two other to-be-selectable quizzes, coming soon:
+
+    a. Science and Technology - Learn more about how things work and where do they go.
+
+    b. Super Marathon 200 - Answer all 200 questions from all topics
 
 ## No-AI Disclaimer
 

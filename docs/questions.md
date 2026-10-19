@@ -133,7 +133,7 @@ For each section, a difficulty level shall be assigned and shall increase as the
     **a. True**
 
     b. False
-    
+
 27.
 28.
 29.

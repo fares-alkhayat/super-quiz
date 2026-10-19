@@ -16,7 +16,7 @@
     <p>v1.0.0-alpha</p>
 
     <fieldset>
-  <legend>Select a topic:</legend>
+  <legend>① Select a topic:</legend>
 
   <div>
     <input type="radio" id="japan-quiz" name="quiz-select" value="japan-quiz" checked onchange="alert('The quiz related to Japan has been selected. There are 50 questions.')"/>
@@ -50,9 +50,10 @@
   </div> -->
 
 </fieldset>
-    <p id="username-header">Please enter your name and apply before starting. Press "Begin!" to start the quiz.</p>
+    <p id="username-header">② Please enter your name and apply before starting.</p>
     <input type="input" id="username-input"></input> <button id="username-apply">Apply Name</button>
     <br>
+    <p>③ Press "Begin!" to start the quiz.</p>
     <button id="start-button">Begin!</button>
     <br>
     <div id="question-div">
@@ -91,7 +92,7 @@
           <td><span id="login-time"></span></td><td>Wrong: <span id="wrong"></span></td>
         </tr>
           <tr>
-          <td>UTC Time:</td><td>Accuracy : <span id="percent"></span></td>
+          <td>UTC Time:</td><td>Accuracy: <span id="percent"></span>%</td>
         </tr>
         <tr>
           <td><span id="utc-time"></span></td><td>Combo: <span id="combo"></span></span></td>
@@ -120,7 +121,7 @@
     <button id="hiscore-button">High Scores</button>
     <p>To access records and high score tables, please access the console using the "Inspect" tool.</p> -->
 
-    <p>Language / 言語 <button>English</button><button>日本語</button></p>
+    <p>Language / 言語 <button>English</button><button onclick="alert('申し訳ございません。ただいま日本語版は公開のがありません。完了と公開について報告までお待ちください。Apologies for the inconvenience, but the Japanese translation has not been released yet. Please check back when it will be completed and published.')">日本語</button></p>
     
     
     <p>Created and developed by Fares Alkhayat. Version 1.0.0-alpha.</p>
