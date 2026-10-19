@@ -528,14 +528,49 @@ d. Section 003
 
     d. 1322.4
 
-37.
-38.
+37. What is Picard's favourite drink?
+
+    a. Prune juice
+
+    b. Darjeeling tea
+
+    c. Hot chocolate
+
+    **d. Earl Grey tea**
+
+38. What is Lt. Commander Worf's favourite drink?
+
+    **a. Prune juice**
+
+    b. Darjeeling tea
+
+    c. Hot chocolate
+
+    d. Earl Grey tea
+
 39.
-40.
+40. What kind of brain does Data have?
+
+    a. Human brain
+
+    **b. Positronic brain**
+
+    c. A brain powered by an AI agent
+
+    d. A remote control
 
 ### Difficulty Level ★★★★★ - Very Hard / Captain Level
 
-41.
+41. What are the binary digits to the title of the 14th episode of TNG?
+
+    a. 01010110
+
+    b. 10010110 
+
+    c. 10101001
+
+    **d. 11001001**
+
 42.
 43.
 44.
@@ -740,7 +775,15 @@ d. Section 003
 
     d. (1, 1, 1, 1)
 
-30.
+30. What is the registry number of the original Gundam?
+
+    a. RX-78-1
+
+    b. RX-78-2
+
+    **c. RX-79-1**
+
+    d. RX-79-2
 
 ### Difficulty Level ★★★★☆ - Hard / Cultured Personality
 

@@ -21,6 +21,18 @@ GEO-INFORMATION PORTAL HUB, 2021. 位置座標読取り・確認・移動ウェ�
 
 GEOW, 2019. Answer to “Find elapsed time in javascript.” Stack Overflow. Online. 15 April 2019. Available from: https://stackoverflow.com/a/55690814 [Accessed 14 October 2026]. 
 
+Gettâ robo, 1974. . Asatsu-DK, Dynamic Planning, Toei Animation, 
+Dinosaurs survive extinction underground, evolve into Megasaur Empire. They attack humans. Prof. Saotome creates Getta Robo, a 3-in-1 robot using cosmic rays, to fight the Empire&apos;s Mechasaurus army.
+IMDb ID: tt0275838
+
+Gettâ robo Jî, 1975. . Asatsu-DK, Dynamic Planning, Toei Animation, 
+Soon after the events of the first Getta Robo series, Earth finds itself under attack by the Hyakki (Pandemonium) Empire and its fleet of horned battle robots. In response to the threat, the Getta labs re-fit their chief weapon: t...
+IMDb ID: tt0272970
+
+Gurêto Majingâ, 1974. . Asatsu-DK, Dynamic Planning, Toei Animation, 
+The series begins after the battle against Dr. Hell with attacks from the Warrior Beasts. With the Mazinger Z overwhelmed by this new threat, it was almost destroyed until it was rescued by the Great Mazinger. With assistance from...
+IMDb ID: tt0421352
+
 IMDB and IMDB CONTRIBUTORS, [no date]. The Big Bang Theory (TV Series 2007–2019) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0898266/trivia/ [Accessed 17 October 2026]. 
 The Big Bang Theory (TV Series 2007–2019) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
 
@@ -49,6 +61,10 @@ A JavaScript implementation of UUID version 7
 
 MAHAWAR, Gaurav, 2015. Find elapsed time in javascript. Stack Overflow. Online. 14 July 2015. Available from: https://stackoverflow.com/q/31405996 [Accessed 14 October 2026]. 
 
+Majingâ Zetto, 1972. . Asatsu-DK, Dynamic Planning, M&M Productions, 
+Teenager Koji Kabuto pilots the amazing super-robot Mazinger Z to avenge its inventor (his grandfather) against the Mycene Empire, led by the evil mad scientist Doctor Hell.
+IMDb ID: tt0169473
+
 MDN CONTRIBUTORS, 2025a. Web APIs / Window.localStorage — DevDocs. DevDocs. Online. 2025. Available from: https://devdocs.io/dom/window/localstorage [Accessed 15 October 2026]. 
 
 MDN CONTRIBUTORS, 2025b. HTML / input type="radio". DevDocs. Online. 2025. Available from: https://devdocs.io/html/reference/elements/input/radio [Accessed 15 October 2026]. 
@@ -64,9 +80,15 @@ MEMORY ALPHA CONTRIBUTORS, 2026c. Earth. Memory Alpha. Online. 15 October 2026. 
 Earth, also known as Sol III or Terra, was the third planet in the Sol system. This inhabited Class M planet was located within Sector 001 of the Alpha Quadrant. The planet had one natural satellite, named Luna, and many artificial satellites. In 2150, with the last nation-states joining, the planet was unified under the United Earth government. The planet was a founding member of the Coalition of Planets in 2155, and of the United Federation of Planets in 2161. From this date to 3089, Earth...
 
 MEMORY ALPHA CONTRIBUTORS, 2026d. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
+
+OLAWANLETJOEL, 2022. JavaScript Get Current Date – Today’s Date in JS. freeCodeCamp.org. Online. 17 June 2022. Available from: https://www.freecodecamp.org/news/javascript-get-current-date-todays-date-in-js/ [Accessed 18 October 2026]. 
+When you’re developing web applications, you might need to include the current date on which a particular operation is performed. For example, when submitting data via a form, you may want to include the date that data was created or when the form wa...
 OMARAKAMAL, 2026. debugging-olympics-1 [software]. Online. Version commit no. 4. 12 October 2026. Manama: General Assembly. Available from: https://github.com/SEB-16-Bahrain/debugging-olympics-1. [Accessed 14 October 2026]. 
 
 PORTER, Wesley, 2012. Answer to “Center-align a HTML table.” Stack Overflow. Online. 28 December 2012. Available from: https://stackoverflow.com/a/14073610 [Accessed 16 October 2026]. 
+
+PRESTON-WERNER, Tom, [no date]. Semantic Versioning 2.0.0. Semantic Versioning. Online. Available from: https://semver.org/ [Accessed 18 October 2026]. 
+Semantic Versioning spec and website
 
 REARDON, Jim (dir.), 1996. 22 Short Films About Springfield. , The Simpsons. Disney/20th Century Studios, 14 April 1996. 
 A series of vignettes showcasing a day in the life of various Springfield residents.
@@ -74,12 +96,22 @@ Distributor: Gracie Films, 20th Century Fox Television, 20th Century Fox Televis
 IMDb ID: tt0701186
 event-place: United States
 
+SEOW, Jenxi, 2025a. Mobile Suit Gundam – Anime Series. MechaBay. Online. 2 January 2025. Available from: https://mechabay.com/mobile-suit-gundam [Accessed 17 October 2026]. 
+Mobile Suit Gundam is the first television anime series produced by Sunrise in 1979.
+
+SEOW, Jenxi, 2025b. RX-78-2 Gundam – Mobile Suit – Mobile Suit Gundam. MechaBay. Online. 2 January 2025. Available from: https://mechabay.com/rx-78-2-gundam [Accessed 17 October 2026]. 
+The RX-78-2 Gundam was a prototype close combat mobile suit developed by the Earth Federation through its secret Project V.
+
 Sesame Street, 1969. . Children’s Television Workshop (CTW), Curious Pictures, Sesame Workshop, 
 On a special inner city street, the inhabitants, human and muppet, teach preschool subjects with comedy, cartoons, games, and songs.
 IMDb ID: tt0063951
 
 SOTSU AGENCY, SUNRISE INC., and BANDAI NAMCO FILMWORKS INC., [no date]. GUNDAM Official Website. GUNDAM Official Website. Online. Available from: https://en.gundam-official.com [Accessed 16 October 2026]. 
 The official portal site for Gundam news and information. Also streams the latest anime episodes for free. From shows to merchandise, books to live events, get all of your Gundam info here!
+
+Star Trek, 1966. . Desilu Productions, Norway Corporation, Paramount Television, 
+In the 23rd Century, Captain James T. Kirk and the crew of the U.S.S. Enterprise explore the galaxy and defend the United Federation of Planets.
+IMDb ID: tt0060028
 
 Star Trek: Deep Space Nine, 1993. . Paramount Television, 
 In the vicinity of the liberated planet of Bajor, the Federation space station Deep Space Nine guards the opening of a stable wormhole to the far side of the galaxy.
@@ -110,43 +142,53 @@ The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox 
 The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
 IMDb ID: tt0096697
 
-W3SCHOOLS, [no date]. HTML Text Formatting. W3Schools. Online. Available from: https://www.w3schools.com/html/html_formatting.asp [Accessed 17 October 2026 a]. 
+UFO robo: Gurendaizâ, 1975. . Asatsu-DK, Dynamic Planning, Toei Animation, 
+The young Prince of planet Fleed flees his destroyed homeland aboard the UFO Robot Grendizer. On Earth, aided by a scientist and allies, he battles Vega&apos;s forces sent to capture Grendizer and conquer or destroy the universe.
+IMDb ID: tt0185070
+
+W3SCHOOLS, [no date]. JavaScript MAX_VALUE Property. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/jsref_max_value.asp [Accessed 18 October 2026 a]. 
+Number.MAX_VALUE returns the largest number possible in JavaScript.
+
+W3SCHOOLS, [no date]. CSS Gradients. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_gradients.asp [Accessed 18 October 2026 b]. 
+The CSS gradient functions let you display smooth transitions between two or more colors within an element.
+
+W3SCHOOLS, [no date]. HTML Text Formatting. W3Schools. Online. Available from: https://www.w3schools.com/html/html_formatting.asp [Accessed 17 October 2026 c]. 
 HTML contains several elements for defining text with a special meaning.
 
-W3SCHOOLS, [no date]. onclick Event. W3Schools. Online. Available from: https://www.w3schools.com/jsref/event_onclick.asp [Accessed 17 October 2026 b]. 
+W3SCHOOLS, [no date]. onclick Event. W3Schools. Online. Available from: https://www.w3schools.com/jsref/event_onclick.asp [Accessed 17 October 2026 d]. 
 Call a function when a button is clicked.
 
-W3SCHOOLS, [no date]. JavaScript toFixed() Method. W3Schools. Online. Available from: https://www.w3schools.com/JSREF/jsref_tofixed.asp [Accessed 17 October 2026 c]. 
+W3SCHOOLS, [no date]. JavaScript toFixed() Method. W3Schools. Online. Available from: https://www.w3schools.com/JSREF/jsref_tofixed.asp [Accessed 17 October 2026 e]. 
 The toFixed() method converts a number to a string.
 
-W3SCHOOLS, [no date]. JavaScript Math max() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsref/jsref_max.asp [Accessed 17 October 2026 d]. 
+W3SCHOOLS, [no date]. JavaScript Math max() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsref/jsref_max.asp [Accessed 17 October 2026 f]. 
 The Math.max() method returns the number with the highest value.
 
-W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 e]. 
+W3SCHOOLS, [no date]. CSS Styling Tables. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table.asp [Accessed 16 October 2026 g]. 
 HTML tables can be greatly improved with CSS.
 
-W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 f]. 
+W3SCHOOLS, [no date]. CSS Table Alignment. W3Schools. Online. Available from: https://www.w3schools.com/CSS/css_table_align.asp [Accessed 16 October 2026 h]. 
 The CSS text-align property is used to set the horizontal alignment of the content in <th> or <td>.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 g]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio disabled Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_disabled.asp [Accessed 16 October 2026 i]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 h]. 
+W3SCHOOLS, [no date]. HTML Tables. W3Schools. Online. Available from: https://www.w3schools.com/html/html_tables.asp [Accessed 16 October 2026 j]. 
 HTML tables allow web developers to arrange data into rows and columns.
 
-W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 i]. 
+W3SCHOOLS, [no date]. CSS Buttons. W3Schools. Online. Available from: https://www.w3schools.com/css/css3_buttons.asp [Accessed 16 October 2026 k]. 
 With CSS, different HTML buttons can be styled in many ways.
 
-W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 j]. 
+W3SCHOOLS, [no date]. HTML DOM Document getElementById() Method. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/met_document_getelementbyid.asp [Accessed 16 October 2026 l]. 
 The getElementById() method returns an element with a specified value.
 
-W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 k]. 
+W3SCHOOLS, [no date]. CSS Box Model. W3Schools. Online. Available from: https://www.w3schools.com/css/css_boxmodel.asp [Accessed 15 October 2026 m]. 
 In CSS, the term “box model” is used when talking about web design and layout.
 
-W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 l]. 
+W3SCHOOLS, [no date]. HTML DOM Input Radio checked Property. W3Schools. Online. Available from: https://www.w3schools.com/jsref/prop_radio_checked.asp [Accessed 15 October 2026 n]. 
 W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
 
-W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 m]. 
+W3SCHOOLS, [no date]. JavaScript Cookies. W3Schools. Online. Available from: https://www.w3schools.com/js/js_cookies.asp [Accessed 15 October 2026 o]. 
 Cookies let you store user information in web pages.
 
 Young Sheldon, 2017. . Chuck Lorre Productions, Warner Bros. Television, 

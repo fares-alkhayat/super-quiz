@@ -18,42 +18,45 @@
   <legend>Select a topic:</legend>
 
   <div>
-    <input type="radio" id="japan-quiz" name="quiz" value="japan-quiz" checked/>
+    <input type="radio" id="japan-quiz" name="quiz-select" value="japan-quiz" checked onchange="alert('The quiz related to Japan has been selected. There are 50 questions.')"/>
     <label for="japan-quiz">Japan</label>
   </div>
 
-  <div>
+  <!-- <div>
     <input type="radio" id="scitech-quiz" name="quiz" value="scitech-quiz" />
     <label for="japan-quiz">Science and Technology (coming soon)</label>
-  </div>
+  </div> -->
 
   <div>
-    <input type="radio" id="trek-quiz" name="quiz" value="trek-quiz" />
+    <input type="radio" id="trek-quiz" name="quiz-select" value="trek-quiz" onchange="alert('The quiz related to Star Trek has been selected. There are 50 questions.')"/>
     <label for="trek-quiz">Star Trek and Science Fiction</label>
   </div>
 
     <div>
-    <input type="radio" id="ent-quiz" name="quiz" value="ent-quiz" />
+    <input type="radio" id="ent-quiz" name="quiz-select" value="ent-quiz" onchange="alert('The quiz related to entertainment and pop culture has been selected. There are 50 questions.')"/>
     <label for="ent-quiz">Entertainment and Pop Culture</label>
   </div>
 
      <div>
-    <input type="radio" id="marathon-150" name="quiz" value="ent-quiz" />
-    <label for="ent-quiz">Super Marathon 150</label>
+    <input type="radio" id="marathon-150" name="quiz-select" value="ent-quiz" onchange="alert('The Super Marathon 150 has been selected. You will answer all questions from all the three quizzes above consisting of 150 questions in total.')"/>
+    <label for="ent-quiz">Super Marathon 150 (all three topics combined)</label>
   </div>
 
+<!--
      <div>
     <input type="radio" id="marathon-200" name="quiz" value="ent-quiz" />
     <label for="ent-quiz">Super Marathon 200 (coming soon)</label>
-  </div>
+  </div> -->
+
 </fieldset>
     <p id="username-header">Please enter your name and apply before starting. Press "Begin!" to start the quiz.</p>
-    <input type="input" id="username"></input> <button>Apply Name</button>
+    <input type="input" id="username-input"></input> <button id="username-apply">Apply Name</button>
     <br>
     <button id="start-button">Begin!</button>
     <br>
     <div id="question-div">
-    <p>Question <span id="question-number"></span> of <span id="question-max"></span> / [Difficulty Level: <span id="difficulty-lv"></span>]</p>
+    <p>Question <span id="question-number"></span>
+      <br>[Difficulty Level: <span id="difficulty-lv"></span>]</p>
     <p id="question">
       <table align="center" id="choice-table">
         <tr>
@@ -75,25 +78,25 @@
     <table align="center" id="stats">
       <th>Quiz Information</th><th>Player Information</th>
         <tr>
-          <td>Player Name:<span id="username"></span></td><td>Score: <span id="score"></span></td>
+          <td>Player Name: <span id="username"></span></td><td>Score: <span id="score"></span></td>
         </tr>
         <tr>
-          <td>Quiz Start:<span id="start-time"></span></td><td>Correct: <span id="correct"></span></td>
+          <td>Login Time:</td><td>Correct: <span id="correct"></span></td>
         </tr>
         <tr>
-          <td>Quiz End:<span id="end-time"></span></td><td>Wrong: <span id="wrong"></span></td>
+          <td><span id="login-time"></span></td><td>Wrong: <span id="wrong"></span></td>
         </tr>
           <tr>
-          <td>Quiz ID:<br><span id="quizId"></span></td><td>Accuracy: <span id="percent"></span></td>
+          <td>UTC Time:</td><td>Accuracy : <span id="percent"></span></td>
         </tr>
         <tr>
-          <td></td><td>Combo: <span id="combo"></span> / <span id="max-combo"></span></td>
+          <td><span id="utc-time"></span></td><td>Combo: <span id="combo"></span> / <span id="max-combo"></span></td>
         </tr>
         <tr>
-          <td></td><td>Time: <span id="time"></span></td>
+          <td>Quiz ID:</td><td>Time: <span id="time"></span></td>
         </tr>
         <tr>
-          <td></td><td>Grade: <span id="grade"></span></td>
+          <td><span id="quizId"></span></td><td>Grade: <span id="grade"></span></td>
         </tr>
         <tr>
           <td></td><td>Rating: <span id="rating"></span></td>
@@ -106,6 +109,7 @@
     </div>
 
     <p>When concluding your quiz, you can save and/or print your result.<button id="print">Print</button></p>
+    <p>To play the quiz again or move to another quiz, please refresh the page.</p>
     <!-- <p id="option-header">Extras</p>
     <button id="records-button">Records</button>
     <button id="hiscore-button">High Scores</button>
@@ -114,9 +118,8 @@
     <p>Language / 言語 <button>English</button><button>日本語</button></p>
     
     
-    <p id="copyright">Created and developed by Fares Alkhayat.
-
-Quiz and Website © 2026 Fares Alkhayat. All rights reserved. All copyrighted content (especially whereas written under references.txt, except for the quiz and website itself) are not owned by Fares Alkhayat nor his affiliates, instead, they belong to their respective owners.
+    <p>Created and developed by Fares Alkhayat. Version 1.0.0-alpha.</p>
+<p id="copyright">Quiz and Website © 2026 Fares Alkhayat. All rights reserved. All copyrighted content (especially whereas written under references.txt, except for the quiz and website itself) are not owned by Fares Alkhayat nor his affiliates, instead, they belong to their respective owners.
 <br>
 <br>
 NO AI HAS BEEN USED IN ANY WAY IN THE MAKING OF THIS QUIZ. AI TRAINING USING THIS QUIZ OR ANY OF THE CONTENTS IN ITS REPOSITORY IS STRICTLY PROHIBITED.

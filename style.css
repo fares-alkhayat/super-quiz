@@ -1,3 +1,8 @@
+html {
+  background-image: linear-gradient(to bottom, black, rgb(80, 80, 80));
+  color: white;
+}
+
 body {
     text-align: center;
   font-family: "Murecho", sans-serif;
@@ -17,7 +22,7 @@ button {
 }
 
 #question-div {
-  border: 2px solid black;
+  border: 2px solid white;
   margin: 10px
 }
 
@@ -40,6 +45,9 @@ button {
   color: white;
 }
 
+#button-pass {
+  background-color: white;
+}
 #stats {
   width: auto;
   text-align: left;
@@ -54,4 +62,8 @@ button {
   padding: 20px;
   border-collapse: separate;
   border-spacing: 50px 0px;
+}
+
+#refcopy-body {
+  text-align: justify;
 }
