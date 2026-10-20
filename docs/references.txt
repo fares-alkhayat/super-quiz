@@ -4,6 +4,12 @@ Build a simple stopwatch with HTML, CSS, and JavaScript. Practice setInterval an
 BAN THE BOTS, 2026. No AI Policy Template — Free Copy-Paste Download (2026). Ban the Bots. Online. October 2026. Available from: https://www.banthebots.org/no-ai-policy-template/ [Accessed 15 October 2026]. 
 Copy-paste no AI policy template for freelancers, artists, and teachers — no signup required....
 
+Cleaning the garage, 1979. Sesame Street. 
+After doing some cleaning in the basement of 123 Sesame Street, Gordon goes over to the garage to clean there as well. Mr. Hooper, Bob and Olivia follow, having also stored some items inside. They&apos;re all shocked when they see the ...
+Distributor: Children’s Television Workshop (CTW)
+IMDb ID: tt15685430
+event-place: United States
+
 DAVIS, K., PEABODY, B. and LEACH, P., 2024. RFC 9562: Universally Unique IDentifiers (UUIDs). Online. Request for Comments. Internet Engineering Task Force. [Accessed 17 October 2026]. 
 This specification defines UUIDs (Universally Unique IDentifiers) – also known as GUIDs (Globally Unique IDentifiers) – and a Uniform Resource Name namespace for UUIDs. A UUID is 128 bits long and is intended to guarantee uniqueness across space and time. UUIDs were originally used in the Apollo Network Computing System (NCS), later in the Open Software Foundation’s (OSF’s) Distributed Computing Environment (DCE), and then in Microsoft Windows platforms. This specification is derived from the OSF DCE specification with the kind permission of the OSF (now known as “The Open Group”). Information from earlier versions of the OSF DCE specification have been incorporated into this document. This document obsoletes RFC 4122.
 
@@ -16,6 +22,17 @@ The doctors who work in the ER at the County General Hospital in Chicago grapple
 IMDb ID: tt0108757
 
 FABRICEPMW, 2017. Center-align a HTML table. Stack Overflow. Online. 31 July 2017. Available from: https://stackoverflow.com/q/14073188 [Accessed 16 October 2026]. 
+
+GEERT HOFSTEDE B.V., [no date]. Geert Hofstede’s CV in steps, from Engineering to Management to Culture. Geert Hofstede. Online. Available from: https://geerthofstede.com/geert-hofstede-biography/geert-hofstede-cv/ [Accessed 3 April 2026 a]. 
+Geert Hofstede, born 1928, is a Dutch social psychologist who did a pioneering study of “dimensions of culture” across modern nations.
+
+GEERT HOFSTEDE B.V., [no date]. Country Comparison Bar Charts. Geert Hofstede. Online. Available from: https://geerthofstede.com/country-comparison-bar-charts/ [Accessed 3 April 2026 b]. 
+Compare countries using a bar chart across the 6-D model of national culture. Search for your countries of interest or pick them from a globe.
+
+GEERT HOFSTEDE B.V., [no date]. The 6 dimensions model of national culture by Geert Hofstede. Geert Hofstede. Online. Available from: https://geerthofstede.com/culture-geert-hofstede-gert-jan-hofstede/6d-model-of-national-culture/ [Accessed 3 April 2026 c]. 
+The six dimensions of national culture defined by Geert Hofstede described, presented on world maps and explained on video by Geert.
+
+GEERT HOFSTEDE B.V., [no date]. Hofstede’s Globe – Geert Hofstede B.V. Geert Hofstede: An Engineer’s Odyssey. Online. Available from: https://exhibition.geerthofstede.com/hofstedes-globe/ [Accessed 3 April 2026 d]. 
 
 GEO-INFORMATION PORTAL HUB, 2021. 位置座標読取り・確認・移動ウェブサイト. Geo-Information Portal Hub. Online. 2021. Available from: https://www.web-gis.jp/MapsInfo/latlon_v7.html [Accessed 15 October 2026]. 
 
@@ -33,6 +50,25 @@ Gurêto Majingâ, 1974. . Asatsu-DK, Dynamic Planning, Toei Animation,
 The series begins after the battle against Dr. Hell with attacks from the Warrior Beasts. With the Mazinger Z overwhelmed by this new threat, it was almost destroyed until it was rescued by the Great Mazinger. With assistance from...
 IMDb ID: tt0421352
 
+HALL, Don and WILLIAMS, Chris (dirs.), 2014. Big Hero 6. Walt Disney Pictures, Walt Disney Animation Studios, 7 November 2014. 
+A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.
+IMDb ID: tt2245084
+
+IMDB CONTRIBUTORS, [no date]. ER (TV Series 1994–2009) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0108757/trivia/ [Accessed 20 October 2026 a]. 
+ER (TV Series 1994–2009) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
+
+IMDB CONTRIBUTORS, [no date]. Star Trek: The Next Generation (TV Series 1987–1994) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0092455/trivia/ [Accessed 20 October 2026 b]. 
+Star Trek: The Next Generation (TV Series 1987–1994) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
+
+IMDB CONTRIBUTORS, [no date]. Star Trek: Voyager (TV Series 1995–2001) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0112178/trivia/ [Accessed 20 October 2026 c]. 
+Star Trek: Voyager (TV Series 1995–2001) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
+
+IMDB CONTRIBUTORS, [no date]. Sesame Street (TV Series 1969– ) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0063951/trivia/ [Accessed 20 October 2026 d]. 
+Sesame Street (TV Series 1969– ) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
+
+IMDB CONTRIBUTORS, [no date]. The Simpsons (TV Series 1989– ) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0096697/trivia/ [Accessed 20 October 2026 e]. 
+The Simpsons (TV Series 1989– ) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
+
 IMDB and IMDB CONTRIBUTORS, [no date]. The Big Bang Theory (TV Series 2007–2019) - Trivia - IMDb. IMDb. Online. Available from: https://www.imdb.com/title/tt0898266/trivia/ [Accessed 17 October 2026]. 
 The Big Bang Theory (TV Series 2007–2019) - Trivia on IMDb: Cameos, Mistakes, Spoilers and more...
 
@@ -46,7 +82,15 @@ KENNEDY, Graham and KENNEDY, Ian, [no date]. Tricorders - Notes. DITL. Online. A
 
 KENNEDY, Graham and KENNEDY, Ian, 2020. TOS Episode - Where No Man Has Gone Before - Review. DITL. Online. 2 April 2020. Available from: https://www.ditl.org/episode-page.php?Series=TOS&Episode=2 [Accessed 17 October 2026]. 
 
+KENNEDY, Graham and KENNEDY, Ian, 2021a. Intrepid Class - Specs. DITL. Online. 2 September 2021. Available from: https://www.ditl.org/ship-page.php?ClassID=fedintrepid [Accessed 20 October 2026]. 
+
+KENNEDY, Graham and KENNEDY, Ian, 2021b. Deep Space 9 - Specs. DITL. Online. 2 September 2021. Available from: https://www.ditl.org/station-page.php?ClassID=deepspace9&ListID=Stations [Accessed 20 October 2026]. 
+
 KENNEDY, Graham and KENNEDY, Ian, 2025. Kathryn Janeway - Notes. DITL. Online. 28 October 2025. Available from: https://www.ditl.org/personnel-page.php?PersonID=26&ListID=People [Accessed 13 October 2026]. 
+
+KENNEDY, Graham and KENNEDY, Ian, 2026a. Galactic Map. DITL. Online. 20 October 2026. Available from: https://www.ditl.org/mapgalactic-page.php?ListID=Politics [Accessed 20 October 2026]. 
+
+KENNEDY, Graham and KENNEDY, Ian, 2026b. Galaxy Class - Specs. DITL. Online. 24 February 2026. Available from: https://www.ditl.org/ship-page.php?ClassID=fedgalaxy [Accessed 19 October 2026]. 
 
 Kidô Senshi Gandamu, 1979. . Nagoya Broadcasting Network (Nagoya TV), Sotsu Agency, Sunrise, 
 In the war between the Earth Federation and Zeon, a young and inexperienced crew find themselves on a new spaceship. Their best hope of making it through the conflict is the Gundam, a giant humanoid robot, and its gifted teenage p...
@@ -76,16 +120,22 @@ MDN CONTRIBUTORS, 2025a. Web APIs / Window.localStorage — DevDocs. DevDocs. On
 MDN CONTRIBUTORS, 2025b. HTML / input type="radio". DevDocs. Online. 2025. Available from: https://devdocs.io/html/reference/elements/input/radio [Accessed 15 October 2026]. 
 Fast, offline, and free documentation browser for developers. Search 100+ docs in one web app including HTML, CSS, JavaScript, PHP, Ruby, Python, Go, C, C++, and many more.
 
-MEMORY ALPHA CONTRIBUTORS, 2026a. Where No Man Has Gone Before (episode). Memory Alpha. Online. 17 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Where_No_Man_Has_Gone_Before_(episode) [Accessed 17 October 2026]. 
+MEMORY ALPHA CONTRIBUTORS, 2026a. Captain Picard Day. Memory Alpha. Online. 20 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Captain_Picard_Day [Accessed 20 October 2026]. 
+Captain Picard Day was an annual event held aboard the USS Enterprise-D for the ship’s schoolchildren. The day’s activities included a contest, judged by Captain Jean-Luc Picard himself, in which the children created paintings and models of the captain. Picard wasn’t very fond of the event himself, as he generally did not respond well to children. In 2370, a seven-year-old named Paul Menegay won the contest with an orange clay sculpture of the captain’s head. Much to Picard’s dismay...
+
+MEMORY ALPHA CONTRIBUTORS, 2026b. Raktajino. Memory Alpha. Online. 20 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Raktajino [Accessed 20 October 2026]. 
+Raktajino (pronounced rack-tə-jeen-oh) was Klingon coffee, served steamed or iced. In 2256, Engineer Jett Reno often relied on triple-brewed raktajino while trapped aboard the USS Hiawatha, marooned on an interstellar asteroid. The drink would continue to be a favorite of hers in 3190, when she shared with Adira Tal that “when you have to power through, nothing beats the bitter elixir of Klingon warriors.” (DIS: “Rosetta”) Some replicators included nutmeg with the drink by default if not...
+
+MEMORY ALPHA CONTRIBUTORS, 2026c. Where No Man Has Gone Before (episode). Memory Alpha. Online. 17 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Where_No_Man_Has_Gone_Before_(episode) [Accessed 17 October 2026]. 
 While exploring the energy barrier at galaxy’s edge that crippled an earlier ship, Kirk’s long-time friend and crewmate Gary Mitchell begins mutating into a god-like entity disdainful of the “mortals” around him. (Second pilot) "Captain’s log, stardate 1312.4. The impossible has happened. From directly ahead, we’re picking up a recorded distress signal, the call letters of a vessel which has been missing for over two centuries. Did another Earth ship probe out of the galaxy as we intend to...
 
-MEMORY ALPHA CONTRIBUTORS, 2026b. Deep Space 9. Memory Alpha. Online. 17 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Deep_Space_9 [Accessed 17 October 2026]. 
+MEMORY ALPHA CONTRIBUTORS, 2026d. Deep Space 9. Memory Alpha. Online. 17 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Deep_Space_9 [Accessed 17 October 2026]. 
 Deep Space 9, abbreviated as DS9, and originally known as Terok Nor, was one of the most historically, politically, and strategically important space stations in the Alpha Quadrant during the latter half of the 24th century. The space station was constructed by Bajoran slave labor overseen by the Cardassians in orbit of Bajor during their occupation of the planet. Under Federation administration following the Cardassian withdrawal, the station was relocated into the Bajoran system’s Denorios...
 
-MEMORY ALPHA CONTRIBUTORS, 2026c. Earth. Memory Alpha. Online. 15 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Earth [Accessed 15 October 2026]. 
+MEMORY ALPHA CONTRIBUTORS, 2026e. Earth. Memory Alpha. Online. 15 October 2026. Available from: https://memory-alpha.fandom.com/wiki/Earth [Accessed 15 October 2026]. 
 Earth, also known as Sol III or Terra, was the third planet in the Sol system. This inhabited Class M planet was located within Sector 001 of the Alpha Quadrant. The planet had one natural satellite, named Luna, and many artificial satellites. In 2150, with the last nation-states joining, the planet was unified under the United Earth government. The planet was a founding member of the Coalition of Planets in 2155, and of the United Federation of Planets in 2161. From this date to 3089, Earth...
 
-MEMORY ALPHA CONTRIBUTORS, 2026d. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
+MEMORY ALPHA CONTRIBUTORS, 2026f. USS Voyager | Memory Alpha | Fandom. Memory Alpha - Fandom. Online. 13 September 2026. Available from: https://memory-alpha.fandom.com/wiki/USS_Voyager [Accessed 13 October 2026]. 
 
 MYERS, Patrick, 2026. Time Per Test Question Calculator (Exam Pacing). Calculator Academy. Online. 10 July 2026. Available from: https://calculator.academy/time-per-test-question-calculator/ [Accessed 19 October 2026]. 
 Calculate average time per test question, total test time, or number of questions from any two values in seconds, minutes, or hours.
@@ -110,11 +160,285 @@ Distributor: Gracie Films, 20th Century Fox Television, 20th Century Fox Televis
 IMDb ID: tt0701186
 event-place: United States
 
+REES, Joost van (dir.), 1971. Cookie Monster watches Hooper’s Store. , Sesame Street. 23 March 1971. 
+1. Peggy Fleming skates the number six. 2. Films: rocks and flowers. 3. A pet bird flies to Big Bird&apos;s nest.
+Distributor: Children’s Television Workshop (CTW)
+IMDb ID: tt0974972
+event-place: United States
+
 SEOW, Jenxi, 2025a. Mobile Suit Gundam – Anime Series. MechaBay. Online. 2 January 2025. Available from: https://mechabay.com/mobile-suit-gundam [Accessed 17 October 2026]. 
 Mobile Suit Gundam is the first television anime series produced by Sunrise in 1979.
 
 SEOW, Jenxi, 2025b. RX-78-2 Gundam – Mobile Suit – Mobile Suit Gundam. MechaBay. Online. 2 January 2025. Available from: https://mechabay.com/rx-78-2-gundam [Accessed 17 October 2026]. 
 The RX-78-2 Gundam was a prototype close combat mobile suit developed by the Earth Federation through its secret Project V.
+
+SESAME MANIAC, 2025. 0227 - Cookie Monster Watches Hooper’s Store. Online. 11 November 2025. Available from: https://www.youtube.com/watch?v=TGQxU1gdnEI [Accessed 20 October 2026]. 
+15,546回視聴  2025/11/11
+
+
+
+          
+          
+          
+          
+          
+          Happy Birthday, Sesame Street! Here’s a very funny season 2 installment.Happy Birthday, Sesame Street! Here’s a very funny season 2 installment. …...もっと見る
+...もっと見る
+
+              
+
+
+
+質問する答えを探す、トピックを調べるなど質問する
+
+  
+  
+  
+    
+      チャプター
+      
+    
+  
+  
+  
+  
+  
+  すべて表示
+
+
+  
+  
+
+
+  
+    
+       
+    
+    
+  
+  
+    
+  
+    
+    
+  
+  
+    Number of the day
+    Number of the day
+    0:00
+  
+
+
+  
+    Number of the day
+  
+  0:00
+
+
+
+
+  
+    
+    
+  
+  
+    Hooper needs a rest
+    Hooper needs a rest
+    1:05
+  
+
+
+  
+    Hooper needs a rest
+  
+  1:05
+
+
+
+
+  
+    
+    
+  
+  
+    Cookie Monster takes charge
+    Cookie Monster takes charge
+    2:23
+  
+
+
+  
+    Cookie Monster takes charge
+  
+  2:23
+
+
+
+
+  
+    
+    
+  
+  
+    Managing the store
+    Managing the store
+    4:18
+  
+
+
+  
+    Managing the store
+  
+  4:18
+
+
+
+
+  
+    
+    
+  
+  
+    Handling phone calls
+    Handling phone calls
+    6:10
+  
+
+
+  
+    Handling phone calls
+  
+  6:10
+
+
+
+
+  
+    
+    
+  
+  
+    The ukulele split
+    The ukulele split
+    7:13
+  
+
+
+  
+    The ukulele split
+  
+  7:13
+
+
+
+
+  
+    
+    
+  
+  
+    Massive cookie delivery
+    Massive cookie delivery
+    10:34
+  
+
+
+  
+    Massive cookie delivery
+  
+  10:34
+
+
+
+
+  
+    
+    
+  
+  
+    Mr. Hooper returns
+    Mr. Hooper returns
+    14:35
+  
+
+
+  
+    Mr. Hooper returns
+  
+  14:35
+
+
+
+
+  
+  
+    
+       
+    
+    
+  
+
+
+
+
+
+  文字起こし
+
+
+  文字起こしを使って説明する
+
+
+  文字起こしを表示
+
+
+
+  
+  
+    Sesame Maniac
+    
+      チャンネル登録者数 9.13万人
+    
+  
+
+
+  
+    
+       
+    
+  
+  
+    動画概要
+  
+  
+    
+       
+    
+  
+
+
+
+
+  
+  
+    
+      
+    
+    
+      
+    
+  
+
+
+
+動画の詳細日付2025/11/11視聴回数15,546高評価数187
+
+
+
+
+              
+
+
+            一部を表示
 
 Sesame Street, 1969. . Children’s Television Workshop (CTW), Curious Pictures, Sesame Workshop, 
 On a special inner city street, the inhabitants, human and muppet, teach preschool subjects with comedy, cartoons, games, and songs.
@@ -156,9 +480,101 @@ The Simpsons, 1989. . Gracie Films, 20th Television Animation, 20th Century Fox 
 The satiric half-hour adventures of a working-class family in the misfit city of Springfield.
 IMDb ID: tt0096697
 
+TREBLE GNOCCHI, 2024. Sesame Street: Grover the Baker (HQ, Bag Ending) (1994). Online. 22 July 2024. Available from: https://www.youtube.com/watch?v=JD7OLm5xfBU [Accessed 20 October 2026]. 
+3072回視聴  2 年前
+
+
+  
+  3,072回視聴 • 2024/07/22
+
+
+
+
+          
+          
+          
+          
+          
+          This ending was only used in this segment’s first airing. Subsequent airings would use an alternate  …...もっと見る
+...もっと見る
+
+              
+
+
+
+
+
+  
+  
+    
+      
+    
+    
+      
+    
+  
+
+
+
+動画の詳細日付2024/07/22視聴回数3,072高評価数38
+
+
+
+
+              
+
+
+            一部を表示
+
 UFO robo: Gurendaizâ, 1975. . Asatsu-DK, Dynamic Planning, Toei Animation, 
 The young Prince of planet Fleed flees his destroyed homeland aboard the UFO Robot Grendizer. On Earth, aided by a scientist and allies, he battles Vega&apos;s forces sent to capture Grendizer and conquer or destroy the universe.
 IMDb ID: tt0185070
+
+VESTON BRUNO, 2013. Classic Sesame Street - Ice Cream Soda. Online. 11 May 2013. Available from: https://www.youtube.com/watch?v=kOY7drlPM3k [Accessed 20 October 2026]. 
+34万回視聴  13 年前
+
+
+  
+  348,633回視聴 • 2013/05/11
+
+
+
+
+          
+          
+          
+          
+          
+          From Season 5. While Ernie looks after Hooper’s Store, Bert asks him for something to drink. Ernie  …...もっと見る
+...もっと見る
+
+              
+
+
+
+
+
+  
+  
+    
+      
+    
+    
+      
+    
+  
+
+
+
+動画の詳細日付2013/05/11視聴回数348,633高評価数1,259
+
+
+
+
+              
+
+
+            一部を表示
 
 W3SCHOOLS, [no date]. JavaScript MAX_VALUE Property. W3Schools. Online. Available from: https://www.w3schools.com/jsreF/jsref_max_value.asp [Accessed 18 October 2026 a]. 
 Number.MAX_VALUE returns the largest number possible in JavaScript.

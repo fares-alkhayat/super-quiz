@@ -16,7 +16,7 @@ Player(s): 1
 
 Version: 1.0.0-alpha
 
-Release date: Wednesday 2026-10-20
+Release date: Tuesday 2026-10-20
 
 ## Description
 
@@ -63,6 +63,10 @@ Below the question and controls: you have two areas of information. Those are
 
     c. Quiz End: The date and time where the quiz has ended.
 
+    d. Quiz ID: A unique hexadecimal number assigned to the quiz being performed. It uses UUIDv4, whereas the characters in the ID are completely randomised, and should only be used for debugging or reference purposes.
+
+    NOTE: Another version, UUIDv7, was planned to be used, but due to security concerns, it has been replaced with the UUIDv4.
+
 2. Player Information
 
     a. Score: The number of points the player has obtained.
@@ -88,8 +92,7 @@ Below the question and controls: you have two areas of information. Those are
 Parameter | Value per Unit | Points Awarded at |
 --------- | -------------- | ----------------- |
 Base score | 500 per correct answer | After each correct answer |
-Time bonus | (500 per second remaining from 60 sec/question average times number of correct answers) * ratio of correct answers | At the end of quiz |
-Combo bonus | +10% points for each consecutive correct answer given after each response | After each correct answer |
+Combo bonus | +5% incremental points for each consecutive correct answer given after each response | After each correct answer |
 
 ### 6. Rating System
 
