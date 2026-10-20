@@ -1,5 +1,3 @@
-import { uuidv7 } from "https://unpkg.com/uuidv7@^1";
-
 const questionDisplay = document.querySelector("#question");
 const answerInput = document.querySelector("#answer");
 const scoreDisplay = document.querySelector("#score");
@@ -9,7 +7,6 @@ const gradeDisplay = document.querySelector("#grade");
 const usernameInput = document.querySelector('#username-input');
 const message1Display = document.querySelector("#message1");
 const message2Display = document.querySelector("#message2");
-const quizIdDisplay = document.querySelector('#quizId')
 const printButton = document.querySelector("#print");
 const correctDisplay = document.querySelector("#correct")
 const wrongDisplay = document.querySelector("#wrong")
@@ -34,7 +31,6 @@ const startButtonEl = document.querySelector('#start-button')
 const japanQuiz = document.querySelector('#japan-quiz')
 const trekQuiz = document.querySelector('#trek-quiz')
 const entQuiz = document.querySelector('#ent-quiz')
-const quizId = uuidv7();
 const ratingDisplay = document.querySelector('#rating')
 const titleDisplay = document.querySelector('#title')
 
@@ -74,24 +70,34 @@ const questions = {
     {questionNo: 11, difficulty: "2. Easy", question: "Out of the four, which robot anime in the 70s became the most successful in Japan? (Hint: odd one out!)", choiceA: "Mazinger Z / Great Mazinger", choiceB: "Getter Robot / Getter Robot G", choiceC: "UFO Robot Grendizer", choiceD: "Mobile Suit Gundam", answer: "D"},
     {questionNo: 12, difficulty: "2. Easy", question: "The bullet train is called a shinkansen （新幹線、しんかんせん） in Japanese. Is this true or false?", choiceA: "True", choiceB: "False", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 13, difficulty: "2. Easy", question: "What vehicle is the most famous about Japanese transportation?", choiceA: "Cars", choiceB: "Trains", choiceC: "Bikes", choiceD: "Planes", answer: "B"},
-    {questionNo: 21, difficulty: "3. Normal", question: "Who is the Prime Minister of Japan?", choiceA: "Shinzō Abe", choiceB: "Yoshihide Suga", choiceC: "Shigeru Ishiba", choiceD: "Sanae Takaichi", answer: "D"},
+    {questionNo: 14, difficulty: "2. Easy", question: "Which of these sentences are written in Japanese?", choiceA: "이건 일본어 글자인가요?", choiceB: "これは日本語の文字ですか？", choiceC: "這是日文的字嗎？", choiceD: "这是日语文字吗？", answer: "B"},
+    {questionNo: 21, difficulty: "3. Normal", question: "Who is the Prime Minister of Japan (incumbent in 2026)?", choiceA: "Shinzō Abe", choiceB: "Yoshihide Suga", choiceC: "Shigeru Ishiba", choiceD: "Sanae Takaichi", answer: "D"},
     {questionNo: 22, difficulty: "3. Normal", question: "What is the telephone calling code of Japan?", choiceA: "80", choiceB: "81", choiceC: "82", choiceD: "83", answer: "B"},
     {questionNo: 23, difficulty: "3. Normal", question: "If you enter a house in Japan to visit a friend, should you take off your shoes at the doorstep?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 24, difficulty: "3. Normal", question: "When did Japan become a country?", choiceA: "700 BCE", choiceB: "660 BCE", choiceC: "650 BCE", choiceD: "600 BCE", answer: "B"},
     {questionNo: 25, difficulty: "3. Normal", question: "What kind of writing system does Japanese use?", choiceA: "Alphabet", choiceB: "Logographic", choiceC: "Alphabet and logographic", choiceD: "Symbolic", answer: "C"},
     {questionNo: 26, difficulty: "3. Normal", question: "How many prefectures does Japan consist of?", choiceA: "40", choiceB: "44", choiceC: "47", choiceD: "50", answer: "C"},
     {questionNo: 27, difficulty: "3. Normal", question: "Which kind of noodles are thick, chewy and soft to eat?", choiceA: "Ramen", choiceB: "Somen", choiceC: "Soba", choiceD: "Udon", answer: "D"},
+    {questionNo: 28, difficulty: "3. Normal", question: "Which of these fictional characters are trending in Japan?", choiceA: "Doraemon", choiceB: "Sazae-san", choiceC: "Crayon Shin-chan", choiceD: "All of the above", answer: "D"},
+    {questionNo: 29, difficulty: "3. Normal", question: "What is the current era in Japan (as of the year 2026)?", choiceA: "Meiji Era", choiceB: "Showa Era", choiceC: "Reiwa Era", choiceD: "Heisei Era", answer: "C"},
+    {questionNo: 30, difficulty: "3. Normal", question: "How do you convert 2026 to the current Japanese year (using the current era)?", choiceA: "Reiwa 7", choiceB: "Reiwa 8", choiceC: "Heisei 37", choiceD: "Heisei 38", answer: "B"},
     {questionNo: 31, difficulty: "4. Hard", question: "What is the postal code of Chiyoda Ward, Tokyo Prefecture?", choiceA: "100-0000", choiceB: "110-0000", choiceC: "120-0000", choiceD: "130-0000", answer: "A"},
     {questionNo: 32, difficulty: "4. Hard", question: "What party is part of the Japanese Government and has been in control for most of Japan's post-war history?", choiceA: "Constitutional Democratic Party / Centrist Reform Alliance", choiceB: "Japan Innovation Party", choiceC: "Liberal Democratic Party", choiceD: "Japanese Communist Party", answer: "C"},
     {questionNo: 33, difficulty: "4. Hard", question: "When did Japan start facing a population decline?", choiceA: "2007", choiceB: "2009", choiceC: "2011", choiceD: "2013", answer: "B"},
     {questionNo: 34, difficulty: "4. Hard", question: "Which electronics store is the largest (in surface area) in Akihabara, Tokyo?", choiceA: "Yodobashi Camera", choiceB: "Bic Camera", choiceC: "Edion", choiceD: "Yamada Denki", answer: "A"},
     {questionNo: 35, difficulty: "4. Hard", question: "Which electronics store is the largest (in assets and business size) in Akihabara, Tokyo?", choiceA: "Yodobashi Camera", choiceB: "Bic Camera", choiceC: "Edion", choiceD: "Yamada Denki", answer: "D"},
+    {questionNo: 36, difficulty: "4. Hard", question: "What prefecture number is Osaka?", choiceA: "25", choiceB: "26", choiceC: "27", choiceD: "28", answer: "C"},
+    {questionNo: 37, difficulty: "4. Hard", question: "What prefecture number is Kyoto?", choiceA: "25", choiceB: "26", choiceC: "27", choiceD: "28", answer: "B"},
+    {questionNo: 38, difficulty: "4. Hard", question: "What is the population of Japan by 2024 (not rounded)?", choiceA: "121 million", choiceB: "123 million", choiceC: "125 million", choiceD: "127 million", answer: "B"},
     {questionNo: 41, difficulty: "5. Very Hard", question: "What are the coordinates of Tokyo?", choiceA: "34°N, 138°E", choiceB: "34°N, 139°E", choiceC: "35°N, 138°E", choiceD: "35°N, 139°E", answer: "D"},
     {questionNo: 42, difficulty: "5. Very Hard", question: "What is the altitude of Mt. Fuji?", choiceA: "3770m", choiceB: "3773m", choiceC: "3776m", choiceD: "3779m", answer: "C"},
     {questionNo: 43, difficulty: "5. Very Hard", question: "Estimate the GDP of Japan in current prices as of 2023.", choiceA: "570 trillion yen", choiceB: "580 trillion yen", choiceC: "590 trillion yen", choiceD: "600 trillion yen", answer: "C"},
     {questionNo: 44, difficulty: "5. Very Hard", question: "What were the dates of the bombing of Hiroshima and Nagasaki?", choiceA: "1945-06-06, 1945-06-09", choiceB: "1945-08-06, 1945-08-09", choiceC: "1946-06-06, 1946-06-09", choiceD: "1946-08-06, 1946-08-09", answer: "B"},
     {questionNo: 45, difficulty: "5. Very Hard", question: "Who was the founder of Sony Group Corporation, one of Japan's leaders in electronics?", choiceA: "Shigeru Miyamoto", choiceB: "Akio Morita and Masaru Ibuka", choiceC: "Ken Kutaragi", choiceD: "None of the above", answer: "B"},
     {questionNo: 46, difficulty: "5. Very Hard", question: "What are the exact starting and ending years of the Meiji Era?", choiceA: "1867-1911", choiceB: "1868-1911", choiceC: "1867-1912", choiceD: "1868-1912", answer: "D"},
+    {questionNo: 47, difficulty: "5. Very Hard", question: "What is the computer encoding system that most people in Japan uses, besides Unicode/UTF-8?", choiceA: "EUC-JP", choiceB: "Shift-JIS", choiceC: "Older JIS X", choiceD: "UTF-16", answer: "B"},
+    {questionNo: 48, difficulty: "5. Very Hard", question: "After the Empire of Japan's defeat in WWⅡ, Japan ractified a pacifist constitution, changing their stance towards the world completely. What is their official form of government now?", choiceA: "Kingdom under a democratic parliament", choiceB: "Pacifist empire under a multi-party constitutional monarchy", choiceC: "Multi-party constitutional monarchy", choiceD: "Democratic, imperial federation of prefectures under a constitutional monarchy", answer: "C"},
+    
 ],
 
   trekQuestions:[
@@ -120,23 +126,33 @@ const questions = {
     {questionNo: 22, difficulty: "3. Normal", question: "How long does it take for the Voyager to travel back to Federation space from the Delta Quadrant", choiceA: "25 years", choiceB: "50 years", choiceC: "75 years", choiceD: "100 years", answer: "C"},
     {questionNo: 23, difficulty: "3. Normal", question: "What is the starship class of the original Enterprise?", choiceA: "Constitution", choiceB: "Galaxy", choiceC: "Intrepid", choiceD: "Constitution Ⅲ", answer: "A"},
     {questionNo: 24, difficulty: "3. Normal", question: "What is the starship class of the Enterprise-D?", choiceA: "Constitution", choiceB: "Galaxy", choiceC: "Intrepid", choiceD: "Constitution Ⅲ", answer: "B"},
+    {questionNo: 25, difficulty: "3. Normal", question: "Which deck in a Galaxy Class starship is where the main bridge and the captain's ready room situated in?", choiceA: "1", choiceB: "2", choiceC: "3", choiceD: "4", answer: "A"},
+    {questionNo: 26, difficulty: "3. Normal", question: "What measurement system does the Federation and Starfleet use?", choiceA: "Imperial units", choiceB: "English units", choiceC: "Metric units", choiceD: "Self-regulated custom units", answer: "C"},
+    {questionNo: 27, difficulty: "3. Normal", question: "What time format does the Federation and Starfleet usually use?", choiceA: "24-hour time format (00-24)", choiceB: "12-hour time format (12AM-11PM)", choiceC: "Bajoran time format (00-26)", choiceD: "All of the above", answer: "A"},
+    {questionNo: 28, difficulty: "3. Normal", question: "Did Picard ever once got forced to assimilate with the Borg", choiceA: "Yes, and he remained part of the Borg for all time", choiceB: "Yes, but the Enterprise-D crew dismantled the Borg systems from Picard and liberated him from the collective", choiceC: "Yes, but nothing happened regarding Picard's physical or mental attributes", choiceD: "No", answer: "B"},
+    {questionNo: 29, difficulty: "3. Normal", question: "Did Troi become promoted to Commander within the TNG series?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 31, difficulty: "4. Hard", question: "Using the TNG formula, what is the stardate for the year 2370?", choiceA: "46000.0", choiceB: "47000.0", choiceC: "48000.0", choiceD: "49000.0", answer: "B"},
     {questionNo: 36, difficulty: "4. Hard", question: "What was the stardate of the first aired Star Trek episode?", choiceA: "1213.4", choiceB: "1223.4", choiceC: "1312.4", choiceD: "1322.4", answer: "C"},
     {questionNo: 37, difficulty: "4. Hard", question: "What is Picard's favourite drink?", choiceA: "Prune juice", choiceB: "Darjeeling tea", choiceC: "Hot chocolate", choiceD: "Earl Grey tea", answer: "D"},
-    {questionNo: 38, difficulty: "4. Hard", question: "What is Worf's favourite drink?", choiceA: "Prune juice", choiceB: "Darjeeling tea", choiceC: "Hot chocolate", choiceD: "Earl Grey tea", answer: "A"},
+    {questionNo: 38, difficulty: "4. Hard", question: "What is Janeway's favourite drink?", choiceA: "Coffee", choiceB: "Synthethol", choiceC: "Raktajino (Klingon coffee)", choiceD: "Earl Grey tea", answer: "A"},
+    {questionNo: 39, difficulty: "4. Hard", question: "What is Troi's favourite drink?", choiceA: "Prune juice", choiceB: "Darjeeling tea", choiceC: "Hot chocolate", choiceD: "Earl Grey tea", answer: "C"},
     {questionNo: 40, difficulty: "4. Hard", question: "What kind of brain does Data have?", choiceA: "Human brain", choiceB: "Positronic brain", choiceC: "A brain powered by an AI agent", choiceD: "A remote control", answer: "B"},
     {questionNo: 41, difficulty: "5. Very Hard", question: "What are the binary digits to the title of the 14th episode of TNG?", choiceA: "01010110", choiceB: "10010110", choiceC: "10101001", choiceD: "11001001", answer: "D"},
 
 ],
 
   entQuestions: [
-    
-    {questionNo: 1, difficulty: "1. Very Easy", question: "If ordinary girls = [sugar + spice + everything nice], and since the Powerpuff Girls = [sugar + spice + everything nice + x], what is x?", choiceA: "N2O (Nitrous oxide)", choiceB: "Rocket fuel", choiceC: "Chemical X", choiceD: "98-octane gasoline", answer: "C"},
-    {questionNo: 2, difficulty: "1. Very Easy", question: "Is the Big Bang Theory (2008-2019) a show about scientists?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
+
+    {questionNo: 1, difficulty: "1. Very Easy", question: "Is the Big Bang Theory (2008-2019) a show about scientists?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
+    {questionNo: 2, difficulty: "1. Very Easy", question: "If ordinary girls = [sugar + spice + everything nice], and since the Powerpuff Girls = [sugar + spice + everything nice + x], what is x?", choiceA: "N2O (Nitrous oxide)", choiceB: "Rocket fuel", choiceC: "Chemical X", choiceD: "98-octane gasoline", answer: "C"},
     {questionNo: 3, difficulty: "1. Very Easy", question: "Where is anime and manga typically created in?", choiceA: "China", choiceB: "Korea", choiceC: "Japan", choiceD: "Taiwan", answer: "C"},
     {questionNo: 4, difficulty: "1. Very Easy", question: "What was Sheldon's catchphrase, especially when people fall into his classic pranks?", choiceA: "Bazinga!", choiceB: "Psych!", choiceC: "Whoo!", choiceD: "Gotcha!", answer: "A"},
-    {questionNo: 5, difficulty: "1. Very Easy", question: "What is the standard amount of Life Points you may start within a Yu-Gi-Oh! game?", choiceA: "4000", choiceB: "6000", choiceC: "8000", choiceD: "10000", answer: "C"},
+    {questionNo: 5, difficulty: "1. Very Easy", question: "What is the appropriate objective of winning a Yu-Gi-Oh! game?", choiceA: "Get better cards than the opponent.", choiceB: "Run out of cards and calculate the total damage obtain between players.", choiceC: "The game shall be endless until the player forfeits.", choiceD: "Reduce the opponent's LP (Life Points) to zero, or by any other means win.", answer: "D"},
     {questionNo: 6, difficulty: "1. Very Easy", question: "Which one of these TBBT characters do NOT have a Master's degree or higher?", choiceA: "Leonard", choiceB: "Sheldon", choiceC: "Penny", choiceD: "Howard", answer: "C"},
+    {questionNo: 7, difficulty: "1. Very Easy", question: "Where is Sheldon's apartment, the main setting of the Big Bang Theory?", choiceA: "Times Square, New York", choiceB: "Pasadena, California", choiceC: "Boston, Texas", choiceD: "San Fransisco, California", answer: "B"},
+    {questionNo: 8, difficulty: "1. Very Easy", question: "What is the standard amount of Life Points you may start within a Yu-Gi-Oh! game?", choiceA: "4000", choiceB: "6000", choiceC: "8000", choiceD: "10000", answer: "C"},
+    {questionNo: 9, difficulty: "1. Very Easy", question: "Where do the Powerpuff Girls live in?", choiceA: "The city of Battle City!", choiceB: "The city of Springfield!", choiceC: "The city of San Fransokyo!", choiceD: "The city of Townsville!", answer: "D"},
+    {questionNo: 10, difficulty: "1. Very Easy", question: "Does Grover work everywhere?", choiceA: "Yes", choiceB: "No", choiceC: "", choiceD: "", answer: "A"},
     {questionNo: 11, difficulty: "2. Easy", question: "What purpose does Chemical X have in the Powerpuff Girls series?", choiceA: "It can be used as a GPU coolant or thermal paste", choiceB: "A proposal on creating element no. 119 in the Periodic Table", choiceC: "It can be used as 98-octane gasoline or premium diesel", choiceD: "It can have a person wield superhuman abilities", answer: "D"},
     {questionNo: 12, difficulty: "2. Easy", question: "Who was John Carter's teacher in the early episodes of ER?", choiceA: "Dr. Peter Benton", choiceB: "Dr. Mark Greene", choiceC: "Dr. Doug Ross", choiceD: "Dr. Carol Hathaway", answer: "A"},
     {questionNo: 13, difficulty: "2. Easy", question: "What is the name of the hospital in ER?", choiceA: "Federal General Hospital", choiceB: "State General Hospital", choiceC: "County General Hospital", choiceD: "City General Hospital", answer: "C"},
@@ -145,6 +161,8 @@ const questions = {
     {questionNo: 16, difficulty: "2. Easy", question: "Which timeline is the main universe of the Gundam series?", choiceA: "Future Century", choiceB: "Cosmic Era", choiceC: "Universe Century", choiceD: "After Colony", answer: "C"},
     {questionNo: 17, difficulty: "2. Easy", question: "Grover Monster has so many jobs, but which one of them seems the most popular amongst them all?", choiceA: "Plumber", choiceB: "Salesman", choiceC: "Musician", choiceD: "Waiter", answer: "D"},
     {questionNo: 18, difficulty: "2. Easy", question: "Who was the pilot of the original Gundam robot?", choiceA: "Amuro Ray", choiceB: "Bright Noa", choiceC: "Sayla Mass", choiceD: "Lalah Sune", answer: "A"},
+    {questionNo: 19, difficulty: "2. Easy", question: "How many boxes of cookies did Cookie Monster order in Hooper's Store in Episode 0227 of Sesame Street?", choiceA: "180", choiceB: "190", choiceC: "200", choiceD: "210", answer: "C"},
+    {questionNo: 20, difficulty: "2. Easy", question: "What do you need to make Ernie's ice cream soda?", choiceA: "Soda water + strawberry syrup + vanilla ice cream + whipped cream", choiceB: "Soda water + vanilla milkshake + strawberry syrup + whipped cream", choiceC: "Soda water + chocolate milkshake + strawberry syrup + whipped cream", choiceD: "Soda water + strawberry syrup + chocolate ice cream + whipped cream", answer: "A"},
     {questionNo: 21, difficulty: "3. Normal", question: "What year did the Powerpuff Girls aired with their final episode? (regardless of location)", choiceA: "2003", choiceB: "2004", choiceC: "2005", choiceD: "2006", answer: "B"},
     {questionNo: 22, difficulty: "3. Normal", question: "Which season did Sheldon and Amy Cooper obtain the Nobel Prize?", choiceA: "First half of Season 11", choiceB: "Second half of Season 11", choiceC: "First half of Season 12", choiceD: "Second half of Season 12", answer: "D"},
     {questionNo: 23, difficulty: "3. Normal", question: "How old was Sheldon when he moved to high school?", choiceA: "7", choiceB: "8", choiceC: "9", choiceD: "10", answer: "C"},
@@ -156,7 +174,11 @@ const questions = {
     {questionNo: 29, difficulty: "3. Normal", question: "What would be the Cartesian mapping coordinates of Sheldon's spot when he sits on it?", choiceA: "(0, 0, 0, 0)", choiceB: "(1, 0, 1, 0)", choiceC: "(0, 0, 0)", choiceD: "(1, 1, 1, 1)", answer: "A"},
     {questionNo: 30, difficulty: "3. Normal", question: "What is the registry number of the original Gundam", choiceA: "RX-78-1", choiceB: "RX-78-2", choiceC: "RX-79-1", choiceD: "RX-79-2", answer: "B"},
     {questionNo: 31, difficulty: "4. Hard", question: "What are the attack and defense values of the Blue-Eyes White Dragon?", choiceA: "ATK 2500 / DEF 3000", choiceB: "ATK 3000 / DEF 2500", choiceC: "ATK 3500 / DEF 2000", choiceD: "ATK 2000 / DEF 3500", answer: "B"},
-    {questionNo: 32, difficulty: "4. Hard", question: "", choiceA: "", choiceB: "", choiceC: "", choiceD: "", answer: ""},
+    {questionNo: 32, difficulty: "4. Hard", question: "What order out of the following was when Grover served Mr. Johnson's order right (but then gone wrong later)?", choiceA: "The cheeseburger, with cherry pie topped with chocolate ice cream", choiceB: "The sandwich", choiceC: "The bowl of soup", choiceD: "The big burger", answer: "A"},
+    {questionNo: 33, difficulty: "4. Hard", question: "What year did Mobile Suit Gundam set in?", choiceA: "U.C. 0078", choiceB: "U.C. 0079", choiceC: "U.C. 0087", choiceD: "U.C. 0088", answer: "A"},
+    {questionNo: 34, difficulty: "4. Hard", question: "What are forbidden, limited and semi-limited cards in Yu-Gi-Oh?", choiceA: "Respectively, they represent a number of times you can use these cards in a period.", choiceB: "All these cards cannot be used in either casual or official games.", choiceC: "They cannot be sold or produced for a certain period of time.", choiceD: "Respectively, they cannot be used or they can be used as long as they have one or two cards in a single Deck when it comes to tournaments.", answer: "D"},
+    
+
 ],
 
   questions150: [
@@ -167,9 +189,6 @@ const questions = {
 
 console.log("Title screen loaded successfully.")
 console.log("Welcome to the Alkhayat Super Quiz. Please select a topic.")
-console.log(quizId);
-
-quizIdDisplay.textContent = quizId
 
 
 
@@ -263,11 +282,12 @@ let rating = ""
 let title = ""
 
 
-
-    if (percent >= 60) {condition = "Pass - Congratulations! You have passed the quiz!"}
-    else if (percent >= 50) {condition = "Margin - You have marginally passed the quiz."}
-    else if (percent <= 49) {condition = "Fail - You have failed the quiz. Better luck next time."}
+function conditionCheck(){
+if (grade === "S++" || "S+" || "S" || "A+" || "A" || "B+" || "B" || "C+" || "C") {condition = "Pass - Congratulations! You have passed the quiz!"}
+    else if (grade === "D") {condition = "Margin - You have marginally passed the quiz."}
+    else if (grade === "E" || "F" || "G") {condition = "Fail - You have failed the quiz. Better luck next time."}
     else {let condition = "Pending"}
+}
 
     var correctAudio = new Audio("correct.mp3");
     var wrongAudio = new Audio("incorrect.mp3")
@@ -303,7 +323,6 @@ function checkAnswer(event) {
 
   currentQuestion++
 
-usernameDisplay.textContent = username
 scoreDisplay.textContent = score.toFixed(0)
 correctDisplay.textContent = correctCount
 wrongDisplay.textContent = wrongCount
@@ -334,20 +353,20 @@ function gradeEvaluation(){
     else {return grade = "G"};
 }
 function titleEvaluation(){
- rating = ((correctCount / questions[chosenQuiz].length) * 750) + ((((((60000 - elapsedTime / questions[chosenQuiz].length) / 60000) * 750) || 0) * (correctCount / questions[chosenQuiz].length)))
- if (rating >= 1400 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 12000){title = "[SUPER Special+] Distinguished"} 
-    else if (rating >= 1325 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 21000){title = "[Special+] Ultimate Master"}  
-    else if (rating >= 1250 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 30000){title = "[Special] Grand Master"}
-    else if (rating >= 1250) {title = "[1st] Master"}
-    else if (rating >= 1125) {title = "[2nd] Superior"}
-    else if (rating >= 1000) {title = "[3rd] Professional"}
-    else if (rating >= 875) {title = "[4th] Expert"}
-    else if (rating >= 750) {title = "[5th] Upper Intermediate"}
-    else if (rating >= 625) {title = "[6th] Intermediate"}
-    else if (rating >= 500) {title = "[7th] Pre-Intermediate"}
-    else if (rating >= 375) {title = "[8th] Elementary"}
-    else if (rating >= 250) {title = "[9th] Starter"}
-    else if (rating >= 125) {title = "[10th] Novice"}
+ rating = ((correctCount / questions[chosenQuiz].length) * 800) + ((((((60000 - elapsedTime / questions[chosenQuiz].length) / 60000) * 800) || 0) * (correctCount / questions[chosenQuiz].length)))
+ if (rating >= 1440 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 12000){title = "[SUPER Special+] Distinguished"} 
+    else if (rating >= 1360 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 18000){title = "[Special+] Ultimate Master"}  
+    else if (rating >= 1280 && (correctCount / questions[chosenQuiz].length == 1) && elapsedTime <= questions[chosenQuiz].length * 24000){title = "[Special] Grand Master"}
+    else if (rating >= 1200) {title = "[1st] Master"}
+    else if (rating >= 1080) {title = "[2nd] Superior"}
+    else if (rating >= 960) {title = "[3rd] Professional"}
+    else if (rating >= 840) {title = "[4th] Expert"}
+    else if (rating >= 720) {title = "[5th] Upper Intermediate"}
+    else if (rating >= 600) {title = "[6th] Intermediate"}
+    else if (rating >= 480) {title = "[7th] Pre-Intermediate"}
+    else if (rating >= 360) {title = "[8th] Elementary"}
+    else if (rating >= 240) {title = "[9th] Starter"}
+    else if (rating >= 120) {title = "[10th] Novice"}
     else {title = "[11th] Beginner"};
 }
 function checkEnd(){
@@ -361,6 +380,12 @@ if (questions[chosenQuiz].length  == currentQuestion)  {
     ratingDisplay.textContent = rating.toFixed(2)
     titleDisplay.textContent = title
     conditionDisplay.textContent = condition
+    buttonA.disabled = true
+    buttonB.disabled = true
+    buttonC.disabled = true
+    buttonD.disabled = true
+    buttonPass.disabled = true
+    conditionCheck()
 stopTimer()
 } else
   {
@@ -372,7 +397,7 @@ stopTimer()
 
 
 
-const stats = [score, correctCount, wrongCount, percent, combo, time, grade]
+const stats = [score, correctCount, wrongCount, percent, combo, time, grade, rating, title]
 console.log(stats)
 
 // answer = answerInput;

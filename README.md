@@ -63,8 +63,6 @@ Below the question and controls: you have two areas of information. Those are
 
     c. Quiz End: The date and time where the quiz has ended.
 
-    d. Quiz ID: A unique hexadecimal number provided to the quiz the player is taking. It uses UUIDv7, and is used for debugging and/or reference purposes only.
-
 2. Player Information
 
     a. Score: The number of points the player has obtained.
@@ -97,9 +95,9 @@ Combo bonus | +10% points for each consecutive correct answer given after each r
 
 Parameter | Value |
 --------- | -------------- |
-Accuracy | 750 rating points based on percentage of correct answers |
-Time bonus | 750 rating points based on seconds remaining from 60 sec/question average * ratio of correct answers |
-Maximum calculatable range of rating points | 1500 rating points |
+Accuracy | 800 rating points based on percentage of correct answers |
+Time bonus | 800 rating points based on seconds remaining from 60 sec/question average * ratio of correct answers |
+Maximum calculatable range of rating points | 1600 rating points |
 
 ### 7. Ranking System
 
@@ -131,19 +129,19 @@ Fail | E, F, G | 0-49 | Quiz failed. You have lost the quiz. |
 
 Grade | Title | Rating (+ Conditions) |
 ----- | ----- | --------------------- |
-SUPER Special+ | Distinguished | 1400 + all answers correct in avg. 12sec/question |
-Special+ | Ultimate Master | 1325 + all answers correct in avg. 21sec/question |
-Special | Grand Master | 1250 + all answers correct in avg. 30sec/question |
-1st | Master | 1250 |
-2nd | Superior | 1125 |
-3rd | Professional | 1000 |
-4th | Expert | 875 |
-5th | Upper Intermediate | 750 |
-6th | Intermediate | 625 |
-7th | Pre-Intermediate | 500 |
-8th | Elementary | 375 |
-9th | Starter | 250 |
-10th | Novice | 125 |
+SUPER Special+ | Distinguished | 1440 + all answers correct in avg. 12sec/question |
+Special+ | Ultimate Master | 1360 + all answers correct in avg. 18sec/question |
+Special | Grand Master | 1280 + all answers correct in avg. 24sec/question |
+1st | Master | 1200 |
+2nd | Superior | 1080 |
+3rd | Professional | 960 |
+4th | Expert | 840 |
+5th | Upper Intermediate | 720 |
+6th | Intermediate | 600 |
+7th | Pre-Intermediate | 480 |
+8th | Elementary | 360 |
+9th | Starter | 240 |
+10th | Novice | 120 |
 11th | Beginner | 0 |
 
 ## User Stories
