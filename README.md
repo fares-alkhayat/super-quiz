@@ -14,7 +14,7 @@ Genre: Quiz, Trivia
 
 Player(s): 1
 
-Version: 1.0.0-alpha
+Latest version: 1.0.0-alpha
 
 Release date: Tuesday 2026-10-20
 
@@ -53,7 +53,7 @@ You also have a "Pass" button, which in case if you do not know the answer, you 
 
 ### 4. On-Screen Information
 
-Below the question and controls: you have two areas of information. Those are
+Below the question and controls: you have two areas of information. Those are:
 
 1. Quiz Information
 
