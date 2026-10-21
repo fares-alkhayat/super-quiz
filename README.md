@@ -31,7 +31,7 @@ In this amazing game, you will be met with a variety of topics where you can lea
 You may choose any of the following topics:
 
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
-2. Science Fiction (Star Trek and Gundam) - What do you know about the world of sci-fi franchises such as Star Trek and Mobile Suit Gundam? Test yourself here!
+2. Star Trek and Science Fiction - What do you know about the world of Star Trek? Test yourself here!
 3. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
 4. Super Marathon 150 - Answer all 150 questions from the all topics
 
