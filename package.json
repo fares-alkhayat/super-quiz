@@ -1,0 +1,28 @@
+{
+  "name": "quiz-game",
+  "version": "1.0.0",
+  "description": "Japanese: もっと知りたい！アルカヤットのスーパークイズ",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fares-alkhayat/super-quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fares-alkhayat/super-quiz/issues"
+  },
+  "homepage": "https://github.com/fares-alkhayat/super-quiz#readme",
+  "dependencies": {
+    "@noble/hashes": "^2.4.0"
+  },
+  "devDependencies": {}
+}

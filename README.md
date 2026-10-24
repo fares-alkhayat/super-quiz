@@ -14,9 +14,9 @@ Genre: Quiz, Trivia
 
 Player(s): 1
 
-Latest version: 1.0.0-alpha
+Latest version: 1.0.0-beta
 
-Release date: Tuesday 2026-10-20
+Release date: Saturday 2026-10-24
 
 ## Description
 
@@ -33,7 +33,7 @@ You may choose any of the following topics:
 1. Japan - Learn more about the wonderful world of the beloved country of Japan.
 2. Star Trek and Science Fiction - What do you know about the world of Star Trek? Test yourself here!
 3. Entertainment and Pop Culture - Test your youth by knowing more about pop culture. (NOTE: Only selected movies, shows and other pop culture are selected for the quiz and does not apply general knowledge of pop culture.)
-4. Super Marathon 150 - Answer all 150 questions from the all topics
+4. Super Marathon 150 - Answer all 150 questions from the all topics.
 
 Each topic has 50 questions, and for each correct answer, you earn a point!
 
@@ -198,4 +198,4 @@ Created and developed by Fares Alkhayat.
 
 Quiz and Website © 2026 Fares Alkhayat. All rights reserved. All copyrighted content (especially whereas written under references.txt or the copyright/references page, except for the quiz and website itself) are not owned by Fares Alkhayat nor his affiliates, instead, they belong to their respective owners.
 
-This quiz and website shall be protected under international copyright law. It is strictly prohibited for anyone to copy, produce/reproduce, fork, or in any way utilise or modify the source code of this repository or any of its affiliates or resources without the prior  permission of Fares Alkhayat. Violators shall be punished to the maximum extent of applicable copyright law which may depend on the region or country where the criminal offense is committed.
+This quiz and website shall be protected under international copyright law. It is strictly prohibited for anyone to copy, produce/reproduce, distribute/redistribute or in any way utilise or modify the source code of this repository or any of its affiliates or resources without the prior permission or approval of Fares Alkhayat. Violators shall be punished to the maximum extent of applicable copyright law which may depend on the region or country where the criminal offense is committed.

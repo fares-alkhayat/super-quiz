@@ -15,7 +15,7 @@ const wrongDisplay = document.querySelector("#wrong")
 const comboDisplay = document.querySelector("#combo")
 const loginTimeDisplay = document.querySelector("#login-time")
 const utcTimeDisplay = document.querySelector("#utc-time")
-const conditionDisplay = document.querySelector("#condition")
+// const conditionDisplay = document.querySelector("#condition")
 const buttonA = document.querySelector("#button-a")
 const buttonB = document.querySelector("#button-b")
 const buttonC = document.querySelector("#button-c")
@@ -481,17 +481,18 @@ let combo = 0
 let percent = 0
 let time = 0
 let grade = ""
-let condition = "Pending"
+// let condition = "Pending"
 let rating = ""
 let title = ""
 
 
-function conditionCheck(){
+/* function conditionCheck(){
 if (grade === "S++" || "S+" || "S" || "A+" || "A" || "B+" || "B" || "C+" || "C") {condition = "Pass - Congratulations! You have passed the quiz!"}
     else if (grade === "D") {condition = "Margin - You have marginally passed the quiz."}
     else if (grade === "E" || "F" || "G") {condition = "Fail - You have failed the quiz. Better luck next time."}
     else {let condition = "Pending"}
 }
+    */
 
     var correctAudio = new Audio("correct.mp3");
     var wrongAudio = new Audio("incorrect.mp3")
@@ -584,13 +585,13 @@ if (questions[chosenQuiz].length  == currentQuestion)  {
     titleEvaluation()
     ratingDisplay.textContent = rating.toFixed(2)
     titleDisplay.textContent = title
-    conditionDisplay.textContent = condition
+    // conditionDisplay.textContent = condition
     buttonA.disabled = true
     buttonB.disabled = true
     buttonC.disabled = true
     buttonD.disabled = true
     buttonPass.disabled = true
-    conditionCheck()
+    // conditionCheck()
 stopTimer()
 } else
   {
